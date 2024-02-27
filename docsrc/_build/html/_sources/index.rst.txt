@@ -3,6 +3,7 @@
    You can adapt this file completely to your liking, but it should at least
    contain the root `toctree` directive.
 
+=======================
 Release Notes |Release|
 =======================
 
@@ -10,10 +11,16 @@ Release Notes |Release|
    :height: 40 px
    :width: 40 px
 
-Descripción de prueba para visualizar 
+.. versionadded:: 10.200.21.0.-LTS
+
+
+   Fecha de lanzamiento: 2024-01-01
+
+   Descripción de prueba para visualizar:
+   
 
 Nuevas Caracteristicas |news|
-=============================
+-----------------------------
 
 .. |news| image:: _imagenes/news.png
    :height: 30 px
@@ -26,7 +33,7 @@ Nuevas Caracteristicas |news|
    NewFeactures/DEV-22243.rst
 
 Mejoras |stars|
-===============
+---------------
 
 .. |stars| image:: _imagenes/star.png
    :height: 30 px
@@ -38,7 +45,7 @@ Mejoras |stars|
    Improvements/DEV-22069.rst
 
 Corrección de Errores |bug|
-===========================
+---------------------------
 
 .. |bug| image:: _imagenes/bug.png
    :height: 30 px
@@ -50,7 +57,7 @@ Corrección de Errores |bug|
    BugFixes/DEV-22310.rst
 
 Obsoleto |fant|
-===============
+---------------
 
 .. |fant| image:: _imagenes/fant.png
    :height: 30 px

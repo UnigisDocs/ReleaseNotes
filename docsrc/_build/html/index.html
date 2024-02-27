@@ -134,7 +134,7 @@
           <svg class="theme-icon-when-light"><use href="#svg-sun"></use></svg>
         </button>
       </div>
-      <label class="toc-overlay-icon toc-header-icon no-toc" for="__toc">
+      <label class="toc-overlay-icon toc-header-icon" for="__toc">
         <div class="visually-hidden">Toggle table of contents sidebar</div>
         <i class="icon"><svg><use href="#svg-toc"></use></svg></i>
       </label>
@@ -167,7 +167,7 @@
 <li class="toctree-l1"><a class="reference internal" href="BugFixes/DEV-22310.html">[DEV-22310]</a></li>
 </ul>
 <ul>
-<li class="toctree-l1"><a class="reference internal" href="Deprecated/DEV-01234.html">[DEV-01234] Esto es un ejemplo del subtitulo de la funcionalidad obsoleta</a></li>
+<li class="toctree-l1"><a class="reference internal" href="Deprecated/DEV-01234.html">[DEV-01234]</a></li>
 </ul>
 
 </div>
@@ -196,7 +196,7 @@
               <svg class="theme-icon-when-light"><use href="#svg-sun"></use></svg>
             </button>
           </div>
-          <label class="toc-overlay-icon toc-content-icon no-toc" for="__toc">
+          <label class="toc-overlay-icon toc-content-icon" for="__toc">
             <div class="visually-hidden">Toggle table of contents sidebar</div>
             <i class="icon"><svg><use href="#svg-toc"></use></svg></i>
           </label>
@@ -204,10 +204,12 @@
         <article role="main">
           <section id="release-notes-release">
 <h1>Release Notes <a class="reference internal" href="_images/Welc.png"><img alt="Release" src="_images/Welc.png" style="width: 40px; height: 40px;" /></a><a class="headerlink" href="#release-notes-release" title="Link to this heading">#</a></h1>
-<p>Descripción de prueba para visualizar</p>
-</section>
+<div class="versionadded">
+<p><span class="versionmodified added">New in version 10.200.21.0.-LTS: </span>Fecha de lanzamiento: 2024-01-01</p>
+<p>Descripción de prueba para visualizar:</p>
+</div>
 <section id="nuevas-caracteristicas-news">
-<h1>Nuevas Caracteristicas <a class="reference internal" href="_images/news.png"><img alt="news" src="_images/news.png" style="width: 30px; height: 30px;" /></a><a class="headerlink" href="#nuevas-caracteristicas-news" title="Link to this heading">#</a></h1>
+<h2>Nuevas Caracteristicas <a class="reference internal" href="_images/news.png"><img alt="news" src="_images/news.png" style="width: 30px; height: 30px;" /></a><a class="headerlink" href="#nuevas-caracteristicas-news" title="Link to this heading">#</a></h2>
 <div class="toctree-wrapper compound">
 <p class="caption" role="heading"><span class="caption-text">Contents:</span></p>
 <ul>
@@ -219,18 +221,15 @@
 </div>
 </section>
 <section id="mejoras-stars">
-<h1>Mejoras <a class="reference internal" href="_images/star.png"><img alt="stars" src="_images/star.png" style="width: 30px; height: 30px;" /></a><a class="headerlink" href="#mejoras-stars" title="Link to this heading">#</a></h1>
+<h2>Mejoras <a class="reference internal" href="_images/star.png"><img alt="stars" src="_images/star.png" style="width: 30px; height: 30px;" /></a><a class="headerlink" href="#mejoras-stars" title="Link to this heading">#</a></h2>
 <div class="toctree-wrapper compound">
 <ul>
-<li class="toctree-l1"><a class="reference internal" href="Improvements/DEV-22069.html">[DEV-22069]</a><ul>
-<li class="toctree-l2"><a class="reference internal" href="Improvements/DEV-22069.html#mejora-en-lectura-de-campos-para-geo-interactiva">Mejora en lectura de campos para Geo interactiva</a></li>
-</ul>
-</li>
+<li class="toctree-l1"><a class="reference internal" href="Improvements/DEV-22069.html">[DEV-22069]</a></li>
 </ul>
 </div>
 </section>
 <section id="correccion-de-errores-bug">
-<h1>Corrección de Errores <a class="reference internal" href="_images/bug.png"><img alt="bug" src="_images/bug.png" style="width: 30px; height: 30px;" /></a><a class="headerlink" href="#correccion-de-errores-bug" title="Link to this heading">#</a></h1>
+<h2>Corrección de Errores <a class="reference internal" href="_images/bug.png"><img alt="bug" src="_images/bug.png" style="width: 30px; height: 30px;" /></a><a class="headerlink" href="#correccion-de-errores-bug" title="Link to this heading">#</a></h2>
 <div class="toctree-wrapper compound">
 <ul>
 <li class="toctree-l1"><a class="reference internal" href="BugFixes/DEV-22310.html">[DEV-22310]</a><ul>
@@ -241,12 +240,16 @@
 </div>
 </section>
 <section id="obsoleto-fant">
-<h1>Obsoleto <a class="reference internal" href="_images/fant.png"><img alt="fant" src="_images/fant.png" style="width: 30px; height: 30px;" /></a><a class="headerlink" href="#obsoleto-fant" title="Link to this heading">#</a></h1>
+<h2>Obsoleto <a class="reference internal" href="_images/fant.png"><img alt="fant" src="_images/fant.png" style="width: 30px; height: 30px;" /></a><a class="headerlink" href="#obsoleto-fant" title="Link to this heading">#</a></h2>
 <div class="toctree-wrapper compound">
 <ul>
-<li class="toctree-l1"><a class="reference internal" href="Deprecated/DEV-01234.html">[DEV-01234] Esto es un ejemplo del subtitulo de la funcionalidad obsoleta</a></li>
+<li class="toctree-l1"><a class="reference internal" href="Deprecated/DEV-01234.html">[DEV-01234]</a><ul>
+<li class="toctree-l2"><a class="reference internal" href="Deprecated/DEV-01234.html#esto-es-un-ejemplo-del-subtitulo-de-la-funcionalidad-obsoleta">Esto es un ejemplo del subtitulo de la funcionalidad obsoleta</a></li>
+</ul>
+</li>
 </ul>
 </div>
+</section>
 </section>
 
         </article>
@@ -282,8 +285,30 @@
         
       </footer>
     </div>
-    <aside class="toc-drawer no-toc">
+    <aside class="toc-drawer">
       
+      
+      <div class="toc-sticky toc-scroll">
+        <div class="toc-title-container">
+          <span class="toc-title">
+            On this page
+          </span>
+        </div>
+        <div class="toc-tree-container">
+          <div class="toc-tree">
+            <ul>
+<li><a class="reference internal" href="#">Release Notes </a><ul>
+<li><a class="reference internal" href="#nuevas-caracteristicas-news">Nuevas Caracteristicas </a></li>
+<li><a class="reference internal" href="#mejoras-stars">Mejoras </a></li>
+<li><a class="reference internal" href="#correccion-de-errores-bug">Corrección de Errores </a></li>
+<li><a class="reference internal" href="#obsoleto-fant">Obsoleto </a></li>
+</ul>
+</li>
+</ul>
+
+          </div>
+        </div>
+      </div>
       
       
     </aside>
