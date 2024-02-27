@@ -27,3 +27,4 @@ exclude_patterns = ['_build', 'Thumbs.db', '.DS_Store']
 html_theme = 'furo'
 html_static_path = ['_static']
 html_logo = '_imagenes/logounigis.png'
+html_theme_options = {"sidebar_hide_name": True,}

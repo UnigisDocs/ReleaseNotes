@@ -12,15 +12,51 @@ Release Notes |Release|
 
 Descripción de prueba para visualizar 
 
+Nuevas Caracteristicas |news|
+=============================
+
+.. |news| image:: _imagenes/news.png
+   :height: 30 px
+   :width: 30 px
+
 .. toctree::
    :maxdepth: 2
    :caption: Contents:
 
+   NewFeactures/DEV-22243.rst
 
+Mejoras |stars|
+===============
 
-Indices and tables
-==================
+.. |stars| image:: _imagenes/star.png
+   :height: 30 px
+   :width: 30 px
 
-* :ref:`genindex`
-* :ref:`modindex`
-* :ref:`search`
+.. toctree::
+   :maxdepth: 2
+
+   Improvements/DEV-22069.rst
+
+Corrección de Errores |bug|
+===========================
+
+.. |bug| image:: _imagenes/bug.png
+   :height: 30 px
+   :width: 30 px
+
+.. toctree::
+   :maxdepth: 2
+
+   BugFixes/DEV-22310.rst
+
+Obsoleto |fant|
+===============
+
+.. |fant| image:: _imagenes/fant.png
+   :height: 30 px
+   :width: 30 px
+
+.. toctree::
+   :maxdepth: 2
+
+   Deprecated/DEV-01234.rst
