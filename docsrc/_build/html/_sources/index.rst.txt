@@ -3,8 +3,12 @@
    You can adapt this file completely to your liking, but it should at least
    contain the root `toctree` directive.
 
-Release Notes
-=============
+Release Notes |Release|
+=======================
+
+.. |Release| image:: _imagenes/Welc.png
+   :height: 40 px
+   :width: 40 px
 
 Descripción de prueba para visualizar 
 
