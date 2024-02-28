@@ -8,62 +8,27 @@ Release Notes |Release|
 =======================
 
 .. |Release| image:: _imagenes/Welc.png
-   :height: 40 px
-   :width: 40 px
+         :height: 40 px
+         :width: 40 px
 
-.. versionadded:: 10.200.21.0.-LTS
+**¡Bienvenido a las notas de lanzamiento de UNIGIS TMS!**
 
+    Estamos emocionados de presentarles la última versión de nuestro producto, que incluye una serie de nuevas características, mejoras de rendimiento, correcciones de errores y funcionalidades obsoletas. 
 
-   Fecha de lanzamiento: 2024-01-01
+.. admonition:: Ultimo Lanzamiento: 01/01/2024
+   :class: important
 
-   Descripción de prueba para visualizar:
-   
+   **Nueva Versión:** Para más detalles, consulta :doc:`10.220.0.0.-LTS/index2`.
 
-Nuevas Caracteristicas |news|
------------------------------
+Versiones |news|
+----------------
 
 .. |news| image:: _imagenes/news.png
    :height: 30 px
    :width: 30 px
 
 .. toctree::
-   :maxdepth: 2
-   :caption: Contents:
+   :maxdepth: 1
 
-   NewFeactures/DEV-22243.rst
-
-Mejoras |stars|
----------------
-
-.. |stars| image:: _imagenes/star.png
-   :height: 30 px
-   :width: 30 px
-
-.. toctree::
-   :maxdepth: 2
-
-   Improvements/DEV-22069.rst
-
-Corrección de Errores |bug|
----------------------------
-
-.. |bug| image:: _imagenes/bug.png
-   :height: 30 px
-   :width: 30 px
-
-.. toctree::
-   :maxdepth: 2
-
-   BugFixes/DEV-22310.rst
-
-Obsoleto |fant|
----------------
-
-.. |fant| image:: _imagenes/fant.png
-   :height: 30 px
-   :width: 30 px
-
-.. toctree::
-   :maxdepth: 2
-
-   Deprecated/DEV-01234.rst
+   10.220.0.0.-LTS/index2.rst
+   10.200.21.0.-LTS/index1.rst   

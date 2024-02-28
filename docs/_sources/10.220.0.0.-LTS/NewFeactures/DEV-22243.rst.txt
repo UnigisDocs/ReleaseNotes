@@ -1,0 +1,15 @@
+[DEV-22243] Carga Incidencia cuando ningun estado tiene el Action Cargar_Incidencia_Viaje
+-----------------------------------------------------------------------------------------
+
+Producto:
+   Fleet Java
+
+Componente: 
+   Viajes
+
+Descripción: 
+  Esta descripción es un ejemplo de la nueva caracteristica aquí presentada.
+  No se muestra incidencias dentro de la opción correspondiente al tipo de viaje.
+
+
+.. versionadded:: 10.220.0.0.-LTS

@@ -1,0 +1,16 @@
+[DEV-22069] Mejora en lectura de campos para Geo interactiva
+============================================================
+Producto:
+   Fleet Java
+
+Componente: 
+   Viajes
+
+Descripción: 
+  Al momento de geocodificar interactivamente se espera que siempre venga Provincia, Partido, Localidad y Barrio en la lista de poligonos y en ese orden.
+  Se mejora para que no se guarde info incorrecta si no esta y se puedan informar en distintos ordenes.
+
+.. versionchanged:: 10.220.0.0.-LTS
+
+
+

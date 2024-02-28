@@ -1,0 +1,13 @@
+[DEV-01234] Ejemplo del subtitulo de la funcionalidad obsoleta
+==============================================================
+
+Producto:
+   UNIGIS TMS
+
+Componente: 
+   Configuración del Sistema
+
+Descripción: 
+  Ejemplo
+
+.. deprecated:: 10.220.0.0.-LTS
