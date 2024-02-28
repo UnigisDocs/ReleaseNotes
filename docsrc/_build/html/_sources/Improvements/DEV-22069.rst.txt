@@ -1,7 +1,8 @@
 [DEV-22069] 
 ===========
 
-### Mejora en lectura de campos para Geo interactiva ### 
+Mejora en lectura de campos para Geo interactiva
+------------------------------------------------
 
 
 Al momento de geocodificar interactivamente se espera que siempre venga Provincia, Partido, Localidad y Barrio en la lista de poligonos y en ese orden.
