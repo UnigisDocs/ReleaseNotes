@@ -4,7 +4,7 @@
    contain the root `toctree` directive.
 
 ========================
-Versión: 10.220.0.0.-LTS 
+Versión: 10.220.0.0-LTS 
 ========================
 
 .. admonition:: Información
@@ -12,8 +12,8 @@ Versión: 10.220.0.0.-LTS
 
    **Fecha de lanzamiento:** 01/01/2024
 
-New Feactures |news|
---------------------
+New Features |news|
+-------------------
 
 .. |news| image:: _imagenes220/news.png
    :height: 30 px

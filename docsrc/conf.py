@@ -9,7 +9,7 @@
 project = 'Release Notes'
 copyright = '2024, UNIGIS TMS'
 author = 'UNIGIS TMS'
-release = '10.200.21.0.-LTS'
+release = ''
 
 # -- General configuration ---------------------------------------------------
 # https://www.sphinx-doc.org/en/master/usage/configuration.html#general-configuration

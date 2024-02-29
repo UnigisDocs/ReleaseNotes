@@ -4,7 +4,7 @@
    contain the root `toctree` directive.
 
 =========================
-Versión: 10.200.21.0.-LTS 
+Versión: 10.200.21.0-LTS 
 =========================
 
 .. admonition:: Información
@@ -12,10 +12,10 @@ Versión: 10.200.21.0.-LTS
 
    **Fecha de lanzamiento:** 01/01/2024
 
-New Feactures |news|
---------------------
+New Features |news|
+-------------------
 
-.. |news| image:: _imagenes/news.png
+.. |news| image:: _imagenes200/news.png
    :height: 30 px
    :width: 30 px
 
@@ -27,7 +27,7 @@ New Feactures |news|
 Mejoras |stars|
 ---------------
 
-.. |stars| image:: _imagenes/star.png
+.. |stars| image:: _imagenes200/star.png
    :height: 30 px
    :width: 30 px
 
@@ -39,7 +39,7 @@ Mejoras |stars|
 Bug Fixes |bug|
 ---------------
 
-.. |bug| image:: _imagenes/bug.png
+.. |bug| image:: _imagenes200/bug.png
    :height: 30 px
    :width: 30 px
 
@@ -51,7 +51,7 @@ Bug Fixes |bug|
 Obsoleto |fant|
 ---------------
 
-.. |fant| image:: _imagenes/fant.png
+.. |fant| image:: _imagenes200/fant.png
    :height: 30 px
    :width: 30 px
 

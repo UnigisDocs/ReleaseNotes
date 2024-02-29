@@ -18,4 +18,4 @@ Descripción:
   No se muestra incidencias dentro de la opción correspondiente al tipo de viaje.
 
 
-.. versionadded:: 10.220.0.0.-LTS
+.. versionadded:: 10.220.0.0-LTS

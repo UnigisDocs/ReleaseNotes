@@ -16,4 +16,4 @@ Componente:
 Descripción: 
   Ejemplo
 
-.. deprecated:: 10.220.0.0.-LTS
+.. deprecated:: 10.220.0.0-LTS
