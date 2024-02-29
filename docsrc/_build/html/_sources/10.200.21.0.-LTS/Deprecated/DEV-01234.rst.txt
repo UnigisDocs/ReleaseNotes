@@ -1,6 +1,12 @@
 [DEV-01234] Ejemplo del subtitulo de la funcionalidad obsoleta
 ==============================================================
 
+|badge|
+
+.. |badge| raw:: html
+   
+   <span style="background-color: #7d7d7d; color: white; padding: 4px 8px; border-radius: 4px;">Obsoleto</span>
+
 Producto:
    UNIGIS TMS
 

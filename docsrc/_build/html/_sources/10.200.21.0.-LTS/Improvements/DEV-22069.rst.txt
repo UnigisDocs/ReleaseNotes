@@ -1,5 +1,12 @@
 [DEV-22069] Mejora en lectura de campos para Geo interactiva
 ============================================================
+
+|badge|
+
+.. |badge| raw:: html
+   
+   <span style="background-color: #4CAF50; color: white; padding: 4px 8px; border-radius: 4px;">Mejora</span>
+
 Producto:
    Fleet Java
 

@@ -1,6 +1,12 @@
 [DEV-22310] Corrección de altura de los reportes en Dashboards
 ==============================================================
 
+|badge|
+
+.. |badge| raw:: html
+   
+   <span style="background-color: #7c04de; color: white; padding: 4px 8px; border-radius: 4px;">Bug Fix</span>
+
 Producto:
    Fleet Java
 

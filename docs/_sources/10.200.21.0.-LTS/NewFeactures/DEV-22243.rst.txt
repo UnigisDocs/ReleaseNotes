@@ -1,6 +1,12 @@
 [DEV-22243] Carga Incidencia cuando ningun estado tiene el Action Cargar_Incidencia_Viaje
 -----------------------------------------------------------------------------------------
 
+|badge|
+
+.. |badge| raw:: html
+   
+   <span style="background-color: #04a7de; color: white; padding: 4px 8px; border-radius: 4px;">New Feacture</span>
+
 Producto:
    Fleet Java
 

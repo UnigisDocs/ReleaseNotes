@@ -7,9 +7,6 @@
 Versión: 10.220.0.0.-LTS 
 ========================
 
-
-  En estas notas, te proporcionaremos un resumen de lo que puedes esperar y cómo puede beneficiarte.
-
 .. admonition:: Información
    :class: seealso
 
@@ -39,8 +36,8 @@ Mejoras |stars|
 
    Improvements/DEV-22069.rst
 
-Corrección de Errores / BugFixes |bug|
---------------------------------------
+Bug Fixes |bug|
+---------------
 
 .. |bug| image:: _imagenes220/bug.png
    :height: 30 px
