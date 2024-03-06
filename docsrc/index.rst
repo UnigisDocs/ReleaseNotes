@@ -3,9 +3,9 @@
    You can adapt this file completely to your liking, but it should at least
    contain the root `toctree` directive.
 
-====================
-Notas de Lanzamiento
-====================
+.. raw:: html
+
+    <h1 style="font-weight: 400;">Notas de Lanzamiento</h1>
 
 **¡Bienvenido a las notas de lanzamiento de UNIGIS TMS!**
 

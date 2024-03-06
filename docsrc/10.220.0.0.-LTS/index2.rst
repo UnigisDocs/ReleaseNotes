@@ -3,9 +3,10 @@
    You can adapt this file completely to your liking, but it should at least
    contain the root `toctree` directive.
 
-========================
 Versión: 10.220.0.0-LTS 
 ========================
+
+.. cssclass:: titulo-nivel-1
 
 .. admonition:: Información
    :class: seealso
