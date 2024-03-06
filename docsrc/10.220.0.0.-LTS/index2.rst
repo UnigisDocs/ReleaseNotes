@@ -12,48 +12,56 @@ Versión: 10.220.0.0-LTS
 
    **Fecha de lanzamiento:** 01/01/2024
 
-New Features |news|
--------------------
+|g2| |gd2| Nuevas Caracteristicas 
+-------------------------------------
 
-.. |news| image:: _imagenes220/news.png
-   :height: 30 px
-   :width: 30 px
+.. |g2| image:: _static220/gift2.svg
+   :class: only-light
+
+.. |gd2| image:: _static220/giftdark2.svg
+   :class: only-dark
 
 .. toctree::
    :maxdepth: 2
 
    NewFeactures/DEV-22243.rst
 
-Mejoras |stars|
----------------
+|s2| |sd2| Mejoras
+------------------
 
-.. |stars| image:: _imagenes220/star.png
-   :height: 30 px
-   :width: 30 px
+.. |s2| image:: _static220/star2.svg
+   :class: only-light
+
+.. |sd2| image:: _static220/stardark2.svg
+   :class: only-dark
 
 .. toctree::
    :maxdepth: 2
 
    Improvements/DEV-22069.rst
 
-Bug Fixes |bug|
----------------
+|b2| |bd2| Corrección de Errores
+--------------------------------
 
-.. |bug| image:: _imagenes220/bug.png
-   :height: 30 px
-   :width: 30 px
+.. |b2| image:: _static220/sync2.svg
+   :class: only-light
+
+.. |bd2| image:: _static220/syncdark2.svg
+   :class: only-dark
 
 .. toctree::
    :maxdepth: 2
 
    BugFixes/DEV-22310.rst
 
-Obsoleto |fant|
----------------
+|i2| |id2| Obsoleto 
+-------------------
 
-.. |fant| image:: _imagenes220/fant.png
-   :height: 30 px
-   :width: 30 px
+.. |i2| image:: _static220/inventory2.svg
+   :class: only-light
+
+.. |id2| image:: _static220/inventorydark2.svg
+   :class: only-dark
 
 .. toctree::
    :maxdepth: 2

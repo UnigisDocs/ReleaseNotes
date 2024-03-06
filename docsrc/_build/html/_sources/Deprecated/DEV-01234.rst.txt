@@ -1,8 +1,0 @@
-[DEV-01234] 
-===========
-
-Esto es un ejemplo del subtitulo de la funcionalidad obsoleta
--------------------------------------------------------------
-
-
-Descripción de la funcionalidad obsoleta:

@@ -12,48 +12,56 @@ Versión: 10.200.21.0-LTS
 
    **Fecha de lanzamiento:** 01/01/2024
 
-New Features |news|
--------------------
+|g1| |gd1| Nuevas Caracteristicas
+-------------------------------------
 
-.. |news| image:: _imagenes200/news.png
-   :height: 30 px
-   :width: 30 px
+.. |g1| image:: _static200/gift1.svg
+         :class: only-light
+
+.. |gd1| image:: _static200/giftdark1.svg
+   :class: only-dark
 
 .. toctree::
    :maxdepth: 2
 
    NewFeactures/DEV-22243.rst
 
-Mejoras |stars|
----------------
+|s1| |sd1| Mejoras
+----------------------
 
-.. |stars| image:: _imagenes200/star.png
-   :height: 30 px
-   :width: 30 px
+.. |s1| image:: _static200/star1.svg
+    :class: only-light
+
+.. |sd1| image:: _static200/stardark1.svg
+   :class: only-dark
 
 .. toctree::
    :maxdepth: 2
 
    Improvements/DEV-22069.rst
 
-Bug Fixes |bug|
----------------
+|b1| |bd1| Corrección de Errores 
+------------------------------------
 
-.. |bug| image:: _imagenes200/bug.png
-   :height: 30 px
-   :width: 30 px
+.. |b1| image:: _static200/sync1.svg
+    :class: only-light
+
+.. |bd1| image:: _static200/syncdark1.svg
+   :class: only-dark
 
 .. toctree::
    :maxdepth: 2
 
    BugFixes/DEV-22310.rst
 
-Obsoleto |fant|
----------------
+|i1| |id1| Obsoleto 
+-------------------
 
-.. |fant| image:: _imagenes200/fant.png
-   :height: 30 px
-   :width: 30 px
+.. |i1| image:: _static200/inventory1.svg
+    :class: only-light
+
+.. |id1| image:: _static200/inventorydark1.svg
+   :class: only-dark
 
 .. toctree::
    :maxdepth: 2

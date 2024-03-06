@@ -14,8 +14,7 @@ release = ''
 # -- General configuration ---------------------------------------------------
 # https://www.sphinx-doc.org/en/master/usage/configuration.html#general-configuration
 
-extensions = ['sphinx.ext.intersphinx', 'sphinx_fontawesome']
-
+extensions = ['sphinx.ext.intersphinx', 'sphinx_fontawesome','sphinx.builders.html',]
 templates_path = ['_templates']
 exclude_patterns = ['_build', 'Thumbs.db', '.DS_Store']
 
@@ -24,5 +23,18 @@ exclude_patterns = ['_build', 'Thumbs.db', '.DS_Store']
 
 html_theme = 'furo'
 html_static_path = ['_static']
-html_logo = '_imagenes/logounigis.png'
-html_theme_options = {"sidebar_hide_name": True,}
+html_theme_options = {
+    "light_logo": "logoblanco.svg",
+    "dark_logo": "logodark.svg",
+    "sidebar_hide_name": True,
+    "light_css_variables": {
+        "color-brand-primary": "#343434",
+        "color-brand-content": "#00979b",
+    },
+    "dark_css_variables": {
+        "color-brand-primary": "#d0d0d0",
+        "color-brand-content": "#00979b",
+    },
+}
+html_title = 'UNIGIS | Realese Notes'
+html_favicon = ''

@@ -1,7 +1,0 @@
-[DEV-22310] 
-===========
-
-Corrección de altura de los reportes en Dashboards
---------------------------------------------------
-
-Descripción y ejemplo de la corrección: 
