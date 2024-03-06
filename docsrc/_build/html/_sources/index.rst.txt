@@ -20,6 +20,10 @@
  Versiones 
 ~~~~~~~~~~~~~
 
+.. raw:: html
+
+   <link rel="stylesheet" type="text/css" href="_static/custom.css" />
+
 .. toctree::
    :maxdepth: 1
 

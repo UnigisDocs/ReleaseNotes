@@ -12,10 +12,10 @@ Versión: 10.200.21.0-LTS
    **Fecha de lanzamiento:** 01/01/2024
 
 |g1| |gd1| Nuevas Caracteristicas
----------------------------------
+----------------------------------------
 
 .. |g1| image:: _static200/gift1.svg
-         :class: only-light
+   :class: only-light
 
 .. |gd1| image:: _static200/giftdark1.svg
    :class: only-dark
