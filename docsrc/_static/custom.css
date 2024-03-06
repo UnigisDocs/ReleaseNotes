@@ -14,11 +14,7 @@ h2 {
 h3 {
     font-weight: 400; /* Peso normal o regular */
 }
-@font-face {
-    font-family: 'Material Symbols Outlined';
-    src: url('https://fonts.google.com/icons?selected=Material%20Symbols%20Outlined%3Afeatured_seasonal_and_gifts%3AFILL%400%3Bwght%40400%3BGRAD%400%3Bopsz%4024') format('featured_seasonal_and_gifts_FILL0_wght400_GRAD0_opsz24.svg');
-    font-weight: 400;
-    font-style: normal;
-}
+
+@import url('https://fonts.google.com/icons?selected=Material%20Symbols%20Outlined%3Afeatured_seasonal_and_gifts%3AFILL%400%3Bwght%40400%3BGRAD%400%3Bopsz%4024');
 
 

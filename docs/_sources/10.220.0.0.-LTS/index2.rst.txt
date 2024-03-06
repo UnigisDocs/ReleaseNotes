@@ -11,56 +11,144 @@ Versión: 10.220.0.0-LTS
 
    **Fecha de lanzamiento:** 01/01/2024
 
-|g2| |gd2| Nuevas Caracteristicas 
----------------------------------
+|featured_seasonal_and_gifts_light| |featured_seasonal_and_gifts_dark| Nuevas Caracteristicas
+---------------------------------------------------------------------------------------------
 
-.. |g2| image:: _static220/gift2.svg
-   :class: only-light
+.. raw:: html
 
-.. |gd2| image:: _static220/giftdark2.svg
-   :class: only-dark
+   <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@24,400,0,0">
+
+.. |featured_seasonal_and_gifts_light| raw:: html
+
+   <span class="material-symbols-outlined light-mode-icon">
+     featured_seasonal_and_gifts
+   </span>
+
+.. |featured_seasonal_and_gifts_dark| raw:: html
+
+   <span class="material-symbols-outlined dark-mode-icon" style="display: none;">
+     featured_seasonal_and_gifts
+   </span>
+
+.. raw:: html
+
+   <script>
+     if (document.documentElement.classList.contains('theme-dark')) {
+       document.querySelector('.light-mode-icon').style.display = 'none';
+       document.querySelector('.dark-mode-icon').style.display = 'inline';
+     } else {
+       document.querySelector('.light-mode-icon').style.display = 'inline';
+       document.querySelector('.dark-mode-icon').style.display = 'none';
+     }
+   </script>
 
 .. toctree::
    :maxdepth: 2
 
    NewFeactures/DEV-22243.rst
 
-|s2| |sd2| Mejoras
-------------------
+|award_star_light| |award_star_dark| Mejoras
+---------------------------------------------
 
-.. |s2| image:: _static220/star2.svg
-   :class: only-light
+.. raw:: html
 
-.. |sd2| image:: _static220/stardark2.svg
-   :class: only-dark
+   <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@24,400,0,0">
+
+.. |award_star_light| raw:: html
+
+   <span class="material-symbols-outlined">
+     award_star
+   </span>
+
+.. |award_star_dark| raw:: html
+
+   <span class="material-symbols-outlined" style="display: none;">
+     award_star
+   </span>
+
+.. raw:: html
+
+   <script>
+     if (document.documentElement.classList.contains('theme-dark')) {
+       document.querySelector('[role="award_star_light"]').style.display = 'none';
+       document.querySelector('[role="award_star_dark"]').style.display = 'inline';
+     } else {
+       document.querySelector('[role="award_star_light"]').style.display = 'inline';
+       document.querySelector('[role="award_star_dark"]').style.display = 'none';
+     }
+   </script>
 
 .. toctree::
    :maxdepth: 2
 
    Improvements/DEV-22069.rst
 
-|b2| |bd2| Corrección de Errores
---------------------------------
+|sync_saved_locally_light| |sync_saved_locally_dark| Corrección de Errores 
+--------------------------------------------------------------------------
 
-.. |b2| image:: _static220/sync2.svg
-   :class: only-light
+.. raw:: html
 
-.. |bd2| image:: _static220/syncdark2.svg
-   :class: only-dark
+   <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@24,400,0,0">
+
+.. |sync_saved_locally_light| raw:: html
+
+   <span class="material-symbols-outlined">
+     sync_saved_locally
+   </span>
+
+.. |sync_saved_locally_dark| raw:: html
+
+   <span class="material-symbols-outlined" style="display: none;">
+     sync_saved_locally
+   </span>
+
+.. raw:: html
+
+   <script>
+     if (document.documentElement.classList.contains('theme-dark')) {
+       document.querySelector('[role="sync_saved_locally_light"]').style.display = 'none';
+       document.querySelector('[role="sync_saved_locally_dark"]').style.display = 'inline';
+     } else {
+       document.querySelector('[role="sync_saved_locally_light"]').style.display = 'inline';
+       document.querySelector('[role="sync_saved_locally_dark"]').style.display = 'none';
+     }
+   </script>
 
 .. toctree::
    :maxdepth: 2
 
    BugFixes/DEV-22310.rst
 
-|i2| |id2| Obsoleto 
--------------------
+|inventory_2_light| |inventory_2_dark| Obsoleto 
+-----------------------------------------------
 
-.. |i2| image:: _static220/inventory2.svg
-   :class: only-light
+.. raw:: html
 
-.. |id2| image:: _static220/inventorydark2.svg
-   :class: only-dark
+   <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@24,400,0,0">
+
+.. |inventory_2_light| raw:: html
+
+   <span class="material-symbols-outlined">
+     inventory_2
+   </span>
+
+.. |inventory_2_dark| raw:: html
+
+   <span class="material-symbols-outlined" style="display: none;">
+     inventory_2
+   </span>
+
+.. raw:: html
+
+   <script>
+     if (document.documentElement.classList.contains('theme-dark')) {
+       document.querySelector('[role="inventory_2_light"]').style.display = 'none';
+       document.querySelector('[role="inventory_2_dark"]').style.display = 'inline';
+     } else {
+       document.querySelector('[role="inventory_2_light"]').style.display = 'inline';
+       document.querySelector('[role="inventory_2_dark"]').style.display = 'none';
+     }
+   </script>
 
 .. toctree::
    :maxdepth: 2
