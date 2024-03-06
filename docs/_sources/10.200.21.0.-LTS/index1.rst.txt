@@ -2,12 +2,9 @@
    sphinx-quickstart on Tue Feb 27 14:07:58 2024.
    You can adapt this file completely to your liking, but it should at least
    contain the root `toctree` directive.
-.. cssclass:: titulo-nivel-1
 
 Versión: 10.200.21.0-LTS
 ========================
-
-
 
 .. admonition:: Información
    :class: seealso
@@ -15,7 +12,7 @@ Versión: 10.200.21.0-LTS
    **Fecha de lanzamiento:** 01/01/2024
 
 |g1| |gd1| Nuevas Caracteristicas
--------------------------------------
+---------------------------------
 
 .. |g1| image:: _static200/gift1.svg
          :class: only-light

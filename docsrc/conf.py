@@ -14,7 +14,7 @@ release = ''
 # -- General configuration ---------------------------------------------------
 # https://www.sphinx-doc.org/en/master/usage/configuration.html#general-configuration
 
-extensions = ['sphinx.ext.intersphinx', 'sphinx_fontawesome','sphinx.builders.html',]
+extensions = ['sphinx.ext.intersphinx', 'sphinx_fontawesome','sphinx.builders.html','sphinx.ext.ifconfig',]
 templates_path = ['_templates']
 exclude_patterns = ['_build', 'Thumbs.db', '.DS_Store']
 
@@ -22,8 +22,10 @@ exclude_patterns = ['_build', 'Thumbs.db', '.DS_Store']
 # https://www.sphinx-doc.org/en/master/usage/configuration.html#options-for-html-output
 
 html_theme = 'furo'
-html_static_path = ['_static']
-html_css_files = ['estilos.css']
+html_static_path = ['_static',
+                    ]
+html_css_files = ['custom.css',
+                  ]
 html_theme_options = {
     "light_logo": "logoblanco.svg",
     "dark_logo": "logodark.svg",

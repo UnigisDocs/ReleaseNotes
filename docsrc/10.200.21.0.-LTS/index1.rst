@@ -6,15 +6,13 @@
 Versión: 10.200.21.0-LTS
 ========================
 
-.. cssclass:: titulo-nivel-1
-
 .. admonition:: Información
    :class: seealso
 
    **Fecha de lanzamiento:** 01/01/2024
 
 |g1| |gd1| Nuevas Caracteristicas
--------------------------------------
+---------------------------------
 
 .. |g1| image:: _static200/gift1.svg
          :class: only-light

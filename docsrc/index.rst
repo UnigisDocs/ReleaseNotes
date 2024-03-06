@@ -16,16 +16,9 @@
 
    **Nueva Versión:** Para más detalles, consulta :doc:`10.220.0.0.-LTS/index2`.
 
-
-.. |gd| image:: _static/giftdark.svg
-   :class: only-dark
-
-.. |g| image:: _static/giftindex.svg
-   :class: only-light
-
--------------------
- |gd| |g| Versiones
--------------------
+~~~~~~~~~~~~~
+ Versiones 
+~~~~~~~~~~~~~
 
 .. toctree::
    :maxdepth: 1

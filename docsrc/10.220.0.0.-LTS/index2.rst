@@ -4,9 +4,7 @@
    contain the root `toctree` directive.
 
 Versión: 10.220.0.0-LTS 
-========================
-
-.. cssclass:: titulo-nivel-1
+=======================
 
 .. admonition:: Información
    :class: seealso
@@ -14,7 +12,7 @@ Versión: 10.220.0.0-LTS
    **Fecha de lanzamiento:** 01/01/2024
 
 |g2| |gd2| Nuevas Caracteristicas 
--------------------------------------
+---------------------------------
 
 .. |g2| image:: _static220/gift2.svg
    :class: only-light

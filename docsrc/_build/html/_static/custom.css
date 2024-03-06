@@ -1,7 +1,22 @@
-.titulo-nivel-1 {
-    font-weight: 400; /* Peso de fuente normal */
+.only-light {
+h1 {
+    font-weight: 400; /* Peso normal o regular */
 }
-
-.titulo-nivel-2 {
-    font-weight: 400; /* Peso de fuente normal */
+h2 {
+    font-weight: 400; /* Peso normal o regular */
+}
+h3 {
+    font-weight: 400; /* Peso normal o regular */
+},
+}
+.only-dark {
+h1 {
+        font-weight: 400; /* Peso normal o regular */
+    }
+h2 {
+        font-weight: 400; /* Peso normal o regular */
+    }
+h3 {
+        font-weight: 400; /* Peso normal o regular */
+},
 }
