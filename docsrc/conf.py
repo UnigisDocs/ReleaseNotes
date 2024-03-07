@@ -28,7 +28,7 @@ html_static_path = ['_static',
 html_css_files = ['custom.css',
                   ]
 html_theme_options = {
-    "light_logo": "logolight.svg",
+    "light_logo": "Logolight.svg",
     "dark_logo": "logodark.svg",
     "sidebar_hide_name": True,
     "light_css_variables": {
