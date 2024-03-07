@@ -11,20 +11,20 @@ Versión: 10.220.0.0-LTS
 
    **Fecha de lanzamiento:** 01/01/2024
 
-|featured_seasonal_and_gifts_light| |featured_seasonal_and_gifts_dark| Nuevas Caracteristicas
----------------------------------------------------------------------------------------------
+|s_and_gifts_light| |s_and_gifts_dark| Nuevas Características
+-------------------------------------------------------------
 
 .. raw:: html
 
    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@24,400,0,0">
 
-.. |featured_seasonal_and_gifts_light| raw:: html
+.. |s_and_gifts_light| raw:: html
 
    <span class="material-symbols-outlined light-mode-icon">
-     featured_seasonal_and_gifts
+      featured_seasonal_and_gifts
    </span>
 
-.. |featured_seasonal_and_gifts_dark| raw:: html
+.. |s_and_gifts_dark| raw:: html
 
    <span class="material-symbols-outlined dark-mode-icon" style="display: none;">
      featured_seasonal_and_gifts
@@ -47,34 +47,34 @@ Versión: 10.220.0.0-LTS
 
    NewFeactures/DEV-22243.rst
 
-|award_star_light| |award_star_dark| Mejoras
----------------------------------------------
+|new_releases_light| |new_releases_dark| Mejoras
+------------------------------------------------
 
 .. raw:: html
 
    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@24,400,0,0">
 
-.. |award_star_light| raw:: html
-
-   <span class="material-symbols-outlined">
-     award_star
+.. |new_releases_light| raw:: html
+   
+   <span class="material-symbols-outlined light-mode-icon">
+   new_releases
    </span>
 
-.. |award_star_dark| raw:: html
+.. |new_releases_dark| raw:: html
 
-   <span class="material-symbols-outlined" style="display: none;">
-     award_star
+   <span class="material-symbols-outlined dark-mode-icon" style="display: none;">
+   new_releases
    </span>
 
 .. raw:: html
 
    <script>
      if (document.documentElement.classList.contains('theme-dark')) {
-       document.querySelector('[role="award_star_light"]').style.display = 'none';
-       document.querySelector('[role="award_star_dark"]').style.display = 'inline';
+       document.querySelector('.light-mode-icon').style.display = 'none';
+       document.querySelector('.dark-mode-icon').style.display = 'inline';
      } else {
-       document.querySelector('[role="award_star_light"]').style.display = 'inline';
-       document.querySelector('[role="award_star_dark"]').style.display = 'none';
+       document.querySelector('.light-mode-icon').style.display = 'inline';
+       document.querySelector('.dark-mode-icon').style.display = 'none';
      }
    </script>
 

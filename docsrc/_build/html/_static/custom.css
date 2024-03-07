@@ -14,7 +14,19 @@ h2 {
 h3 {
     font-weight: 400; /* Peso normal o regular */
 }
-
-@import url('https://fonts.google.com/icons?selected=Material%20Symbols%20Outlined%3Afeatured_seasonal_and_gifts%3AFILL%400%3Bwght%40400%3BGRAD%400%3Bopsz%4024');
-
+.light-mode h1, .light-mode h2 {
+    color: #343434;
+}
+.dark-mode h1, .dark-mode h2 {
+    color: #d0d0d0;
+}
+/* Estilos personalizados para enlaces internos */
+a.reference.internal {
+    display: flex;
+    align-items: center;
+    gap: 15px;
+}
+.toctree-wrapper ul li {
+    list-style: none;
+}
 

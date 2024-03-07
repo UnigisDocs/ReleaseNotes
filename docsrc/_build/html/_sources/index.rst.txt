@@ -14,7 +14,7 @@
 .. admonition:: Último Lanzamiento: 01/01/2024
    :class: important
 
-   **Nueva Versión:** Para más detalles, consulta :doc:`10.220.0.0.-LTS/index2`.
+   **Nueva Versión:** Para más detalles, consulta: :doc:`10.220.0.0.-LTS/index2`
 
 ~~~~~~~~~~~~~
  Versiones 
@@ -26,6 +26,7 @@
 
 .. toctree::
    :maxdepth: 1
+   :titlesonly:
 
    10.220.0.0.-LTS/index2.rst
    10.200.21.0.-LTS/index1.rst

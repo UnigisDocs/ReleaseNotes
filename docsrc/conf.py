@@ -22,20 +22,23 @@ exclude_patterns = ['_build', 'Thumbs.db', '.DS_Store']
 # https://www.sphinx-doc.org/en/master/usage/configuration.html#options-for-html-output
 
 html_theme = 'furo'
+language = "es"
 html_static_path = ['_static',
                     ]
 html_css_files = ['custom.css',
                   ]
 html_theme_options = {
-    "light_logo": "logoblanco.svg",
+    "light_logo": "logolight.svg",
     "dark_logo": "logodark.svg",
     "sidebar_hide_name": True,
     "light_css_variables": {
         "color-brand-primary": "#343434",
+        "color-brand-secundary": "#343434",
         "color-brand-content": "#00979b",
     },
     "dark_css_variables": {
         "color-brand-primary": "#d0d0d0",
+        "color-brand-secundary": "#343434",
         "color-brand-content": "#00979b",
     },
 }
