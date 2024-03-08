@@ -44,3 +44,4 @@ html_theme_options = {
 }
 html_title = 'UNIGIS | Realese Notes'
 html_favicon = ''
+html_show_sphinx = False

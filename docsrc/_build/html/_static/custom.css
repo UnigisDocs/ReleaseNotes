@@ -7,15 +7,21 @@
 }
 h1 {
     font-weight: 400; /* Peso normal o regular */
+    font-size: 24px;
 }
 h2 {
     font-weight: 400; /* Peso normal o regular */
+    font-size: 20px;
+    display: flex;
+    align-items: center;
+    gap: 10px;
 }
 h3 {
     font-weight: 400; /* Peso normal o regular */
+    font-size: 18px;
 }
 .light-mode h1, .light-mode h2 {
-    color: #343434;
+    color: #303030;
 }
 .dark-mode h1, .dark-mode h2 {
     color: #d0d0d0;
@@ -29,4 +35,3 @@ a.reference.internal {
 .toctree-wrapper ul li {
     list-style: none;
 }
-

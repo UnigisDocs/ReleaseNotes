@@ -11,8 +11,8 @@ Versión: 10.200.21.0-LTS
 
    **Fecha de lanzamiento:** 01/01/2024
 
-|s_and_gifts_light| |s_and_gifts_dark| Nuevas Caracteristicas
---------------------------------------------------------------
+|s_and_gifts_light| |s_and_gifts_dark| Nuevas Características
+-------------------------------------------------------------
 
 .. raw:: html
 

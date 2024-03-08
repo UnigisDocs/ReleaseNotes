@@ -11,14 +11,9 @@
 
     Estamos emocionados de presentarles la última versión de nuestro producto, que incluye una serie de nuevas características, mejoras de rendimiento, correcciones de errores y funcionalidades obsoletas. 
 
-.. admonition:: Último Lanzamiento: 01/01/2024
-   :class: important
-
-   **Nueva Versión:** Para más detalles, consulta: :doc:`10.220.0.0.-LTS/index2`
-
-~~~~~~~~~~~~~
+~~~~~~~~~~
  Versiones 
-~~~~~~~~~~~~~
+~~~~~~~~~~
 
 .. raw:: html
 
