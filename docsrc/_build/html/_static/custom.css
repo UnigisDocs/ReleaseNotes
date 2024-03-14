@@ -35,3 +35,8 @@ a.reference.internal {
 .toctree-wrapper ul li {
     list-style: none;
 }
+/* Ocultar el enlace del elemento en la barra de navegación */
+#my-hidden-item {
+    display: none;
+}
+

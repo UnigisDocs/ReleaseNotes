@@ -1,0 +1,25 @@
+[DEV-22310] Corrección de altura de los reportes en Dashboards
+==============================================================
+
+|badge|
+
+.. |badge| raw:: html
+   
+   <span style="background-color: #7c04de; color: white; padding: 4px 8px; border-radius: 4px;">Corrección</span>
+
+Producto:
+   Fleet Java
+
+Componente: 
+   Viajes
+
+Descripción: 
+  Esta descripción es un ejemplo de la nueva caracteristica aquí presentada.
+  No se muestra incidencias dentro de la opción correspondiente al tipo de viaje.
+
+.. versionchanged:: 10.220.0.0-LTS
+
+.. raw:: html
+
+   <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@24,400,0,0">
+
