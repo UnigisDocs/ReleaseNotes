@@ -21,7 +21,21 @@
 
 .. toctree::
    :maxdepth: 1
-   :titlesonly:
 
-   10.220.0.0.-LTS/index2.rst
-   10.200.21.0.-LTS/index1.rst
+   10.200.21.0-LTS/index0.rst
+
+.. raw:: html
+
+   <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@24,400,0,0">
+
+.. raw:: html
+
+   <script>
+     if (document.documentElement.classList.contains('theme-dark')) {
+       document.querySelector('.light-mode-icon').style.display = 'none';
+       document.querySelector('.dark-mode-icon').style.display = 'inline';
+     } else {
+       document.querySelector('.light-mode-icon').style.display = 'inline';
+       document.querySelector('.dark-mode-icon').style.display = 'none';
+     }
+   </script>
