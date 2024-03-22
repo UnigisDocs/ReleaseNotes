@@ -1,0 +1,23 @@
+[DEV-22134] Restricción por tipo de vehículo en 'DomicilioOrden'
+-----------------------------------------------------------------
+
+|badge|
+
+.. |badge| raw:: html
+   
+   <span style="background-color: #04a7de; color: white; padding: 4px 8px; border-radius: 4px;">Nueva característica</span>
+
+Aplicación:
+   Web
+
+Módulo:
+   Administración del Sistema
+
+Descripción:
+    Se crea nuevo servicio para crear y mantener las restricciones de tipo de vehículo en los'DomicilioOrden'.
+
+.. versionadded:: 10.221.0.0-LTS
+
+.. raw:: html
+
+   <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@24,400,0,0">

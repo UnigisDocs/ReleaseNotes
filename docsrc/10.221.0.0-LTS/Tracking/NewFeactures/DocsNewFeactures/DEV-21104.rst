@@ -1,0 +1,27 @@
+=====================================================================
+[DEV-21104] UNIGIS | Mejora en repetición de encuestas ( histórico )
+=====================================================================
+|badge|
+
+.. |badge| raw:: html
+   
+   <span style="background-color: #04a7de; color: white; padding: 4px 8px; border-radius: 4px;">Nueva característica</span>
+
+**Descripción**
+
+.. container:: justified-text
+
+ Se ha integrado una nueva funcionalidad en las encuestas que permite, mediante un parámetro, volver a realizar una encuesta que se haya respondido previamente. Actualmente, esta característica permite mostrar exclusivamente las últimas respuestas de cada encuesta, incluso si hay múltiples respuestas. 
+ Además, el parámetro funciona de manera global para todas las encuestas.
+    
+ Las mejoras realizadas son las siguientes: 
+
+ 1. Flag en la encuesta que permita determinar si se permite re-hacer la encuesta (por default, no).
+ 2. Flag en la encuesta que permita decidir si se muestra un histórico de las respuestas al momento de re-hacer encuestas.
+ 3. Cambio en el diseño de las encuestas para poder mostrar (en caso de un flag de histórico en true) todas las respuestas a través del tiempo para poder visualizar la evolución de las respuestas.
+
+.. versionadded:: 10.221.0.0-LTS
+
+.. raw:: html
+
+   <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@24,400,0,0">

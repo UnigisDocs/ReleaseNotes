@@ -1,0 +1,23 @@
+[DEV-22177] Mejoras B2B Generar Varios Pedidos de Uno Mismo
+------------------------------------------------------------
+
+|badge|
+
+.. |badge| raw:: html
+   
+   <span style="background-color: #04a7de; color: white; padding: 4px 8px; border-radius: 4px;">Nueva característica</span>
+
+Aplicación:
+   Web 
+
+Módulo: 
+   B2B
+
+Descripción: 
+    Se agrega nueva funcionalidad que permite generar múltiples pedidos a partir de uno, manteniendo la misma información en todos ellos.
+
+.. versionadded:: 10.221.0.0-LTS
+
+.. raw:: html
+
+   <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@24,400,0,0">

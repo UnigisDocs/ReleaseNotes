@@ -1,0 +1,23 @@
+[DEV-22444] Subfuncionalidad Configuración Pantalla Deposito Zona Turno (ABM y TAB)
+------------------------------------------------------------------------------------
+
+|badge|
+
+.. |badge| raw:: html
+   
+   <span style="background-color: #04a7de; color: white; padding: 4px 8px; border-radius: 4px;">Nueva característica</span>
+
+Aplicación:
+   Web
+
+Módulo:
+   Administración del Sistema
+
+Descripción:
+    Se agrega la subfuncionalidad donde al momento de tener habilitado un deposito para citas, se tenga que realizar la división de zonas. 
+
+.. versionadded:: 10.221.0.0-LTS
+
+.. raw:: html
+
+   <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@24,400,0,0">

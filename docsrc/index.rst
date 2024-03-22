@@ -22,7 +22,7 @@
 .. toctree::
    :maxdepth: 1
 
-   10.200.21.0-LTS/index0.rst
+   10.221.0.0-LTS/index0.rst
 
 .. raw:: html
 

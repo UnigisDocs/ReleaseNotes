@@ -1,0 +1,24 @@
+[DEV-22140] UNIGIS | Snapshots Escenarios Almacenar Login Usuario que modifica
+-----------------------------------------------------------------------------------------
+
+|badge|
+
+.. |badge| raw:: html
+   
+   <span style="background-color: #04a7de; color: white; padding: 4px 8px; border-radius: 4px;">Nueva característica</span>
+
+Aplicación:
+   Web
+
+Módulo: 
+   Routing
+
+Descripción: 
+  Se crea una TablaBitácora para mantener disponible la información de los escenarios creados anteriormente.
+
+
+.. versionadded:: 10.221.0.0-LTS
+
+.. raw:: html
+
+   <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@24,400,0,0">

@@ -1,0 +1,23 @@
+[DEV-22062] BackEnd - Desarrollo de Selección de Temas
+-------------------------------------------------------
+
+|badge|
+
+.. |badge| raw:: html
+   
+   <span style="background-color: #04a7de; color: white; padding: 4px 8px; border-radius: 4px;">Nueva característica</span>
+
+Aplicación:
+   Web
+
+Módulo:
+   Administración del Sistema
+
+Descripción:
+   Ahora, el usuario puede seleccionar el color que desee visualizar en el header ajustando el tema de la web a través de los ajustes de usuario.
+
+.. versionadded:: 10.221.0.0-LTS
+
+.. raw:: html
+
+   <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@24,400,0,0">
