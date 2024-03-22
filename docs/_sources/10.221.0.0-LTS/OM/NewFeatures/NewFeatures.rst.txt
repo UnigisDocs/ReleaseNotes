@@ -22,4 +22,4 @@
      featured_seasonal_and_gifts
    </span>
 
-:doc:`DocsNewFeactures/DEV-22484`
+:doc:`DocsNewFeatures/DEV-22484`

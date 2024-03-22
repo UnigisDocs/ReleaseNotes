@@ -29,7 +29,7 @@ Order Management
 .. toctree::
    :hidden:
 
-   NewFeactures/NewFeactures.rst
+   NewFeatures/NewFeatures.rst
 
 :doc:`NewFeatures/DocsNewFeatures/DEV-22484`
 
