@@ -1,0 +1,19 @@
+[DEV-22113]  Errores de Visualización
+=======================================
+
+|badge|
+
+.. |badge| raw:: html
+   
+   <span style="background-color: #7c04de; color: white; padding: 4px 8px; border-radius: 4px;">Corrección</span>
+
+Módulo: 
+   Fleet
+
+Descripción: 
+ Se corrigió distorsión en el texto mediante el botón kebab (tres puntitos) al intentar acceder a las prioridades en la configuración de publicación manual de Tendering.
+
+ Además, se corrigió panel derecho del Administrador de Tendering, al mostrar los detalles de los transportes, se notó que el botón "Cancelar" estaba desplazado y desalineado.
+
+.. versionchanged:: 10.221.0.0-LTS
+

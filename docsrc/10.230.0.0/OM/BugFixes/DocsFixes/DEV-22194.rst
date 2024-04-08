@@ -1,0 +1,23 @@
+[DEV-22194] No Funcionan las Siguientes Columnas 
+=================================================
+
+|badge|
+
+.. |badge| raw:: html
+   
+   <span style="background-color: #7c04de; color: white; padding: 4px 8px; border-radius: 4px;">Corrección</span>
+
+Módulo: 
+   Order Management
+
+Descripción: 
+ Se ajustó el ordenamiento por columna:
+
+ - Columna Código (producto).
+ - Referencia Externa ot.
+ - Referencia Externa item ot.
+ - Volumen Unitario.
+ - Peso Unitario.
+   
+.. versionchanged:: 10.221.0.0-LTS
+

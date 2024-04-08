@@ -1,0 +1,24 @@
+[DEV-22095] Dispatch Multiples paradas
+========================================
+
+|badge|
+
+.. |badge| raw:: html
+   
+   <span style="background-color: #7c04de; color: white; padding: 4px 8px; border-radius: 4px;">Corrección</span>
+
+Módulo: 
+   Tracking
+
+Descripción: 
+   Se corrigió lo siguiente:
+
+- Buscador: Al seleccionar la pestaña paradas no realizaba búsqueda.
+- Paradas: No se mostraba la relación de pickup y delivery de las paradas.
+- Filtros: Los filtros no se mantenian y se perdia la información a filtrar.
+- Mejoras Vizuales: Se ajusta la vista de los mensajes de error generales, puesto que la ventana era muy grande para los textos o acciones a realizar.
+- Eliminación de Paradas: Al querer eliminar paradas da mensaje de advertencia en ingles y español.
+- Paginado: El paginado muestra el total de las paginas. 
+
+.. versionchanged:: 10.221.0.0-LTS
+

@@ -1,0 +1,18 @@
+[DEV-22157] Varonet X - Cache de Distancias de Map Network
+-----------------------------------------------------------
+
+|badge|
+
+.. |badge| raw:: html
+   
+   <span style="background-color: #04a7de; color: white; padding: 4px 8px; border-radius: 4px;">Nueva característica</span>
+
+Módulo: 
+   Planning
+
+Descripción: 
+ Se añadió una caché de distancias para Map Network, donde se guarda un único valor por cada par de órdenes. Ahora, estas pueden ser de cualquier cantidad, según las reglas.
+
+
+.. versionadded:: 10.221.0.0-LTS
+

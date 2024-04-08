@@ -1,0 +1,17 @@
+[DEV-22516] Mejoras en File Manager
+------------------------------------
+
+|badge|
+
+.. |badge| raw:: html
+   
+   <span style="background-color: #04a7de; color: white; padding: 4px 8px; border-radius: 4px;">Nueva característica</span>
+
+Módulo: 
+   Dashboard
+
+Descripción: 
+  Se desarrolló reporte denominado 'NPS Entregas', que permite al cliente ver el porcentaje de aceptación entre sus clientes de acuerdo a las respuestas proporcionadas en la encuesta de satisfacción de servicio.
+
+.. versionadded:: 10.221.0.0-LTS
+

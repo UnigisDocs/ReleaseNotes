@@ -1,0 +1,17 @@
+[DEV-22246] No Es Posible Replanificar Una Jornada con Gran Cantidad de Ordenes
+=================================================================================
+
+|badge|
+
+.. |badge| raw:: html
+   
+   <span style="background-color: #7c04de; color: white; padding: 4px 8px; border-radius: 4px;">Corrección</span>
+
+Módulo: 
+   Tracking
+
+Descripción: 
+   Se corrigió error en la carga por gran cantidad de ordenes. 
+
+.. versionchanged:: 10.221.0.0-LTS
+

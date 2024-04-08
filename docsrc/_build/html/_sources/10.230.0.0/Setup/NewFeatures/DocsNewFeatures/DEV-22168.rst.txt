@@ -1,0 +1,18 @@
+[DEV-22168] Validación de Conexión al Ministerio
+-------------------------------------------------
+
+|badge|
+
+.. |badge| raw:: html
+   
+   <span style="background-color: #04a7de; color: white; padding: 4px 8px; border-radius: 4px;">Nueva característica</span>
+
+
+Módulo:
+   Administración del Sistema
+
+Descripción:
+ Se desarrollaron mejoras para validar el endpoint de los metodos que se consumen por RNDC el cual se agregan un validador visual y uno interno (back).
+
+.. versionadded:: 10.221.0.0-LTS
+

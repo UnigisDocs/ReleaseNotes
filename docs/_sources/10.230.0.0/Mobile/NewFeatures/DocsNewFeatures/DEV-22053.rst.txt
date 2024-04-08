@@ -1,0 +1,16 @@
+[DEV-22053] IFlow - Ajuste de Saldos de Recursos
+=================================================
+|badge|
+
+.. |badge| raw:: html
+   
+   <span style="background-color: #04a7de; color: white; padding: 4px 8px; border-radius: 4px;">Nueva característica</span>
+    
+Módulo:
+   Rendición de Recursos
+
+Descripción:
+ Esta funcionalidad permitirá al usuario revisar la información del movimiento de recursos no nominados antes de entregarla en donde le corresponda. Ajustando los diferentes valores en caso de necesitarlo o por haber detectado algún error durante el proceso.
+
+.. versionadded:: 10.221.0.0-LTS
+

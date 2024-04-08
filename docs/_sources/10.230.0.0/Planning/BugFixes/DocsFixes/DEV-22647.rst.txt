@@ -1,0 +1,17 @@
+[DEV-22647] Agregar Ordenes Automáticamente
+====================================================================
+
+|badge|
+
+.. |badge| raw:: html
+   
+   <span style="background-color: #7c04de; color: white; padding: 4px 8px; border-radius: 4px;">Corrección</span>
+
+Módulo: 
+   Planning
+
+Descripción: 
+ Se ajustó proceso de agregar ordenes automáticamente.
+
+.. versionchanged:: 10.221.0.0-LTS
+

@@ -1,0 +1,20 @@
+[DEV-22673] Mejora Creación Ruta Lazo
+=========================================
+
+|badge|
+
+.. |badge| raw:: html
+   
+   <span style="background-color: #04a7de; color: white; padding: 4px 8px; border-radius: 4px;">Nueva característica</span>
+
+Módulo: 
+   Planning
+
+Descripción: 
+  Al seleccionar por lazo, en caso de que todas las Ordenes no posean ruta, se indique si se desea crear ruta. 
+  
+  Anteriormente se debía ir a Ordenes sin ruta para que determine la opción.
+
+
+.. versionadded:: 10.222.0.0-LTS
+

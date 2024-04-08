@@ -1,0 +1,17 @@
+[DEV-22245] Conductor - Crear Conductor - No Se Muestra Scroll Bar
+===================================================================
+
+|badge|
+
+.. |badge| raw:: html
+   
+   <span style="background-color: #7c04de; color: white; padding: 4px 8px; border-radius: 4px;">Corrección</span>
+
+Módulo: 
+   Tracking
+
+Descripción: 
+   Se corrigió error en la visualización del scroll bar para que permita visualizar todos los campos disponibles.
+
+.. versionchanged:: 10.221.0.0-LTS
+

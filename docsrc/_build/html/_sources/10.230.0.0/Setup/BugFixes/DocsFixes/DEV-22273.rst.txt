@@ -1,0 +1,17 @@
+[DEV-22273] Error al Informar Vehiculo Utilizado
+=================================================
+
+|badge|
+
+.. |badge| raw:: html
+   
+   <span style="background-color: #7c04de; color: white; padding: 4px 8px; border-radius: 4px;">Corrección</span>
+
+Módulo: 
+   Setup
+
+Descripción: 
+ Se corrigió error en informes al vehículo utilizado en caso de rutear.
+
+.. versionchanged:: 10.221.0.0-LTS
+

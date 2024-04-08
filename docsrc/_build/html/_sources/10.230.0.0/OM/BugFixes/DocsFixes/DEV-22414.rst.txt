@@ -1,0 +1,17 @@
+[DEV-22414] Errores en Creación de Pedido desde OtItem
+==========================================================
+
+|badge|
+
+.. |badge| raw:: html
+   
+   <span style="background-color: #7c04de; color: white; padding: 4px 8px; border-radius: 4px;">Corrección</span>
+
+Módulo: 
+   Order Management
+
+Descripción: 
+ Se corrigió errores encontrados como: relacion tabla pedido, actualización de cantidad disponible.
+
+.. versionchanged:: 10.221.0.0-LTS
+

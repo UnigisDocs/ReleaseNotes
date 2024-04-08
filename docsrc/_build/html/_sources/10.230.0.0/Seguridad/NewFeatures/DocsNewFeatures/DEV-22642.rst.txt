@@ -1,0 +1,18 @@
+[DEV-22642] Validación de Versión
+----------------------------------
+
+|badge|
+
+.. |badge| raw:: html
+   
+   <span style="background-color: #04a7de; color: white; padding: 4px 8px; border-radius: 4px;">Nueva característica</span>
+
+Módulo: 
+   Seguridad
+
+Descripción: 
+  Se implementó una nueva funcionalidad para validar que el sistema o sistemas estén en la misma versión que la base de datos. En caso de que no estén en la misma versión, se mostrará un mensaje de error y se registrará un registro en el log (tabla log) indicando que el sistema no puede ejecutarse.
+
+
+.. versionadded:: 10.221.0.0-LTS
+

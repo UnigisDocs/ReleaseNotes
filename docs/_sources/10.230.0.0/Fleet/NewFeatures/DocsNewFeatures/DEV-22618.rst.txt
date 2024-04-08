@@ -1,0 +1,17 @@
+[DEV-22618] Mejora en Tarifas
+---------------------------------
+
+|badge|
+
+.. |badge| raw:: html
+   
+   <span style="background-color: #04a7de; color: white; padding: 4px 8px; border-radius: 4px;">Nueva característica</span>
+
+Componente: 
+   Fleet
+
+Descripción: 
+ Se ajustó campo (ValorChar) se aumento el tamaño a 2000 caracteres.
+
+.. versionadded:: 10.200.21.0-LTS
+

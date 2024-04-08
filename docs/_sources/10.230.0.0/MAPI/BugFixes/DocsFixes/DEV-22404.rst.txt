@@ -1,0 +1,17 @@
+[DEV-22404] Servicio ObtenerGuiaPorId No Muestra Campos de la Operacion y la Sucursal Cuando se Consume
+=======================================================================================================
+
+|badge|
+
+.. |badge| raw:: html
+   
+   <span style="background-color: #7c04de; color: white; padding: 4px 8px; border-radius: 4px;">Corrección</span>
+
+Módulo: 
+   MAPI
+
+Descripción: 
+ Se corrigió error en los campos los campos de Id Operación, Sucursal y Referencia Externa.
+
+.. versionadded:: 10.221.0.0-LTS
+

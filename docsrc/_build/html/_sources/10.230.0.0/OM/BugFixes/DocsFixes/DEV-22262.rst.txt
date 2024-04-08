@@ -1,0 +1,17 @@
+[DEV-22262] Cuando se Elimina una Orden no es Posible Salir del PopUp de Confirmación
+=====================================================================================
+
+|badge|
+
+.. |badge| raw:: html
+   
+   <span style="background-color: #7c04de; color: white; padding: 4px 8px; border-radius: 4px;">Corrección</span>
+
+Módulo: 
+   Order Management
+
+Descripción: 
+ Se ajustó función para eliminar una orden, se agregó bontón para cerrar ventana.
+   
+.. versionchanged:: 10.221.0.0-LTS
+

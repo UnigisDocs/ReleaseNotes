@@ -1,0 +1,17 @@
+[DEV-22150] Mejora y Rediseño de Dashboard
+------------------------------------------
+
+|badge|
+
+.. |badge| raw:: html
+   
+   <span style="background-color: #04a7de; color: white; padding: 4px 8px; border-radius: 4px;">Nueva característica</span>
+
+Módulo: 
+   Dashboard
+
+Descripción: 
+  El diseño del módulo de Dashboard se renueva para alinear su apariencia con los estilos visuales del resto de la aplicación.
+
+.. versionadded:: 10.221.0.0-LTS
+

@@ -1,0 +1,17 @@
+[DEV-22339] Consistencia en Font size de Header en Todos los Navegadores
+=========================================================================
+
+|badge|
+
+.. |badge| raw:: html
+   
+   <span style="background-color: #4CAF50; color: white; padding: 4px 8px; border-radius: 4px;">Mejora</span>
+
+Módulo: 
+   Architecture
+
+Descripción: 
+  Se ajustó en el header que todos los fonts esten perfectos.
+
+.. versionchanged:: 10.221.0.0-LTS
+

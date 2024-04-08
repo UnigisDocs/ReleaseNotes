@@ -1,0 +1,17 @@
+[DEV-22167] No respeta Filtro Operación - Tracking > Viajes
+=============================================================================
+
+|badge|
+
+.. |badge| raw:: html
+   
+   <span style="background-color: #7c04de; color: white; padding: 4px 8px; border-radius: 4px;">Corrección</span>
+
+Módulo: 
+   Tracking
+
+Descripción: 
+   Se corrige error al filtrar viajes por operación para que muestre la operación que corresponde.
+
+.. versionchanged:: 10.221.0.0-LTS
+

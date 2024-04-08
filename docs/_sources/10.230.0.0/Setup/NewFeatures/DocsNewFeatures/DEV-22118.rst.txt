@@ -1,0 +1,17 @@
+[DEV-2218] Creación de las entidades para el manejo de patios (Almacenes)
+--------------------------------------------------------------------------
+
+|badge|
+
+.. |badge| raw:: html
+   
+   <span style="background-color: #04a7de; color: white; padding: 4px 8px; border-radius: 4px;">Nueva característica</span>
+
+Módulo: 
+   Setup
+
+Descripción: 
+ Se creó una tabla para almacenar campos que identifican las 'ZonaDepositos' y 'TrackDeposito'.
+
+.. versionadded:: 10.221.0.0-LTS
+

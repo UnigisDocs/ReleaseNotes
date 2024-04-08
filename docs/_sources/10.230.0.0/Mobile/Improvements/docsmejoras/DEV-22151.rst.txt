@@ -1,0 +1,18 @@
+[DEV-22151] Maquetado Apps Mobile ReStyle
+==============================================
+
+|badge|
+
+.. |badge| raw:: html
+   
+   <span style="background-color: #4CAF50; color: white; padding: 4px 8px; border-radius: 4px;">Mejora</span>
+
+Módulo:
+   Mobile
+
+Descripción: 
+  Se realizó un restyling de esta interfaz, donde se mostraban las opciones para descargar nuestras tres aplicaciones: UNIGIS Deliveries, UNIGIS GPS Tracker y UNIGIS Messenger.
+
+.. versionchanged:: 10.220.0.0-LTS
+
+

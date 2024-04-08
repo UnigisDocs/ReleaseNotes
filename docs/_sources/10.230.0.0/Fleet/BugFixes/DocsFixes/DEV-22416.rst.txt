@@ -1,0 +1,17 @@
+[DEV-22416] Copiar Fórmula No Funciona 
+=======================================
+
+|badge|
+
+.. |badge| raw:: html
+   
+   <span style="background-color: #7c04de; color: white; padding: 4px 8px; border-radius: 4px;">Corrección</span>
+
+Módulo: 
+   Fleet
+
+Descripción: 
+ Se corrigió error presentando al momento de copiar una fórmula existente.
+
+.. versionchanged:: 10.221.0.0-LTS
+

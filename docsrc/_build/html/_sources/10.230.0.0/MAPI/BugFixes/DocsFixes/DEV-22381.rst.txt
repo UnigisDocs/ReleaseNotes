@@ -1,0 +1,17 @@
+[DEV-22381] Error al Editar Tipo Documento por Contener Punto en ID
+====================================================================
+
+|badge|
+
+.. |badge| raw:: html
+   
+   <span style="background-color: #7c04de; color: white; padding: 4px 8px; border-radius: 4px;">Corrección</span>
+
+Módulo: 
+   MAPI
+
+Descripción: 
+ Se ajustó campo ID para que permita caracteres.
+
+.. versionadded:: 10.221.0.0-LTS
+

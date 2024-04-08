@@ -1,0 +1,17 @@
+[DEV-22391] ABM Domicilio Orden "Limitaciones de Ingreso"
+==========================================================
+
+|badge|
+
+.. |badge| raw:: html
+   
+   <span style="background-color: #7c04de; color: white; padding: 4px 8px; border-radius: 4px;">Corrección</span>
+
+Módulo: 
+   MAPI
+
+Descripción: 
+ Se corrigió los servicios de la Mapi y los campos agregados previamente. 
+
+.. versionadded:: 10.221.0.0-LTS
+

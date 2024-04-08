@@ -1,0 +1,18 @@
+[DEV-22116] Modificaciones en B2C
+------------------------------------
+
+|badge|
+
+.. |badge| raw:: html
+   
+   <span style="background-color: #04a7de; color: white; padding: 4px 8px; border-radius: 4px;">Nueva característica</span>
+
+Módulo: 
+   B2B
+
+Descripción: 
+   Se corrigió la interfaz de B2B para que se visualice de forma vertical.
+
+.. versionchanged:: 10.221.0.0-LTS
+
+

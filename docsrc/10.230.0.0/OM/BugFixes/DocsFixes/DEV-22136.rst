@@ -1,0 +1,17 @@
+[DEV-22136] Pedidos: No Permite Realizar la Edición Masiva 
+===========================================================
+
+|badge|
+
+.. |badge| raw:: html
+   
+   <span style="background-color: #7c04de; color: white; padding: 4px 8px; border-radius: 4px;">Corrección</span>
+
+Módulo: 
+   Order Management
+
+Descripción: 
+ Se corrigió error al realizar una edición masiva en un pedido. Al presionar el botón de guardar, valida la funcionalidad.
+   
+.. versionchanged:: 10.221.0.0-LTS
+

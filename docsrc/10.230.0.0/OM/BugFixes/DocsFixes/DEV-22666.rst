@@ -1,0 +1,17 @@
+[DEV-22666] Quitar Columnas de Pedidos de OrdenesOT
+==========================================================
+
+|badge|
+
+.. |badge| raw:: html
+   
+   <span style="background-color: #7c04de; color: white; padding: 4px 8px; border-radius: 4px;">Corrección</span>
+
+Módulo: 
+   Order Management
+
+Descripción: 
+    Se corrigió error en columnas para OrdentesOT.
+
+.. versionchanged:: 10.222.0.0-LTS
+

@@ -1,0 +1,18 @@
+[DEV-22321] Service Trace en MAPI
+===================================
+
+|badge|
+
+.. |badge| raw:: html
+   
+   <span style="background-color: #04a7de; color: white; padding: 4px 8px; border-radius: 4px;">Nueva característica</span>
+
+Módulo: 
+   MAPI
+
+Descripción: 
+  Se agregó el Service Trace para la MAPI Custom en el ambiente de TEST.
+
+
+.. versionadded:: 10.221.0.0-LTS
+

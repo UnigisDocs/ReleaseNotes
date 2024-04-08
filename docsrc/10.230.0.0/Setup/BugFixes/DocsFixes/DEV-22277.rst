@@ -1,0 +1,17 @@
+[DEV-22277] Error en Editar Ruta
+=================================================
+
+|badge|
+
+.. |badge| raw:: html
+   
+   <span style="background-color: #7c04de; color: white; padding: 4px 8px; border-radius: 4px;">Corrección</span>
+
+Módulo: 
+   Setup
+
+Descripción: 
+ Se corrigió logs en LogMapServerX.
+
+.. versionchanged:: 10.221.0.0-LTS
+

@@ -1,0 +1,17 @@
+[DEV-21601] Integración con Prestador GPS ITRACK
+==================================================
+
+|badge|
+
+.. |badge| raw:: html
+   
+   <span style="background-color: #04a7de; color: white; padding: 4px 8px; border-radius: 4px;">Nueva característica</span>
+
+Módulo:
+   Setup
+
+Descripción:
+  Se actualizó el GPS Adapter consumiendo la api del prestador e inserte los eventos en el HUB.
+
+.. versionadded:: 10.223.0.0-LTS
+

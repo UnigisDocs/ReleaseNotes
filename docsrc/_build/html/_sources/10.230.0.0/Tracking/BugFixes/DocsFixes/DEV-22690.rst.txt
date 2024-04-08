@@ -1,0 +1,17 @@
+[DEV-22690] Agrega las Paradas de Pickup y Delivery de Manera Invertida y con Error en la Numeración
+=====================================================================================================
+
+|badge|
+
+.. |badge| raw:: html
+   
+   <span style="background-color: #7c04de; color: white; padding: 4px 8px; border-radius: 4px;">Corrección</span>
+
+Módulo: 
+   Tracking
+
+Descripción: 
+ Se corrigió error que se presentaba en la numeración.
+
+.. versionchanged:: 10.223.0.0-LTS
+

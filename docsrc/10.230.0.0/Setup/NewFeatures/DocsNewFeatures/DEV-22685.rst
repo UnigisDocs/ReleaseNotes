@@ -1,0 +1,19 @@
+
+[DEV-22685] Subfuncionalidad Configuración de la Pantalla Zona Deposito (ABM)
+===============================================================================
+
+|badge|
+
+.. |badge| raw:: html
+   
+   <span style="background-color: #04a7de; color: white; padding: 4px 8px; border-radius: 4px;">Nueva característica</span>
+
+Módulo: 
+   Administración del Sistema
+
+Descripción: 
+   Se desarrolla la funcionalidad de asignar una o varias zonas a un deposito existente o creado y habilitado para gestionar citas.
+  
+
+.. versionadded:: 10.222.0.0-LTS
+

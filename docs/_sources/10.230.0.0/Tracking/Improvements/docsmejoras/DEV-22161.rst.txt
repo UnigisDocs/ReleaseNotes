@@ -1,0 +1,17 @@
+[DEV-22161] Maquetado Tracking Histórico de Vehículos
+---------------------------------------------------------
+
+|badge|
+
+.. |badge| raw:: html
+   
+   <span style="background-color: #4CAF50; color: white; padding: 4px 8px; border-radius: 4px;">Mejora</span>
+
+Componente: 
+   Tracking
+
+Descripción: 
+  Se realizarón cambios visuales en código referente a estilos, estados, alineación de botones, texto, entre otras. 
+
+.. versionchanged:: 10.221.0.0-LTS
+

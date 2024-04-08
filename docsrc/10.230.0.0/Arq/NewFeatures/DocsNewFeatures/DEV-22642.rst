@@ -1,0 +1,17 @@
+[DEV-22642] Requerimiento Ampliar Longitud Campo CUIT
+------------------------------------------------------
+
+|badge|
+
+.. |badge| raw:: html
+   
+   <span style="background-color: #04a7de; color: white; padding: 4px 8px; border-radius: 4px;">Nueva característica</span>
+
+Módulo: 
+   Arquitectura
+
+Descripción: 
+  Como mejora, se amplia el campo CUIT en todas las entidades, dado que anteriormente solo aceptaba un tipo de dato char (13).
+
+.. versionadded:: 10.200.21.0-LTS
+

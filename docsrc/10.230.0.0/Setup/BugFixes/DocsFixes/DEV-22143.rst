@@ -1,0 +1,17 @@
+[DEV-22143] Error en Encuestas en WEB, Correctas en Mobile
+==============================================================
+
+|badge|
+
+.. |badge| raw:: html
+   
+   <span style="background-color: #7c04de; color: white; padding: 4px 8px; border-radius: 4px;">Corrección</span>
+
+Módulo: 
+   Setup
+
+Descripción: 
+    Se corrigió error en el flujo de encuestas, cuando una respuesta de selección única no tiene asociada una pregunta siguiente, el flujo no se interrumpe.
+
+.. versionchanged:: 10.221.0.0-LTS
+

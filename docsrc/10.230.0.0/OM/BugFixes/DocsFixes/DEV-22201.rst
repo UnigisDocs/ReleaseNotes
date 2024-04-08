@@ -1,0 +1,17 @@
+[DEV-22201] Viajes - Cuando Ingresamos a la Solapa de Paradas Muestra el Error 500
+===================================================================================
+
+|badge|
+
+.. |badge| raw:: html
+   
+   <span style="background-color: #7c04de; color: white; padding: 4px 8px; border-radius: 4px;">Corrección</span>
+
+Módulo: 
+   Order Management
+
+Descripción: 
+ Se corrigió error al ver información en la solapa de paradas.
+   
+.. versionchanged:: 10.221.0.0-LTS
+

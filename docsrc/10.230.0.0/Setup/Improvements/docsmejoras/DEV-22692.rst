@@ -1,0 +1,18 @@
+[DEV-22692] Mejoras Visuales y de Funcionalidad en Catálogos y Workflows
+=========================================================================
+
+|badge|
+
+.. |badge| raw:: html
+   
+   <span style="background-color: #4CAF50; color: white; padding: 4px 8px; border-radius: 4px;">Mejora</span>
+
+Módulo: 
+   Architecture
+
+Descripción: 
+  Se corrijen funcionaldidades y se realizan mejoras visuales evitando el amontonamiento de botones.
+
+.. versionchanged:: 10.223.0.0-LTS
+
+

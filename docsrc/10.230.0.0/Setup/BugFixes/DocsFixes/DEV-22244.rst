@@ -1,0 +1,17 @@
+[DEV-22244] Flujos de Trabajo - Se Muestran Mal os Márgenes
+============================================================
+
+|badge|
+
+.. |badge| raw:: html
+   
+   <span style="background-color: #7c04de; color: white; padding: 4px 8px; border-radius: 4px;">Corrección</span>
+
+Módulo: 
+   Setup
+
+Descripción: 
+ Se ajustó márgenes dentro de flujos de trabajo.
+
+.. versionchanged:: 10.221.0.0-LTS
+

@@ -1,0 +1,18 @@
+[DEV-22298] Eliminacion de bordes con Colores de Estados en Tablas y Divs
+=========================================================================
+
+|badge|
+
+.. |badge| raw:: html
+   
+   <span style="background-color: #4CAF50; color: white; padding: 4px 8px; border-radius: 4px;">Mejora</span>
+
+Módulo: 
+   Architecture
+
+Descripción: 
+  Mejoras visuales.
+
+.. versionchanged:: 10.221.0.0-LTS
+
+

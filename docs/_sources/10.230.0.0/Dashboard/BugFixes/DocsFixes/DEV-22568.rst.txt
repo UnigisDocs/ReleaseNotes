@@ -1,0 +1,17 @@
+[DEV-22568] Los Mapas de iFrames No Se Ven Completos
+======================================================
+
+|badge|
+
+.. |badge| raw:: html
+   
+   <span style="background-color: #7c04de; color: white; padding: 4px 8px; border-radius: 4px;">Corrección</span>
+
+Módulo: 
+   Dashboard
+
+Descripción: 
+  Se corrigió error en la visualización de los mapas.
+
+.. versionchanged:: 10.221.0.0-LTS
+

@@ -1,0 +1,17 @@
+[DEV-22333] Documentacion TraceEstado no Ordena por Estado Origen y Destino
+============================================================================
+
+|badge|
+
+.. |badge| raw:: html
+   
+   <span style="background-color: #7c04de; color: white; padding: 4px 8px; border-radius: 4px;">Corrección</span>
+
+Módulo: 
+   Fleet
+
+Descripción: 
+ Se corrigió error al ver mas información de los documentos, luego en TraceEstado no permite ordenar por origen destino.
+
+.. versionchanged:: 10.221.0.0-LTS
+

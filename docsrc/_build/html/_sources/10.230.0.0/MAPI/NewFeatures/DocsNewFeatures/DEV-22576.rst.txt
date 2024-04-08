@@ -1,0 +1,18 @@
+[DEV-22576] Permitir Modificar Viaje 'ReferenciaExterna' en Método 'ModificarViaje' 
+====================================================================================
+
+|badge|
+
+.. |badge| raw:: html
+   
+   <span style="background-color: #04a7de; color: white; padding: 4px 8px; border-radius: 4px;">Nueva característica</span>
+
+Módulo: 
+   MAPI
+
+Descripción:  
+  Se desarrolló nuevo método que permite modificar viajes por 'IdViaje'. Esto posibilitará la modificación del campo 'ReferenciaExterna' cada vez que se envíe un mensaje haciendo referencia al campo Viaje 'IdViaje'.
+
+
+.. versionadded:: 10.221.0.0-LTS
+

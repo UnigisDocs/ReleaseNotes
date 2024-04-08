@@ -1,0 +1,18 @@
+[DEV-22652] Selección de Escenarios Históricos
+-----------------------------------------------
+
+|badge|
+
+.. |badge| raw:: html
+   
+   <span style="background-color: #04a7de; color: white; padding: 4px 8px; border-radius: 4px;">Nueva característica</span>
+
+Módulo: 
+   Planning
+
+Descripción: 
+ Se ha observado que seleccionar un escenario histórico resulta en su almacenamiento para crear un nuevo registro. 
+ Sin embargo, se ha determinado que es más efectivo que la selección simplemente traiga el escenario, y su uso, en caso de ser necesario, se realice a través del guardado.
+
+.. versionadded:: 10.221.0.0-LTS
+

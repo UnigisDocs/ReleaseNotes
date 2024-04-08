@@ -1,0 +1,29 @@
+[DEV-22483] Campos Dinámicos (Dyn) en WS de Consultas 
+=======================================================
+
+|badge|
+
+.. |badge| raw:: html
+   
+   <span style="background-color: #04a7de; color: white; padding: 4px 8px; border-radius: 4px;">Nueva característica</span>
+
+Módulo: 
+   MAPI
+
+Descripción:  
+  Se agregaron los siguientes campos en los WS de la MAPI UNIGIS:
+
+Pedido_Dyn:
+ - ConsultarOrdenPedido.
+ - ConsultarOrdenesPedido.
+
+Orden_Dyn:
+ - ConsultarOrdenEntrega.
+
+Viaje_Dyn:
+ - ConsultarViaje.
+ - ConsultarViajePorFechas.
+ - ObtenerViajes.
+
+.. versionadded:: 10.223.0.0-LTS
+

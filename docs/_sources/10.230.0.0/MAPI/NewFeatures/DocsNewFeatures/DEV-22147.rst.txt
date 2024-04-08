@@ -1,0 +1,17 @@
+[DEV-22147] Mejora en la Descarga de PDF para no Tomarlo del Caché
+===================================================================
+
+|badge|
+
+.. |badge| raw:: html
+   
+   <span style="background-color: #04a7de; color: white; padding: 4px 8px; border-radius: 4px;">Nueva característica</span>
+
+Módulo: 
+   MAPI
+
+Descripción: 
+  Se mejoró descarga de archivos PDF.
+
+.. versionadded:: 10.221.0.0-LTS
+

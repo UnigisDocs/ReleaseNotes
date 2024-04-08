@@ -1,0 +1,17 @@
+[DEV-22724] Mejoras B2C
+==========================
+
+|badge|
+
+.. |badge| raw:: html
+   
+   <span style="background-color: #04a7de; color: white; padding: 4px 8px; border-radius: 4px;">Nueva característica</span>
+
+Módulo: 
+   B2C
+
+Descripción: 
+ Dentro de B2C es unicamente accesible via login: Para ello se creo la Application B2C y en la pantalla de configuracion de B2C el parametro “B2CLoginRequired” ( B2CConfiguration ).
+
+.. versionadded:: 10.221.0.0-LTS
+

@@ -1,0 +1,17 @@
+[DEV-22561]  Duplicidad de Proveedor
+=============================================
+
+|badge|
+
+.. |badge| raw:: html
+   
+   <span style="background-color: #7c04de; color: white; padding: 4px 8px; border-radius: 4px;">Corrección</span>
+
+Módulo: 
+   Setup
+
+Descripción: 
+ Se ajustó validación para evitar la duplicacidad de proovedores.
+
+.. versionchanged:: 10.221.0.0-LTS
+

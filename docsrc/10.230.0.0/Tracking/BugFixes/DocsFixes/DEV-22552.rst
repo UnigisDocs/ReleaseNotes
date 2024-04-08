@@ -1,0 +1,17 @@
+[DEV-22552] Error en Búsqueda de Conductor No Determinado
+========================================================================================
+
+|badge|
+
+.. |badge| raw:: html
+   
+   <span style="background-color: #7c04de; color: white; padding: 4px 8px; border-radius: 4px;">Corrección</span>
+
+Módulo: 
+   Tracking
+
+Descripción: 
+ Se corrigió error en busqueda de conductor no determinado.
+
+.. versionchanged:: 10.221.0.0-LTS
+

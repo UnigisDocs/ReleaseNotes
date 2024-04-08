@@ -1,0 +1,17 @@
+[DEV-22295] Viajes - Persona - Trace Estado - Ordenamiento de Columnas
+=========================================================================
+
+|badge|
+
+.. |badge| raw:: html
+   
+   <span style="background-color: #7c04de; color: white; padding: 4px 8px; border-radius: 4px;">Corrección</span>
+
+Módulo: 
+   Fleet
+
+Descripción: 
+ Se corrigió error en el Ordenamiento de las columnas "Estado Origen" y "Estado Destino".
+
+.. versionchanged:: 10.221.0.0-LTS
+

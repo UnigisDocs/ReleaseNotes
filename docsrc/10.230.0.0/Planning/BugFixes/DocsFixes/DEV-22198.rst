@@ -1,0 +1,21 @@
+[DEV-22198] Errores Estéticos
+===============================
+
+|badge|
+
+.. |badge| raw:: html
+   
+   <span style="background-color: #7c04de; color: white; padding: 4px 8px; border-radius: 4px;">Corrección</span>
+
+Módulo: 
+   Planning
+
+Descripción: 
+ Se ajustó errores estéticos:
+   
+- En pantalla completa de ordenes en planificación de jornada el icono de geocodificar.
+- Los botones al importar ordenes o entidades.
+- Al tener una pantalla pequeña y tener el navegador al 100% de zoom, el tamaño del estado de las ordenes en el grafico de la home.
+
+.. versionchanged:: 10.221.0.0-LTS
+

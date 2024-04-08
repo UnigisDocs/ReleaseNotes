@@ -1,0 +1,17 @@
+[DEV-22604] Rutas Exceden Regla de CapacidadDeReciboCedis
+====================================================================
+
+|badge|
+
+.. |badge| raw:: html
+   
+   <span style="background-color: #7c04de; color: white; padding: 4px 8px; border-radius: 4px;">Corrección</span>
+
+Módulo: 
+   Planning
+
+Descripción: 
+ Se ajustó validación de la regla CapacidadDeReciboCedis.
+
+.. versionchanged:: 10.221.0.0-LTS
+

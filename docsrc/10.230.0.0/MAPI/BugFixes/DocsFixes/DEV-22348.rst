@@ -1,0 +1,17 @@
+[DEV-22348] JSON ModificarParadaItem No Modifica Cantidades
+========================================================================
+
+|badge|
+
+.. |badge| raw:: html
+   
+   <span style="background-color: #7c04de; color: white; padding: 4px 8px; border-radius: 4px;">Corrección</span>
+
+Módulo: 
+   MAPI
+
+Descripción: 
+ Se corrigió error en 'ModificarParadaItem' al colocar un valor diferente.
+
+.. versionadded:: 10.221.0.0-LTS
+

@@ -1,0 +1,25 @@
+[DEV-22337] Correcciones ABM Domicilio Orden "Limitaciones de Ingreso"
+========================================================================
+
+|badge|
+
+.. |badge| raw:: html
+   
+   <span style="background-color: #7c04de; color: white; padding: 4px 8px; border-radius: 4px;">Corrección</span>
+
+Módulo: 
+   MAPI
+
+Descripción: 
+ Se agregó en el WS CrearClienteOrden dentro del nodo “DomicilioOrden”:
+ 
+ - PesoMaximoVehiculo.
+ - VolumenMaximoVehiculo.
+ - PalletsMaximoVehiculo.
+ - BultosMaximoVehiculo.
+ - AltoMaximoVehiculo.
+ - AnchoMaximoVehiculo.
+ - ProfundidadMaximaVehiculo.
+
+.. versionadded:: 10.221.0.0-LTS
+

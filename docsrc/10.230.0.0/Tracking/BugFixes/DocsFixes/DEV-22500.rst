@@ -1,0 +1,17 @@
+[DEV-22500] Corrección Label
+========================================================================================
+
+|badge|
+
+.. |badge| raw:: html
+   
+   <span style="background-color: #7c04de; color: white; padding: 4px 8px; border-radius: 4px;">Corrección</span>
+
+Módulo: 
+   Tracking
+
+Descripción: 
+ Se corrigió el Label en tendering ajustandolo visualmente.
+
+.. versionchanged:: 10.221.0.0-LTS
+

@@ -1,0 +1,17 @@
+[DEV-22343] Estandarizar Menú Sidebar
+==========================================
+
+|badge|
+
+.. |badge| raw:: html
+   
+   <span style="background-color: #7c04de; color: white; padding: 4px 8px; border-radius: 4px;">Corrección</span>
+
+Módulo: 
+   Order Management
+
+Descripción: 
+ Adecuaciones visuales y funcionales de estabilización.
+
+.. versionchanged:: 10.221.0.0-LTS
+

@@ -1,0 +1,17 @@
+[DEV-22184]  Citas - Filtros - Error 500
+==========================================
+
+|badge|
+
+.. |badge| raw:: html
+   
+   <span style="background-color: #7c04de; color: white; padding: 4px 8px; border-radius: 4px;">Corrección</span>
+
+Módulo: 
+   Yard
+
+Descripción: 
+   Se corrigió error al querer hacer el ordenamiento de columnas.
+
+.. versionchanged:: 10.221.0.0-LTS
+

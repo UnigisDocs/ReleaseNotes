@@ -1,0 +1,18 @@
+[DEV-22307] No Permite Eiminar Una Tarifa
+=========================================================================
+
+|badge|
+
+.. |badge| raw:: html
+   
+   <span style="background-color: #7c04de; color: white; padding: 4px 8px; border-radius: 4px;">Corrección</span>
+
+Módulo: 
+   Fleet
+
+Descripción: 
+ Se corrigió error que no permitía eliminar una “Tarifa” y nos figuraba el siguiente error.
+ "El estado de la tarifa no permite eliminarla".
+
+.. versionchanged:: 10.221.0.0-LTS
+

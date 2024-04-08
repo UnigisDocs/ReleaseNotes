@@ -1,0 +1,17 @@
+[DEV-22247] Error Motivo de No Ruteo
+=======================================
+
+|badge|
+
+.. |badge| raw:: html
+   
+   <span style="background-color: #7c04de; color: white; padding: 4px 8px; border-radius: 4px;">Corrección</span>
+
+Módulo: 
+   Planning
+
+Descripción: 
+ Se ajustó validación correspondiente de mensajes según el caso de error cuando se realiza un ruteo.
+
+.. versionchanged:: 10.221.0.0-LTS
+

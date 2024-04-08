@@ -1,0 +1,17 @@
+[DEV-22110] ABM Vehículo Requiere Cliente Para Crear Registro
+==============================================================
+
+|badge|
+
+.. |badge| raw:: html
+   
+   <span style="background-color: #7c04de; color: white; padding: 4px 8px; border-radius: 4px;">Corrección</span>
+
+Módulo: 
+   Setup
+
+Descripción: 
+ se corrigió error presentado al crear un vehículo, no se permitía crearlo porque faltaba indicar un cliente en la pestaña "Adicional". Al revisar este campo, se observaba que mostraba el valor "Sin Selección".
+
+.. versionchanged:: 10.221.0.0-LTS
+

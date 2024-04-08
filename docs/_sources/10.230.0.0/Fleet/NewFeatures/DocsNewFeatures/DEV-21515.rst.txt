@@ -1,0 +1,17 @@
+[DEV-21515] Mejoras Actualización Masiva de Tarifas
+================================================================
+
+|badge|
+
+.. |badge| raw:: html
+   
+   <span style="background-color: #04a7de; color: white; padding: 4px 8px; border-radius: 4px;">Nueva característica</span>
+
+Módulo: 
+   Fleet
+
+Descripción: 
+  Se realizan mejoras al módulo de tarifas donde se puede generar la vigencia masivamente agregando el campo "desde" y "hasta".
+
+.. versionadded:: 10.223.0.0-LTS
+

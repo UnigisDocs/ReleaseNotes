@@ -1,0 +1,17 @@
+[DEV-22577] Lentitud al Momento de Cambiar de Estado y Generar Manifiesto RNDC
+========================================================================================
+
+|badge|
+
+.. |badge| raw:: html
+   
+   <span style="background-color: #7c04de; color: white; padding: 4px 8px; border-radius: 4px;">Corrección</span>
+
+Módulo: 
+   Tracking
+
+Descripción: 
+ Se optimiza proceso de cambio de estado.
+
+.. versionchanged:: 10.221.0.0-LTS
+

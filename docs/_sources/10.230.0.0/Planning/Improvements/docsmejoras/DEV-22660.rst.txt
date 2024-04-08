@@ -1,0 +1,18 @@
+[DEV-22660] Errores Visuales 
+==========================================================================
+
+|badge|
+
+.. |badge| raw:: html
+   
+   <span style="background-color: #4CAF50; color: white; padding: 4px 8px; border-radius: 4px;">Mejora</span>
+
+Módulo: 
+   Planning
+
+Descripción: 
+  Se ajustó solapa de “Ordenes” para que se visualice correctamente el botón de “Importar datos”.
+
+.. versionchanged:: 10.222.0.0-LTS
+
+

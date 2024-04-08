@@ -1,0 +1,17 @@
+[DEV-22403]  Campos de la Solapa Paradas que no Respetan el UTC Configurado para el Usuario
+===========================================================================================
+
+|badge|
+
+.. |badge| raw:: html
+   
+   <span style="background-color: #7c04de; color: white; padding: 4px 8px; border-radius: 4px;">Corrección</span>
+
+Módulo: 
+   Order Management
+
+Descripción: 
+ Se corrigió error en el UTC correspondiente al usuario.
+
+.. versionchanged:: 10.221.0.0-LTS
+

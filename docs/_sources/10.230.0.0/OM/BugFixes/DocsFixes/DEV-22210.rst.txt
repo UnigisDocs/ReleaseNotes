@@ -1,0 +1,17 @@
+[DEV-22210] Lentitud Reportada 
+================================
+
+|badge|
+
+.. |badge| raw:: html
+   
+   <span style="background-color: #7c04de; color: white; padding: 4px 8px; border-radius: 4px;">Corrección</span>
+
+Módulo: 
+   Order Management
+
+Descripción: 
+ Optimización en tiempo de consulta.
+   
+.. versionchanged:: 10.221.0.0-LTS
+

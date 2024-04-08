@@ -1,0 +1,17 @@
+[DEV-22409] Ajuste en Reenvió XML Remesa
+==========================================
+
+|badge|
+
+.. |badge| raw:: html
+   
+   <span style="background-color: #7c04de; color: white; padding: 4px 8px; border-radius: 4px;">Corrección</span>
+
+Módulo: 
+   Setup
+
+Descripción: 
+ Se realizó ajuste ya que se había retirado la validación del viaje relacionado.
+
+.. versionchanged:: 10.221.0.0-LTS
+

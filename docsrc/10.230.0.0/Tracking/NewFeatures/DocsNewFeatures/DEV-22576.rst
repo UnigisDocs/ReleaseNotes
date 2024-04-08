@@ -1,0 +1,17 @@
+[DEV-22576] Permitir Modificar 'Viaje.ReferenciaExterna' en metodo 'ModificarViaje' MAPI Logistic
+--------------------------------------------------------------------------------------------------
+
+|badge|
+
+.. |badge| raw:: html
+   
+   <span style="background-color: #04a7de; color: white; padding: 4px 8px; border-radius: 4px;">Nueva característica</span>
+
+Módulo: 
+   Tracking
+
+Descripción: 
+  Se añade un nuevo método que permita modificar viajes por 'IdViaje', de forma tal que pueda ser modificado el campo 'ReferenciaExterna' toda vez que se envíe un mensaje haciendo referencia por el campo 'Viaje.IdViaje'.
+
+.. versionadded:: 10.200.21.0-LTS
+

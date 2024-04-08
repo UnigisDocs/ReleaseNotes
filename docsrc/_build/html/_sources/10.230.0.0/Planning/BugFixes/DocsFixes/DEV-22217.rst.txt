@@ -1,0 +1,18 @@
+[DEV-22217] No Actualiza el Estado de las Ordenes de PickUp de Depósito a Partir del Estado de la Ruta
+=======================================================================================================
+
+|badge|
+
+.. |badge| raw:: html
+   
+   <span style="background-color: #7c04de; color: white; padding: 4px 8px; border-radius: 4px;">Corrección</span>
+
+Módulo: 
+   Planning
+
+Descripción: 
+ Se corrigió error en cambio de estado de la Orden de Pickup de Depósito generadas automáticamente por 'OrdenTipoPedido'.
+ 'CrearDepositosPickups' = 1 a partir del cambio de estado de la Ruta.
+
+.. versionchanged:: 10.221.0.0-LTS
+

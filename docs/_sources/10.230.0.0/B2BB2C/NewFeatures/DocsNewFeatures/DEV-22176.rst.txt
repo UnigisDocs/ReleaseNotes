@@ -1,0 +1,17 @@
+[DEV-22116] Mejoras B2B Agregar Campos Adicionales
+---------------------------------------------------
+
+|badge|
+
+.. |badge| raw:: html
+   
+   <span style="background-color: #04a7de; color: white; padding: 4px 8px; border-radius: 4px;">Nueva característica</span>
+
+Módulo: 
+   B2B
+
+Descripción: 
+    Se agregó nueva funcionalidad para poder configurar la visualización y posición de las columnas en el buscador de pedidos con campos adicionales.
+
+.. versionadded:: 10.221.0.0-LTS
+

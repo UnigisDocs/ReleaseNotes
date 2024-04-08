@@ -1,0 +1,16 @@
+[DEV-22702] Reordenamiento de Paradas Desconsolida las Ordenes
+=====================================================================================================
+
+|badge|
+
+.. |badge| raw:: html
+   
+   <span style="background-color: #7c04de; color: white; padding: 4px 8px; border-radius: 4px;">Corrección</span>
+
+Módulo: 
+   Tracking
+
+Descripción: 
+ Se corrigió el error en el reordenamiento de paradas consolidadas.
+
+.. versionchanged:: 10.223.0.0-LTS

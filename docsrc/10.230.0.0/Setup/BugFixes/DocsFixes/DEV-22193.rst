@@ -1,0 +1,17 @@
+[DEV-22193] Configuraciones del Sistema - Procesos
+=====================================================
+
+|badge|
+
+.. |badge| raw:: html
+   
+   <span style="background-color: #7c04de; color: white; padding: 4px 8px; border-radius: 4px;">Corrección</span>
+
+Módulo: 
+   Setup
+
+Descripción: 
+ Se ajustó botones Buscar y Cancelar.
+
+.. versionchanged:: 10.221.0.0-LTS
+

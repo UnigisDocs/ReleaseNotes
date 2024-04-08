@@ -1,0 +1,21 @@
+[DEV-22519] Errores al guardar Archivos en OM X
+==========================================================
+
+|badge|
+
+.. |badge| raw:: html
+   
+   <span style="background-color: #7c04de; color: white; padding: 4px 8px; border-radius: 4px;">Corrección</span>
+
+Módulo: 
+   Order Management
+
+Descripción: 
+ Se corrigió errores encontrados como: 
+
+ - Al Guardar más de un archivo, el proceso de guardado se ejecuta tantas veces como archivos guardados provocando multiples guardados por archivo. 
+ - Al Guardar más de un archivo, no ejecuta el guardado hasta dar click en guardar tantas veces como archivos se Hallan incluido. 
+ - Al Guardar archivos en la entidad de vehículos, no se está asociando el archivo guardado al vehículo
+
+.. versionchanged:: 10.221.0.0-LTS
+

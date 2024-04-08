@@ -1,0 +1,19 @@
+[DEV-22619] Unificar Contextos en el Cambio de Estado Masivo de Rutas
+----------------------------------------------------------------------
+
+|badge|
+
+.. |badge| raw:: html
+   
+   <span style="background-color: #04a7de; color: white; padding: 4px 8px; border-radius: 4px;">Nueva característica</span>
+
+Módulo: 
+   Planning
+
+Descripción: 
+ Se realizó mejora en el producto para que, al realizar el cambio de estado masivo de las rutas, se disparen tareas en contextos diferentes (MD: consultar 'cambiarEstados' del 'ActionController'). 
+ Es importante que se implemente un rollback solo en la o las rutas que no hayan sido validadas.
+
+
+.. versionadded:: 10.221.0.0-LTS
+

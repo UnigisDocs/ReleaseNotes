@@ -1,0 +1,17 @@
+[DEV-22149] Maquetado Identificar Ordenes no GEOcodificadas
+============================================================
+
+|badge|
+
+.. |badge| raw:: html
+   
+   <span style="background-color: #4CAF50; color: white; padding: 4px 8px; border-radius: 4px;">Mejora</span>
+
+Módulo: 
+   Planning
+
+Descripción: 
+  Se mejoró la visibilidad de las órdenes que no habían sido codificadas en el listado, proporcionando indicadores claros para que los usuarios pudieran comprender su estado y saber cómo codificarlas.
+
+.. versionchanged:: 10.221.0.0-LTS
+

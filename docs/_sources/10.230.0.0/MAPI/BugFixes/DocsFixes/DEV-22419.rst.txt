@@ -1,0 +1,17 @@
+[DEV-22419] Error Métodos 'CrearViajeCompleto Time Zone 1 is Unknown to Source TZDB
+======================================================================================
+
+|badge|
+
+.. |badge| raw:: html
+   
+   <span style="background-color: #7c04de; color: white; padding: 4px 8px; border-radius: 4px;">Corrección</span>
+
+Módulo: 
+   MAPI
+
+Descripción: 
+ Se ajustó error para indicar error en operacion.timezone.
+
+.. versionadded:: 10.221.0.0-LTS
+

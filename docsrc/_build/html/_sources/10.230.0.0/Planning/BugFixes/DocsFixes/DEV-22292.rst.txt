@@ -1,0 +1,17 @@
+[DEV-22292] No permite Desplazarse con la Vertical al Crear/Editar un Cliente
+==============================================================================
+
+|badge|
+
+.. |badge| raw:: html
+   
+   <span style="background-color: #7c04de; color: white; padding: 4px 8px; border-radius: 4px;">Corrección</span>
+
+Módulo: 
+   Planning
+
+Descripción: 
+ Se ajustó barra de desplazamiento dentro de la pantalla de Crear/Editar un cliente.
+
+.. versionchanged:: 10.221.0.0-LTS
+

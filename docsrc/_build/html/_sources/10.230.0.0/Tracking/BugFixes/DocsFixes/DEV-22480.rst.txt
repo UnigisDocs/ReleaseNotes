@@ -1,0 +1,17 @@
+[DEV-22480] Ventanas PopUp No Se Reescalan De Acuerdo con la Información que se Muestra
+========================================================================================
+
+|badge|
+
+.. |badge| raw:: html
+   
+   <span style="background-color: #7c04de; color: white; padding: 4px 8px; border-radius: 4px;">Corrección</span>
+
+Módulo: 
+   Tracking
+
+Descripción: 
+ Se corrigió error en las ventanas pop up de Dispatch.
+
+.. versionchanged:: 10.221.0.0-LTS
+

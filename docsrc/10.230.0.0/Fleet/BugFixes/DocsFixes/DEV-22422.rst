@@ -1,0 +1,17 @@
+[DEV-22422] Tarifar Debug Tiene Problemas de Visualización
+===========================================================
+
+|badge|
+
+.. |badge| raw:: html
+   
+   <span style="background-color: #7c04de; color: white; padding: 4px 8px; border-radius: 4px;">Corrección</span>
+
+Módulo: 
+   Fleet
+
+Descripción: 
+ Se corrigió pantalla desfasada.
+
+.. versionchanged:: 10.221.0.0-LTS
+

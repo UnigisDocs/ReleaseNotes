@@ -1,0 +1,17 @@
+[DEV-22665] Formulario Agregar Parada Sin Margenes
+===========================================================================
+
+|badge|
+
+.. |badge| raw:: html
+   
+   <span style="background-color: #7c04de; color: white; padding: 4px 8px; border-radius: 4px;">Corrección</span>
+
+Módulo: 
+   Tracking
+
+Descripción: 
+ Se ajustó visualización de formulario agregar parada.
+
+.. versionchanged:: 10.222.0.0-LTS
+

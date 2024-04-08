@@ -1,0 +1,17 @@
+[DEV-22385] Estandarizar Menús
+=========================================================================
+
+|badge|
+
+.. |badge| raw:: html
+   
+   <span style="background-color: #4CAF50; color: white; padding: 4px 8px; border-radius: 4px;">Mejora</span>
+
+Módulo: 
+   Architecture
+
+Descripción: 
+  En los menús de Tracking y Planning, se agregó padding y ajuste visualmente de la información.
+
+.. versionchanged:: 10.221.0.0-LTS
+

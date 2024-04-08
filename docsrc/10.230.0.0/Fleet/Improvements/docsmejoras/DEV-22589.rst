@@ -1,0 +1,23 @@
+[DEV-22589] Mejoras Viuales Fleet X - OM X
+============================================================
+
+|badge|
+
+.. |badge| raw:: html
+   
+   <span style="background-color: #4CAF50; color: white; padding: 4px 8px; border-radius: 4px;">Mejora</span>
+
+Módulo: 
+ Fleet
+
+Descripción: 
+ Se realizaron las siguientes mejoras visuales:
+
+ - Cambio de label Padding → Tamaño.
+ - Cambio de icono congelar columnas.
+ - Cambio de font-size en tablas en distintos tamaño de alto de fila.
+ - Corrección de doble scroll.
+
+.. versionchanged:: 10.222.0.0-LTS
+
+

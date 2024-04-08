@@ -1,0 +1,26 @@
+[DEV-22667] Mejora Tab Pedidos
+=========================================
+
+|badge|
+
+.. |badge| raw:: html
+   
+   <span style="background-color: #4CAF50; color: white; padding: 4px 8px; border-radius: 4px;">Mejora</span>
+
+Módulo: 
+   Order Management
+
+Descripción: 
+ Se da formato de lista compacta al tab pedidos, se agregan campos:
+
+ - Descripción.
+ - Referencia Externa.
+ - Referencia WMS.
+ - Proveedor Orden - Referencia Externa.
+ - Proveedor Orden - Razón Social.
+ - Proveedor Orden2 - Referencia Externa.
+ - Proveedor Orden2 - Razón Social.
+
+.. versionchanged:: 10.222.0.0-LTS
+
+

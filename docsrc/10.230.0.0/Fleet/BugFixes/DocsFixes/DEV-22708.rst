@@ -1,0 +1,16 @@
+[DEV-22708] No Esta Permitiendo Cargar FLEET JAVA
+================================================================
+|badge|
+
+.. |badge| raw:: html
+   
+   <span style="background-color: #7c04de; color: white; padding: 4px 8px; border-radius: 4px;">Corrección</span>
+
+Módulo: 
+   Fleet
+
+Descripción: 
+  Se corrigió error que no permitia cargar fleet java.
+
+.. versionadded:: 10.223.0.0-LTS
+

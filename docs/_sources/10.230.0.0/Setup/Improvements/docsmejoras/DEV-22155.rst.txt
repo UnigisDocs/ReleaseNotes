@@ -1,0 +1,17 @@
+[DEV-22155] Responsive de ABM e integrations center
+============================================================
+
+|badge|
+
+.. |badge| raw:: html
+   
+   <span style="background-color: #4CAF50; color: white; padding: 4px 8px; border-radius: 4px;">Mejora</span>
+
+Módulo:
+   Setup
+
+Descripción: 
+  Se realizarón adecuaciones para el ABM en responsive de igual manera en integrations center.
+
+.. versionchanged:: 10.221.0.0-LTS
+

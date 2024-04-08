@@ -1,0 +1,18 @@
+[DEV-22209] Mejora Agrupador Guías
+-----------------------------------
+
+|badge|
+
+.. |badge| raw:: html
+   
+   <span style="background-color: #04a7de; color: white; padding: 4px 8px; border-radius: 4px;">Nueva característica</span>
+
+
+Módulo:
+   Administración del Sistema
+
+Descripción:
+ En la tabla de 'TipoGuiaCondicion' se agrega el campo de 'IdCategoriaViaje' para identificar que tipo de guia crear.
+
+.. versionadded:: 10.221.0.0-LTS
+

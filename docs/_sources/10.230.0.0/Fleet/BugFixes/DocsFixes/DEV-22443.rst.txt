@@ -1,0 +1,17 @@
+[DEV-22443] Creación de Agrupadores Paradas - Guías
+====================================================
+
+|badge|
+
+.. |badge| raw:: html
+   
+   <span style="background-color: #7c04de; color: white; padding: 4px 8px; border-radius: 4px;">Corrección</span>
+
+Módulo: 
+   Fleet
+
+Descripción: 
+ Se corrigió error en la creación de guías de paradas.
+
+.. versionchanged:: 10.221.0.0-LTS
+

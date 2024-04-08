@@ -1,0 +1,22 @@
+[DEV-22475] Mejora visualización Información Orden en Mapa y Filtro en Tabla
+=============================================================================
+
+|badge|
+
+.. |badge| raw:: html
+   
+   <span style="background-color: #4CAF50; color: white; padding: 4px 8px; border-radius: 4px;">Mejora</span>
+
+Módulo: 
+   Planning
+
+Descripción: 
+ Al seleccionar Ordenes en el mapa, se le añade información adicional (en caso de existir):
+
+ 1. Cantidad de Productos: Se contabilizan la cantidad de Productos distintos en la Orden según sus Ordenes Items.
+
+ 2. Fecha de Entrega: Se considera la fecha de entrega del Pedido asociado a la Orden.
+
+.. versionchanged:: 10.221.0.0-LTS
+
+   

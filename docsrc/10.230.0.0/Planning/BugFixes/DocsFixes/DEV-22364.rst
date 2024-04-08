@@ -1,0 +1,17 @@
+[DEV-22364] Omitir Regreso a Deposito con Segundas Vueltas
+=============================================================
+
+|badge|
+
+.. |badge| raw:: html
+   
+   <span style="background-color: #7c04de; color: white; padding: 4px 8px; border-radius: 4px;">Corrección</span>
+
+Módulo: 
+   Planning
+
+Descripción: 
+ En los campos de registro de tipo de Vehículo se agregó el campo "Omitir Regreso a Deposito".
+
+.. versionchanged:: 10.221.0.0-LTS
+

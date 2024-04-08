@@ -1,0 +1,18 @@
+[DEV-22593] Mejora Limitaciones
+---------------------------------
+
+|badge|
+
+.. |badge| raw:: html
+   
+   <span style="background-color: #04a7de; color: white; padding: 4px 8px; border-radius: 4px;">Nueva característica</span>
+
+Módulo: 
+   Planning
+
+Descripción: 
+ Se mejoró las limitaciones con el fin de brindar un correcto funcionamiento dentro del proceso de armado de rutas.
+
+
+.. versionadded:: 10.221.0.0-LTS
+

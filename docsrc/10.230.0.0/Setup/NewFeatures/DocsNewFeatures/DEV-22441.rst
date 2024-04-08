@@ -1,0 +1,19 @@
+
+[DEV-22441] Gestion de Citas - Pedido RequiereBultado
+===============================================================================
+
+|badge|
+
+.. |badge| raw:: html
+   
+   <span style="background-color: #04a7de; color: white; padding: 4px 8px; border-radius: 4px;">Nueva característica</span>
+
+Módulo: 
+   Administración del Sistema
+
+Descripción: 
+   Mejoras para especificar en el caso de portal citas si un producto requiere información de abultado (medidas, peso, etc.).
+  
+
+.. versionadded:: 10.222.0.0-LTS
+

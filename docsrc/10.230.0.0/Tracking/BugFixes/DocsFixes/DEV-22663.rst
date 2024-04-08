@@ -1,0 +1,17 @@
+[DEV-22663] Agregar Paradas en Quick Mode - No Tiene Función Botón Agregar
+===========================================================================
+
+|badge|
+
+.. |badge| raw:: html
+   
+   <span style="background-color: #7c04de; color: white; padding: 4px 8px; border-radius: 4px;">Corrección</span>
+
+Módulo: 
+   Tracking
+
+Descripción: 
+ Se corrigió funcionalidad del botón Agregar.
+
+.. versionchanged:: 10.222.0.0-LTS
+

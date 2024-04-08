@@ -1,0 +1,18 @@
+[DEV-22575] Botones Outline
+=============================
+
+|badge|
+
+.. |badge| raw:: html
+   
+   <span style="background-color: #4CAF50; color: white; padding: 4px 8px; border-radius: 4px;">Mejora</span>
+
+Módulo: 
+   Planning
+
+Descripción: 
+  Los botones dentro del módulo con outline.    
+
+.. versionchanged:: 10.221.0.0-LTS
+
+   

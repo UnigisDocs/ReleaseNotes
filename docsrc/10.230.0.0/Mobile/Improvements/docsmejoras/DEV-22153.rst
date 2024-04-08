@@ -1,0 +1,17 @@
+[DEV-22153] Eliminar Logs y Warnings
+=======================================
+
+|badge|
+
+.. |badge| raw:: html
+   
+   <span style="background-color: #4CAF50; color: white; padding: 4px 8px; border-radius: 4px;">Mejora</span>
+
+Módulo:
+   Mobile
+
+Descripción: 
+  Se eliminaron logs y warnings para no generar confusión al momento de revisar los logs de debug.
+
+.. versionchanged:: 10.220.0.0-LTS
+

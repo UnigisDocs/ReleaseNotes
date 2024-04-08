@@ -1,0 +1,17 @@
+[DEV-22579] Error al Guardar Fecha de Creación al Dar de Alta RecursoActividad
+========================================================================================
+
+|badge|
+
+.. |badge| raw:: html
+   
+   <span style="background-color: #7c04de; color: white; padding: 4px 8px; border-radius: 4px;">Corrección</span>
+
+Módulo: 
+   Tracking
+
+Descripción: 
+ Se corrigió error al guardar fecha de creación al dar de alta RecursoActividad.
+
+.. versionchanged:: 10.221.0.0-LTS
+

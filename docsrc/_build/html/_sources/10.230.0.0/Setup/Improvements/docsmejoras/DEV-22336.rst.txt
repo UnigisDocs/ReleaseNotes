@@ -1,0 +1,17 @@
+[DEV-22336] Correcciones Visuales de ABM de 'DomicilioOrden'
+=============================================================
+
+|badge|
+
+.. |badge| raw:: html
+   
+   <span style="background-color: #4CAF50; color: white; padding: 4px 8px; border-radius: 4px;">Mejora</span>
+
+Módulo:
+   Setup
+
+Descripción: 
+  Se corrigió error en el ABM de 'DomicilioOrden'.
+
+.. versionchanged:: 10.221.0.0-LTS
+

@@ -1,0 +1,17 @@
+[DEV-22670] Problema Permisos Portal Transporte
+===============================================================
+
+|badge|
+
+.. |badge| raw:: html
+   
+   <span style="background-color: #7c04de; color: white; padding: 4px 8px; border-radius: 4px;">Corrección</span>
+
+Módulo: 
+   Setup
+
+Descripción: 
+ Se corrigió error que se presentaba al heredar permisos desde grupo en portal transporte.
+
+.. versionchanged:: 10.222.0.0-LTS
+

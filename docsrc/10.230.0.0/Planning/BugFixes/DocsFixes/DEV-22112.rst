@@ -1,0 +1,17 @@
+[DEV-22112] Action de Estado de Ruta No Informa Correctamente el Impedimento de Eliminar
+========================================================================================
+
+|badge|
+
+.. |badge| raw:: html
+   
+   <span style="background-color: #7c04de; color: white; padding: 4px 8px; border-radius: 4px;">Corrección</span>
+
+Módulo: 
+   Planning
+
+Descripción: 
+ Se corrigió notificación de eliminación en el action de Estado Ruta.
+   
+.. versionchanged:: 10.221.0.0-LTS
+

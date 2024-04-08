@@ -1,0 +1,18 @@
+[DEV-22491] Mejoras ETA
+------------------------
+
+|badge|
+
+.. |badge| raw:: html
+   
+   <span style="background-color: #04a7de; color: white; padding: 4px 8px; border-radius: 4px;">Nueva característica</span>
+
+Módulo: 
+   Planning
+
+Descripción: 
+vSe realizaron mejoras al tiempo estimado de arribo.
+
+
+.. versionadded:: 10.221.0.0-LTS
+

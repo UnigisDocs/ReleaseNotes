@@ -1,0 +1,18 @@
+[DEV-22153] Maquetado Quitar el Color relleno de estados
+============================================================
+
+|badge|
+
+.. |badge| raw:: html
+   
+   <span style="background-color: #4CAF50; color: white; padding: 4px 8px; border-radius: 4px;">Mejora</span>
+
+Módulo:
+   Setup
+
+Descripción: 
+  A todos los estados de un viaje, parada, etc., se les eliminó el relleno, dejando solo el contorno y manteniendo los colores asignados.
+
+.. versionchanged:: 10.221.0.0-LTS
+
+

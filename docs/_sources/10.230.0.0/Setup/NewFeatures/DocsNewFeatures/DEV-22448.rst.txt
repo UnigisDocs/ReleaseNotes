@@ -1,0 +1,17 @@
+[DEV-22448] ABM Estado Slot y su Workflow
+------------------------------------------
+
+|badge|
+
+.. |badge| raw:: html
+   
+   <span style="background-color: #04a7de; color: white; padding: 4px 8px; border-radius: 4px;">Nueva característica</span>
+
+Módulo:
+   Administración del Sistema
+
+Descripción:
+ Se desarrolló workflow de los estados para los slots.
+
+.. versionadded:: 10.221.0.0-LTS
+

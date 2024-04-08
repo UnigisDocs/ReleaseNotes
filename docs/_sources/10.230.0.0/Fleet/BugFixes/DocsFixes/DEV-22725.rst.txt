@@ -1,0 +1,16 @@
+[DEV-22725] Homologación Campo Web Tracking con Fleet
+================================================================
+|badge|
+
+.. |badge| raw:: html
+   
+   <span style="background-color: #7c04de; color: white; padding: 4px 8px; border-radius: 4px;">Corrección</span>
+
+Módulo: 
+   Fleet
+
+Descripción: 
+  Se ajustó en el modulo fleet para realizar configuración de tarifas apartir del campo tipo carga.
+
+.. versionadded:: 10.223.0.0-LTS
+

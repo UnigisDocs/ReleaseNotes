@@ -1,0 +1,17 @@
+[DEV-22365] Nombre Botón Corrido
+===================================
+
+|badge|
+
+.. |badge| raw:: html
+   
+   <span style="background-color: #7c04de; color: white; padding: 4px 8px; border-radius: 4px;">Corrección</span>
+
+Módulo: 
+   Setup
+
+Descripción: 
+ Se ajustó la visualización en el engranaje de un registro, donde el nombre del botón del lado derecho estaba corrido, lo que impedía ver correctamente el nombre.
+
+.. versionchanged:: 10.221.0.0-LTS
+

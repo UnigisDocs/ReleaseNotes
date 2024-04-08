@@ -1,0 +1,18 @@
+[DEV-22074] Pedidos - Items - Informacion - Menu Kebab
+==============================================================
+
+|badge|
+
+.. |badge| raw:: html
+   
+   <span style="background-color: #7c04de; color: white; padding: 4px 8px; border-radius: 4px;">Corrección</span>
+
+Módulo: 
+   Order Management
+
+Descripción: 
+ Correción a menú Kebab, al editar un pedido en las pestañas items y bitacora se solapaban, impidiendo al usuario realizar los cambios deseados. 
+
+.. versionchanged:: 10.221.0.0-LTS
+
+

@@ -1,0 +1,18 @@
+[DEV-22109] Mejorar Estilos en Fleet X
+============================================================
+
+|badge|
+
+.. |badge| raw:: html
+   
+   <span style="background-color: #4CAF50; color: white; padding: 4px 8px; border-radius: 4px;">Mejora</span>
+
+Módulo: 
+ Fleet
+
+Descripción: 
+  Se refinaron y actualizaron los estilos y la apariencia de las secciones de Agregar en Ordenes, Pedidos, Ordenes de Trabajo y Viaje de Fleet X para lograr una interfaz más atractiva y coherente con el resto de la aplicación.
+
+.. versionchanged:: 10.221.0.0-LTS
+
+

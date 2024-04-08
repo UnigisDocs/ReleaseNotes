@@ -1,0 +1,17 @@
+[DEV-22369] No Integra en el Reenvió
+=====================================
+
+|badge|
+
+.. |badge| raw:: html
+   
+   <span style="background-color: #7c04de; color: white; padding: 4px 8px; border-radius: 4px;">Corrección</span>
+
+Módulo: 
+   Setup
+
+Descripción: 
+ Se corrigió error al ingresar fecha para licencia vigente para el conductor que involucran manifiestos nacionales o municipales.
+
+.. versionchanged:: 10.221.0.0-LTS
+

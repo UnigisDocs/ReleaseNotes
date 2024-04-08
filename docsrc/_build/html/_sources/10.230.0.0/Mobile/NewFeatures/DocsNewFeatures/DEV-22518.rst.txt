@@ -1,0 +1,19 @@
+[DEV-22518] Notificación de Archivos Adjuntos
+=================================================
+|badge|
+
+.. |badge| raw:: html
+   
+   <span style="background-color: #04a7de; color: white; padding: 4px 8px; border-radius: 4px;">Nueva característica</span>
+    
+Módulo
+    Rendición de Recursos
+
+**Descripción**
+
+.. container:: justified-text
+
+ Esta funcionalidad permitirá al usuario enviar las evidencias tomadas con UNIGIS Mobile y los archivos de facturación mediante una notificación vía email al correo configurado del cliente, una vez que se cambie un estado en la parada.
+
+.. versionadded:: 10.223.0.0-LTS
+

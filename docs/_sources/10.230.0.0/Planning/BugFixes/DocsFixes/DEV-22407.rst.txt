@@ -1,0 +1,17 @@
+[DEV-22407] No Es Posible Reordenar Columnas en Pestaña Rutas
+==============================================================
+
+|badge|
+
+.. |badge| raw:: html
+   
+   <span style="background-color: #7c04de; color: white; padding: 4px 8px; border-radius: 4px;">Corrección</span>
+
+Módulo: 
+   Planning
+
+Descripción: 
+ Se corrigió error en el reordenamiento de columnas en pestaña rutas.
+
+.. versionchanged:: 10.221.0.0-LTS
+

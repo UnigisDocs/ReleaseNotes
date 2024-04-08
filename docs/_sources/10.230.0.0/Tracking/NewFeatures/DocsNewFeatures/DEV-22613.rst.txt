@@ -1,0 +1,18 @@
+[DEV-22613] Mejora en Filtrado por Estado al Filtrar Paradas al Analizar
+--------------------------------------------------------------------------
+
+|badge|
+
+.. |badge| raw:: html
+   
+   <span style="background-color: #04a7de; color: white; padding: 4px 8px; border-radius: 4px;">Nueva característica</span>
+
+Módulo: 
+   Tracking
+
+Descripción: 
+  Actualmente, se filtran las paradas con estado anulado y visita real iniciada. La filtración por estado anulado está correcta, pero no la segunda. 
+  Se modifica esta validación para incluir el estado de visita real (EstadoParada.VisitaReal), y se agregan los estados de Realizado, Realizado Parcial y No Realizado.
+
+.. versionadded:: 10.200.21.0-LTS
+

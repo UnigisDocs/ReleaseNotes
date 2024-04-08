@@ -1,0 +1,16 @@
+[DEV-22342] Estilos en Iconos en Detalles de Parada en Tracking
+----------------------------------------------------------------
+
+|badge|
+
+.. |badge| raw:: html
+   
+   <span style="background-color: #4CAF50; color: white; padding: 4px 8px; border-radius: 4px;">Mejora</span>
+
+Componente: 
+   Tracking
+
+Descripción: 
+  Se verificó que los iconos no fueran imágenes y, en caso de serlo, se reemplazaron por iconos. Se corrigió el formato en negrita de los iconos y se agregaron efectos hover y tooltips. Estas correcciones se aplicaron en todas las pestañas de detalle dentro de los módulos de Tracking, Routing y el resto de los módulos.
+
+.. versionchanged:: 10.221.0.0-LTS

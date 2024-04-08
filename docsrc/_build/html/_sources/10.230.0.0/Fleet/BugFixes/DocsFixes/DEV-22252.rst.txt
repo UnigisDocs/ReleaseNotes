@@ -1,0 +1,17 @@
+[DEV-22252] Visibilidad de Columna
+===================================
+
+|badge|
+
+.. |badge| raw:: html
+   
+   <span style="background-color: #7c04de; color: white; padding: 4px 8px; border-radius: 4px;">Corrección</span>
+
+Módulo: 
+   Fleet
+
+Descripción: 
+ Se corrigió visibilidad de la columna Referencia Externa.
+
+.. versionchanged:: 10.221.0.0-LTS
+

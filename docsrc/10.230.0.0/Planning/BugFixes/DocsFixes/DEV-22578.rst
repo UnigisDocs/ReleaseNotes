@@ -1,0 +1,17 @@
+[DEV-22578] Deposito de Salida / Llegada iguales. Ventana Horaria Ordenes en Múltiples Días
+===========================================================================================
+
+|badge|
+
+.. |badge| raw:: html
+   
+   <span style="background-color: #7c04de; color: white; padding: 4px 8px; border-radius: 4px;">Corrección</span>
+
+Módulo: 
+   Planning
+
+Descripción: 
+ Se corrigió errores de ventana horarias para múltiples días.
+
+.. versionchanged:: 10.221.0.0-LTS
+

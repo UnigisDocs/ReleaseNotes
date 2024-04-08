@@ -1,0 +1,18 @@
+[DEV-22216] Visualización de Reportes No Respeta Campo Columnas
+================================================================
+
+|badge|
+
+.. |badge| raw:: html
+   
+   <span style="background-color: #7c04de; color: white; padding: 4px 8px; border-radius: 4px;">Corrección</span>
+
+Módulo: 
+   Dashboard
+
+Descripción: 
+  Se ajutan reportes que tienen asignado un valor de columna para que respete el tamaño configurado.
+
+.. versionchanged:: 10.221.0.0-LTS
+
+

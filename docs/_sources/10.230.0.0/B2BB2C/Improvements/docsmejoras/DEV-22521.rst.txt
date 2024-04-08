@@ -1,0 +1,17 @@
+[DEV-22521] Reemplazar Icono de Gift por Home en B2C
+-----------------------------------------------------
+
+|badge|
+
+.. |badge| raw:: html
+   
+   <span style="background-color: #04a7de; color: white; padding: 4px 8px; border-radius: 4px;">Nueva característica</span>
+
+Módulo: 
+   B2C
+
+Descripción: 
+   En B2C, se identificó que el icono de la posición del domicilio era un "gift". Se realizó el cambio para que se viera como el icono de ETA, que es un "HOME".
+
+.. versionchanged:: 10.221.0.0-LTS
+

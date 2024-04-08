@@ -1,0 +1,17 @@
+[DEV-22677] No Se Autocompletan Datos de Carga al Crear un Pedido desde OT Item
+==================================================================================
+
+|badge|
+
+.. |badge| raw:: html
+   
+   <span style="background-color: #7c04de; color: white; padding: 4px 8px; border-radius: 4px;">Corrección</span>
+
+Módulo: 
+   Order Management
+
+Descripción: 
+    Se corrigió error que no permitia autocompletar datos de carga al crear un pedido desde (OT) Ítem.
+
+.. versionchanged:: 10.223.0.0-LTS
+

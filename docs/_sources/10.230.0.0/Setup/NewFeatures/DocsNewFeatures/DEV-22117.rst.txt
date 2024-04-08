@@ -1,0 +1,21 @@
+[DEV-22117] Mejoras en Courier Adapter
+---------------------------------------
+
+|badge|
+
+.. |badge| raw:: html
+   
+   <span style="background-color: #04a7de; color: white; padding: 4px 8px; border-radius: 4px;">Nueva característica</span>
+
+Módulo:
+   Administración del Sistema
+
+Descripción:
+ Los nuevos campos se agregan al ABM de paqueteras:
+
+ 1. Domicilio Orden.
+ 2. Entidad.
+ 3. Campo Viaje.
+
+.. versionadded:: 10.221.0.0-LTS
+

@@ -17,7 +17,6 @@ release = ''
 extensions = ['sphinx.ext.intersphinx','sphinx.builders.html','sphinx.ext.ifconfig','sphinx_panels',]
 templates_path = ['_templates']
 exclude_patterns = ['_build', 'Thumbs.db', '.DS_Store']
-suppress_warnings = ['toc.excluded']
 
 # -- Options for HTML output -------------------------------------------------
 # https://www.sphinx-doc.org/en/master/usage/configuration.html#options-for-html-output

@@ -1,0 +1,21 @@
+[DEV-22116] Modificaciones en B2C
+------------------------------------
+
+|badge|
+
+.. |badge| raw:: html
+   
+   <span style="background-color: #04a7de; color: white; padding: 4px 8px; border-radius: 4px;">Nueva característica</span>
+
+Módulo: 
+   B2C
+
+Descripción: 
+ 1. Cambios en adapter.
+
+ 2. B2C sin login para ver POD.
+
+ 3. Movimiento en modo demo de camión.
+
+.. versionadded:: 10.221.0.0-LTS
+

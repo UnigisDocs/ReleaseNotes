@@ -5,11 +5,11 @@
 
 .. raw:: html
 
-    <h1 style="font-weight: 400;">Notas de Lanzamiento</h1>
+    <h1 style="font-weight: 400;">Release Notes</h1>
 
 **¡Bienvenido a las notas de lanzamiento de UNIGIS TMS!**
 
-    Estamos emocionados de presentarles la última versión de nuestro producto, que incluye una serie de nuevas características, mejoras de rendimiento, correcciones de errores y funcionalidades obsoletas. 
+    Estamos emocionados de presentarles la última versión de nuestro producto, que incluye una serie de nuevas características, mejoras, correcciones de errores y funcionalidades obsoletas. 
 
 ~~~~~~~~~~
  Versiones 
@@ -22,20 +22,6 @@
 .. toctree::
    :maxdepth: 1
 
-   10.221.0.0-LTS/index0.rst
+   10.230.0.0/Index230.rst
 
-.. raw:: html
 
-   <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@24,400,0,0">
-
-.. raw:: html
-
-   <script>
-     if (document.documentElement.classList.contains('theme-dark')) {
-       document.querySelector('.light-mode-icon').style.display = 'none';
-       document.querySelector('.dark-mode-icon').style.display = 'inline';
-     } else {
-       document.querySelector('.light-mode-icon').style.display = 'inline';
-       document.querySelector('.dark-mode-icon').style.display = 'none';
-     }
-   </script>

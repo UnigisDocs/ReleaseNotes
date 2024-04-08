@@ -1,0 +1,17 @@
+[DEV-22515] Adapter de Importación de Archivos
+-----------------------------------------------
+
+|badge|
+
+.. |badge| raw:: html
+   
+   <span style="background-color: #04a7de; color: white; padding: 4px 8px; border-radius: 4px;">Nueva característica</span>
+
+Módulo: 
+   Arquitectura
+
+Descripción: 
+  Para mejorar la comunicación entre Avery y sus clientes, se buscó que el usuario pueda obtener de forma inmediata las evidencias y archivos de facturación posteriores a la entrega.
+
+.. versionadded:: 10.200.21.0-LTS
+

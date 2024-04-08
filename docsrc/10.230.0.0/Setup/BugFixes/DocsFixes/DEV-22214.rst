@@ -1,0 +1,17 @@
+[DEV-22214] Dashboard - No Aparece Seleccionable Opción "OM" en Clasificación
+==============================================================================
+
+|badge|
+
+.. |badge| raw:: html
+   
+   <span style="background-color: #7c04de; color: white; padding: 4px 8px; border-radius: 4px;">Corrección</span>
+
+Módulo: 
+   Setup
+
+Descripción: 
+ Se ajustó menú de edición.
+
+.. versionchanged:: 10.221.0.0-LTS
+

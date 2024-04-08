@@ -1,0 +1,17 @@
+[DEV-22591] Lentitud al Momento de Cambiar de Estado y Generar Manifiesto RNDC | Corrección al Asignar VehiculoDisponible MAPI
+==============================================================================================================================
+
+|badge|
+
+.. |badge| raw:: html
+   
+   <span style="background-color: #7c04de; color: white; padding: 4px 8px; border-radius: 4px;">Corrección</span>
+
+Módulo: 
+   Tracking
+
+Descripción: 
+ Se optimiza proceso de correción al asignar vehículos.
+
+.. versionchanged:: 10.221.0.0-LTS
+

@@ -1,0 +1,17 @@
+[DEV-22107] Modificaciones Bitácora Categoría Viaje - No se registran en Fleet
+================================================================================
+
+|badge|
+
+.. |badge| raw:: html
+   
+   <span style="background-color: #7c04de; color: white; padding: 4px 8px; border-radius: 4px;">Corrección</span>
+
+Módulo: 
+   Fleet
+
+Descripción: 
+ Se corrigió error presentado al editar la categoría de un viaje desde Fleet.
+
+.. versionchanged:: 10.221.0.0-LTS
+

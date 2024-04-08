@@ -1,0 +1,17 @@
+[DEV-22693] Vehículos Sin Reportar
+===============================================
+
+|badge|
+
+.. |badge| raw:: html
+   
+   <span style="background-color: #7c04de; color: white; padding: 4px 8px; border-radius: 4px;">Corrección</span>
+
+Módulo: 
+   Mobile
+
+Descripción: 
+ Se corrigió errores que se presentaban en monitoreo con los vehículos con el proveedor GPS DISATEL.
+
+.. versionadded:: 10.223.0.0-LTS
+

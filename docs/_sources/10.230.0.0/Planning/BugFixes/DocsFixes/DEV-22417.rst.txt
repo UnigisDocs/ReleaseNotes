@@ -1,0 +1,17 @@
+[DEV-22417] Límite dígitos Orden.GrupoRuta en Front Editar Ordenes
+====================================================================
+
+|badge|
+
+.. |badge| raw:: html
+   
+   <span style="background-color: #7c04de; color: white; padding: 4px 8px; border-radius: 4px;">Corrección</span>
+
+Módulo: 
+   Planning
+
+Descripción: 
+ Se ajustó campo 'Grupo Rutas' a 5 dígitos.
+
+.. versionchanged:: 10.221.0.0-LTS
+

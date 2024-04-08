@@ -1,0 +1,17 @@
+[DEV-22423] Errores de Visualización en Dashboard
+===================================================
+
+|badge|
+
+.. |badge| raw:: html
+   
+   <span style="background-color: #7c04de; color: white; padding: 4px 8px; border-radius: 4px;">Corrección</span>
+
+Módulo: 
+   Dashboard
+
+Descripción: 
+  Se ajustó tamaño de Dashboard.
+
+.. versionchanged:: 10.221.0.0-LTS
+

@@ -1,0 +1,17 @@
+[DEV-22687] No Se Registra el Campo "Fecha de Recolección" Cuando se Crea un Pedido desde OT Item
+==================================================================================================
+
+|badge|
+
+.. |badge| raw:: html
+   
+   <span style="background-color: #7c04de; color: white; padding: 4px 8px; border-radius: 4px;">Corrección</span>
+
+Módulo: 
+   Order Management
+
+Descripción: 
+    Se corrigió error en campo Fecha de Recolección cuando se crea un pedido desde (OT) Item.
+
+.. versionchanged:: 10.222.0.0-LTS
+

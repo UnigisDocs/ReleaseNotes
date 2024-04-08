@@ -1,0 +1,18 @@
+[DEV-22191]  Se Coloca Apikey Inválida y No Devuelve Código ERROR_API_KEY 
+===========================================================================
+
+|badge|
+
+.. |badge| raw:: html
+   
+   <span style="background-color: #7c04de; color: white; padding: 4px 8px; border-radius: 4px;">Corrección</span>
+
+Módulo: 
+   MAPI
+
+Descripción: 
+  Se corrigió error en el método 'CrearViajeCompleto' para que valide y devuelva un response.
+
+
+.. versionadded:: 10.221.0.0-LTS
+

@@ -1,0 +1,17 @@
+[DEV-22478] Filtros por Columnas: #Ruta en ColumnaRuta
+====================================================================
+
+|badge|
+
+.. |badge| raw:: html
+   
+   <span style="background-color: #7c04de; color: white; padding: 4px 8px; border-radius: 4px;">Corrección</span>
+
+Módulo: 
+   Planning
+
+Descripción: 
+ Se ajustó la tabla Columna Rutas.
+
+.. versionchanged:: 10.221.0.0-LTS
+

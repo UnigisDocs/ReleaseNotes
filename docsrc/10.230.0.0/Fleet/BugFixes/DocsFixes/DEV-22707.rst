@@ -1,0 +1,16 @@
+[DEV-22707] Validación Tipo de Incidencia - Requiere Proveedor
+================================================================
+|badge|
+
+.. |badge| raw:: html
+   
+   <span style="background-color: #7c04de; color: white; padding: 4px 8px; border-radius: 4px;">Corrección</span>
+
+Módulo: 
+   Fleet
+
+Descripción: 
+  Se realizan mejoras para la funcionalidad de seleccionar un proovedor cuando el tipo de incidencia es requerida.
+
+.. versionadded:: 10.223.0.0-LTS
+

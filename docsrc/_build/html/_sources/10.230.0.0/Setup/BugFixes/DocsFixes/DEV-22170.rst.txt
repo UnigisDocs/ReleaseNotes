@@ -1,0 +1,17 @@
+[DEV-22170] Problemas de Seguridad Catálogos Dinámico
+=====================================================
+
+|badge|
+
+.. |badge| raw:: html
+   
+   <span style="background-color: #7c04de; color: white; padding: 4px 8px; border-radius: 4px;">Corrección</span>
+
+Módulo: 
+   Setup
+
+Descripción: 
+ Se agregó validación de seguridad dentro de los catálogos dinámicos.
+
+.. versionchanged:: 10.221.0.0-LTS
+

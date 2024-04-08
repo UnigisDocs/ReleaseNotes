@@ -1,0 +1,18 @@
+[DEV-22069] Mejora en Lectura de Campos para Geo Interactiva
+-----------------------------------------------------------------
+
+|badge|
+
+.. |badge| raw:: html
+   
+   <span style="background-color: #4CAF50; color: white; padding: 4px 8px; border-radius: 4px;">Mejora</span>
+
+Componente: 
+   Tracking
+
+Descripción: 
+  Se renovó el diseño del módulo de Tracking para alinear la apariencia con los estilos visuales.
+
+.. versionchanged:: 10.221.0.0-LTS
+
+

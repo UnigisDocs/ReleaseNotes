@@ -1,0 +1,17 @@
+[DEV-22648] Reubicación Restriccion Ambiental en Configuración Routing
+=======================================================================
+
+|badge|
+
+.. |badge| raw:: html
+   
+   <span style="background-color: #7c04de; color: white; padding: 4px 8px; border-radius: 4px;">Corrección</span>
+
+Módulo: 
+   Planning
+
+Descripción: 
+ Se realizaron ajustes a las restricciones ambientales dentro de la configuración de routing.
+
+.. versionchanged:: 10.221.0.0-LTS
+

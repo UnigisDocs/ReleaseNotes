@@ -1,0 +1,17 @@
+[DEV-22528] Ver información - Órdenes: Pedidos Detalles / Viajes Detalles
+==============================================================================
+
+|badge|
+
+.. |badge| raw:: html
+   
+   <span style="background-color: #7c04de; color: white; padding: 4px 8px; border-radius: 4px;">Corrección</span>
+
+Módulo: 
+   Fleet
+
+Descripción: 
+ Se corrigió error en el botón de cancelar.
+
+.. versionchanged:: 10.221.0.0-LTS
+

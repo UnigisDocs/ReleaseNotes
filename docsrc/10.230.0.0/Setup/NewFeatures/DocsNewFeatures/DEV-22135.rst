@@ -1,0 +1,17 @@
+[DEV-22135] Detalle de LogMapServerX
+------------------------------------
+
+|badge|
+
+.. |badge| raw:: html
+   
+   <span style="background-color: #04a7de; color: white; padding: 4px 8px; border-radius: 4px;">Nueva característica</span>
+
+Módulo: 
+   Setup
+
+Descripción: 
+ Detalle de LogMapServerX.
+
+.. versionadded:: 10.221.0.0-LTS
+

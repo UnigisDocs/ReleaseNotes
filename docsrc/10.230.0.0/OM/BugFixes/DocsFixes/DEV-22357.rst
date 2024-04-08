@@ -1,0 +1,17 @@
+[DEV-22357] Los depósitos de Filtros y Edición de Pedidos No Coinciden
+======================================================================
+
+|badge|
+
+.. |badge| raw:: html
+   
+   <span style="background-color: #7c04de; color: white; padding: 4px 8px; border-radius: 4px;">Corrección</span>
+
+Módulo: 
+   Order Management
+
+Descripción: 
+ Se corrigió el error en la lista de depósitos en los filtros que se recuperó durante la edición de pedidos.
+
+.. versionchanged:: 10.221.0.0-LTS
+

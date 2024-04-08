@@ -1,0 +1,17 @@
+[DEV-22408] Método ConsultarOrdenEntrega da Null Pointer
+==========================================================
+
+|badge|
+
+.. |badge| raw:: html
+   
+   <span style="background-color: #7c04de; color: white; padding: 4px 8px; border-radius: 4px;">Corrección</span>
+
+Módulo: 
+   MAPI
+
+Descripción: 
+ Se corrigió error Null al consultar ordenes de entrega.
+
+.. versionadded:: 10.221.0.0-LTS
+

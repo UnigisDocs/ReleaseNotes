@@ -1,0 +1,18 @@
+[DEV-22201] Error con Deposito Salida-Llegada al Utilizar Respetar Vehículo Pre-Asignado
+=========================================================================================
+
+|badge|
+
+.. |badge| raw:: html
+   
+   <span style="background-color: #7c04de; color: white; padding: 4px 8px; border-radius: 4px;">Corrección</span>
+
+Módulo: 
+   Planning
+
+Descripción: 
+ Al habilitar la opción "Respetar vehículo preasignado", se produjo una inconsistencia que resultó en un error al intentar planificar la ruta. 
+ Se ajusta validación para que se tome en cuenta el Depósito de Salida seleccionado en la planificación automática.
+
+.. versionchanged:: 10.221.0.0-LTS
+

@@ -1,0 +1,17 @@
+[DEV-22145] No Se Visualiza Datos Cargados en Float 1 - Checkpoint SETUP
+=========================================================================
+
+|badge|
+
+.. |badge| raw:: html
+   
+   <span style="background-color: #7c04de; color: white; padding: 4px 8px; border-radius: 4px;">Corrección</span>
+
+Módulo: 
+   Setup
+
+Descripción: 
+ Se corrigió error en la información del campo Float1 en el detalle de los Check Point.
+
+.. versionchanged:: 10.221.0.0-LTS
+

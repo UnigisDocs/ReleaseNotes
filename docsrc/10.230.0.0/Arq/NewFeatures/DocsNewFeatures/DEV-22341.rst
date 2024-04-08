@@ -1,0 +1,17 @@
+[DEV-22341] Adapter CrearDocumentos
+====================================
+
+|badge|
+
+.. |badge| raw:: html
+   
+   <span style="background-color: #04a7de; color: white; padding: 4px 8px; border-radius: 4px;">Nueva característica</span>
+
+Módulo: 
+   Viajes
+
+Descripción: 
+ Se agregó a adapter de viajes, la opción de módulo de Documentos, para carga masiva de documentos.
+
+.. versionadded:: 10.222.0.0-LTS
+

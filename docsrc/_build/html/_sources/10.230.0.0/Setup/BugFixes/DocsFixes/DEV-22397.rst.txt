@@ -1,0 +1,17 @@
+[DEV-22397] No Se Guardan los Registros en la Carga Masiva de Categoría Domicilio Orden
+========================================================================================
+
+|badge|
+
+.. |badge| raw:: html
+   
+   <span style="background-color: #7c04de; color: white; padding: 4px 8px; border-radius: 4px;">Corrección</span>
+
+Módulo: 
+   Setup
+
+Descripción: 
+ Se corrigió error al intentar guardar nuevas categorías de Domicilio Orden por carga masiva.
+
+.. versionchanged:: 10.221.0.0-LTS
+

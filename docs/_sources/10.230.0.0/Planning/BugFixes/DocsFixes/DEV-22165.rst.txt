@@ -1,0 +1,17 @@
+[DEV-22165] No es Posible Cambiar Estado en Ruta
+=================================================
+
+|badge|
+
+.. |badge| raw:: html
+   
+   <span style="background-color: #7c04de; color: white; padding: 4px 8px; border-radius: 4px;">Corrección</span>
+
+Módulo: 
+   Planning
+
+Descripción: 
+ Se corrigió error al momento de realizar cambios de estado manual de preparado a programado, mostrandolo en bitacora.
+   
+.. versionchanged:: 10.221.0.0-LTS
+

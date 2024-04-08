@@ -1,0 +1,17 @@
+[DEV-22275] Creación de Viajes - No Se Generan items al Crear un Viaje con Paradas
+===================================================================================
+
+|badge|
+
+.. |badge| raw:: html
+   
+   <span style="background-color: #7c04de; color: white; padding: 4px 8px; border-radius: 4px;">Corrección</span>
+
+Módulo: 
+   Tracking
+
+Descripción: 
+   Se corrigió error en la generación de ítems para las paradas de los viajes generados.
+
+.. versionchanged:: 10.221.0.0-LTS
+

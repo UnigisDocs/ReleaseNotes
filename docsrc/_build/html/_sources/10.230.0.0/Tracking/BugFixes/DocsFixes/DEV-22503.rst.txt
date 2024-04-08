@@ -1,0 +1,24 @@
+[DEV-22503] Quitar Varias Paradas de Forma Masiva de Viaje Correcciones 
+========================================================================================
+
+|badge|
+
+.. |badge| raw:: html
+   
+   <span style="background-color: #7c04de; color: white; padding: 4px 8px; border-radius: 4px;">Corrección</span>
+
+Módulo: 
+   Tracking
+
+Descripción: 
+ Se corrigieron los siguientes errores.
+
+ - Filtro no persiste luego de una acción no realizada en dispatch.
+ - Al eliminar paradas da mensaje de advertencia en ingles y español.
+ - Al seleccionar un viaje y  borrar 4 paradas 2 de pickup y 2 de delivery , termina solo borrando 2 de delivery.
+ - Ventanas de información de viaje y parada con error visual.
+ - Reordenar y reasignar mismo problema.
+ - Al momento de ver la opción de resueltos se queda la pantalla en blanco.
+
+.. versionchanged:: 10.221.0.0-LTS
+

@@ -1,0 +1,17 @@
+[DEV-22728] Error al Crear Pedidos B2B por Temas Recurso Contenedor
+=====================================================================
+
+|badge|
+
+.. |badge| raw:: html
+   
+   <span style="background-color: #7c04de; color: white; padding: 4px 8px; border-radius: 4px;">Corrección</span>
+
+Módulo: 
+   Dashboard
+
+Descripción: 
+  Se corrigió error que se presentaba al momento de requerir usar el mismo contenedor para otro viaje.
+
+.. versionchanged:: 10.223.0.0-LTS
+

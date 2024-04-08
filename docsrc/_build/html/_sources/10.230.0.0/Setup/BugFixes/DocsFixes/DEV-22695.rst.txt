@@ -1,0 +1,17 @@
+[DEV-22695] Limitación en el Número de Registros a Mostrar en el Desplegable Zona del Modelo de Condición
+==========================================================================================================
+
+|badge|
+
+.. |badge| raw:: html
+   
+   <span style="background-color: #7c04de; color: white; padding: 4px 8px; border-radius: 4px;">Corrección</span>
+
+Módulo: 
+   Setup
+
+Descripción: 
+ Se corrigió error al visualizar registros en el desplegable Zona.
+
+.. versionchanged:: 10.223.0.0-LTS
+

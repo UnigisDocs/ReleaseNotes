@@ -1,0 +1,17 @@
+[DEV-22440] ABM Deposito (Existente)
+--------------------------------------
+
+|badge|
+
+.. |badge| raw:: html
+   
+   <span style="background-color: #04a7de; color: white; padding: 4px 8px; border-radius: 4px;">Nueva característica</span>
+
+Módulo:
+   Administración del Sistema
+
+Descripción:
+ Se agregó dentro del registro para Depositos un check con la funcionalidad de 'Permitir Citas'.
+
+.. versionadded:: 10.221.0.0-LTS
+

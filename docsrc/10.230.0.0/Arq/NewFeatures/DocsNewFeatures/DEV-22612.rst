@@ -1,0 +1,17 @@
+[DEV-22612] QueryBuilder en DataBrowser
+-----------------------------------------------
+
+|badge|
+
+.. |badge| raw:: html
+   
+   <span style="background-color: #04a7de; color: white; padding: 4px 8px; border-radius: 4px;">Nueva característica</span>
+
+Módulo: 
+   Arquitectura
+
+Descripción: 
+  Se realizó un desarrollo para generar consultas de forma visual en el databrowser.
+
+.. versionadded:: 10.200.21.0-LTS
+

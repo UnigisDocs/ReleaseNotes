@@ -1,0 +1,17 @@
+[DEV-22699] Habilitación de Filtro Empresa para Dashboard
+==========================================================
+
+|badge|
+
+.. |badge| raw:: html
+   
+   <span style="background-color: #04a7de; color: white; padding: 4px 8px; border-radius: 4px;">Nueva característica</span>
+
+Módulo: 
+   Dashboard
+
+Descripción: 
+  Se agrega el ID_Empresa en los filtros delas tablas a nivel producto.
+
+.. versionadded:: 10.221.0.0-LTS
+

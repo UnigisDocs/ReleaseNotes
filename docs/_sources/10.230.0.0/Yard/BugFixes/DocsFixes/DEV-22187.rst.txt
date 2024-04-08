@@ -1,0 +1,17 @@
+[DEV-22187]  Citas - Citas de Entrega en Muelle -  Cambio de Estado Masivo
+===========================================================================
+
+|badge|
+
+.. |badge| raw:: html
+   
+   <span style="background-color: #7c04de; color: white; padding: 4px 8px; border-radius: 4px;">Corrección</span>
+
+Módulo: 
+   Yard
+
+Descripción: 
+   Se corrigió error al utilizar la funcionalidad cambio masivo de estado en el menú kebab.
+
+.. versionchanged:: 10.221.0.0-LTS
+

@@ -1,0 +1,17 @@
+[DEV-22239] Error de Ruteo en Ordenes de Frecuencia Mensual
+============================================================
+
+|badge|
+
+.. |badge| raw:: html
+   
+   <span style="background-color: #7c04de; color: white; padding: 4px 8px; border-radius: 4px;">Corrección</span>
+
+Módulo: 
+   Planning
+
+Descripción: 
+ Se corrigó error al usar latencia mensual para crossplanificación y campo latencia para ruteo en jornada.
+
+.. versionchanged:: 10.221.0.0-LTS
+

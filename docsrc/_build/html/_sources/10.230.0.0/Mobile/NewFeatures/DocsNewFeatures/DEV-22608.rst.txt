@@ -1,0 +1,16 @@
+[DEV-22608] Validacion de Valor Cobrado con Forma de Pago al Contado en la Generación del Request al Servicio
+=============================================================================================================
+|badge|
+
+.. |badge| raw:: html
+   
+   <span style="background-color: #04a7de; color: white; padding: 4px 8px; border-radius: 4px;">Nueva característica</span>
+    
+Módulo
+ Rendición de Recursos
+
+Descripción:
+ Se implementa una validación en el flujo de cambio de estado de parada. Durante la construcción de la solicitud hacia el método del servicio móvil para modificar el estado de una parada, se verifica la presencia de una cobranza realizada con forma de pago al contado (FormaPago.RequiereFormaPago = 1).
+
+.. versionadded:: 10.221.0.0-LTS
+

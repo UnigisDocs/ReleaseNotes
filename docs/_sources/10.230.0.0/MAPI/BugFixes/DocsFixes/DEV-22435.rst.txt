@@ -1,0 +1,17 @@
+[DEV-22435] Error al Actualizar Pedido
+============================================
+
+|badge|
+
+.. |badge| raw:: html
+   
+   <span style="background-color: #7c04de; color: white; padding: 4px 8px; border-radius: 4px;">Corrección</span>
+
+Módulo: 
+   MAPI
+
+Descripción: 
+ Se corrigió error presentado al actualizar pedido. <CrearOrdenesPedidoResult>-53</CrearOrdenesPedidoResult> “ERROR_REFERENCIA_OT”.
+
+.. versionadded:: 10.221.0.0-LTS
+

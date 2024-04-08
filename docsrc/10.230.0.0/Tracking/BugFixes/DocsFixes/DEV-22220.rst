@@ -1,0 +1,17 @@
+[DEV-22220] No hay Detecciones de vehículos en 'SeguimientoControlDibujo'
+==========================================================================
+
+|badge|
+
+.. |badge| raw:: html
+   
+   <span style="background-color: #7c04de; color: white; padding: 4px 8px; border-radius: 4px;">Corrección</span>
+
+Módulo: 
+   Tracking
+
+Descripción: 
+   Se corrige error en tabla 'SeguimientoControlDibujo'.
+
+.. versionchanged:: 10.221.0.0-LTS
+

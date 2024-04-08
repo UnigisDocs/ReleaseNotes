@@ -1,0 +1,727 @@
+<!doctype html>
+<html class="no-js" lang="es" data-content_root="../../../">
+  <head><meta charset="utf-8"/>
+    <meta name="viewport" content="width=device-width,initial-scale=1"/>
+    <meta name="color-scheme" content="light dark"><meta name="viewport" content="width=device-width, initial-scale=1" />
+<link rel="index" title="Índice" href="../../../genindex.html" /><link rel="search" title="Búsqueda" href="../../../search.html" /><link rel="next" title="[DEV-22116] Modificaciones en B2C" href="DocsNewFeatures/DEV-22116.html" /><link rel="prev" title="B2C / B2B" href="../index8.html" />
+
+    <!-- Generated with Sphinx 7.2.6 and Furo 2024.01.29 -->
+        <title>Nuevas Características - UNIGIS | Realese Notes</title>
+      <link rel="stylesheet" type="text/css" href="../../../_static/pygments.css?v=a746c00c" />
+    <link rel="stylesheet" type="text/css" href="../../../_static/styles/furo.css?v=135e06be" />
+    <link rel="stylesheet" type="text/css" href="../../../_static/panels-bootstrap.5fd3999ee7762ccc51105388f4a9d115.css?v=45cf7dbc" />
+    <link rel="stylesheet" type="text/css" href="../../../_static/panels-main.c949a650a448cc0ae9fd3441c0e17fb0.css?v=2a6c4383" />
+    <link rel="stylesheet" type="text/css" href="../../../_static/panels-variables.06eb56fa6e07937060861dad626602ad.css?v=d290406d" />
+    <link rel="stylesheet" type="text/css" href="../../../_static/styles/furo-extensions.css?v=36a5483c" />
+    <link rel="stylesheet" type="text/css" href="../../../_static/custom.css?v=6aff287e" />
+    
+    
+
+
+<style>
+  body {
+    --color-code-background: #f8f8f8;
+  --color-code-foreground: black;
+  --color-brand-primary: #343434;
+  --color-brand-secundary: #343434;
+  --color-brand-content: #00979b;
+  
+  }
+  @media not print {
+    body[data-theme="dark"] {
+      --color-code-background: #202020;
+  --color-code-foreground: #d0d0d0;
+  --color-brand-primary: #d0d0d0;
+  --color-brand-secundary: #343434;
+  --color-brand-content: #00979b;
+  
+    }
+    @media (prefers-color-scheme: dark) {
+      body:not([data-theme="light"]) {
+        --color-code-background: #202020;
+  --color-code-foreground: #d0d0d0;
+  --color-brand-primary: #d0d0d0;
+  --color-brand-secundary: #343434;
+  --color-brand-content: #00979b;
+  
+      }
+    }
+  }
+</style></head>
+  <body>
+    
+    <script>
+      document.body.dataset.theme = localStorage.getItem("theme") || "auto";
+    </script>
+    
+
+<svg xmlns="http://www.w3.org/2000/svg" style="display: none;">
+  <symbol id="svg-toc" viewBox="0 0 24 24">
+    <title>Contents</title>
+    <svg stroke="currentColor" fill="currentColor" stroke-width="0" viewBox="0 0 1024 1024">
+      <path d="M408 442h480c4.4 0 8-3.6 8-8v-56c0-4.4-3.6-8-8-8H408c-4.4 0-8 3.6-8 8v56c0 4.4 3.6 8 8 8zm-8 204c0 4.4 3.6 8 8 8h480c4.4 0 8-3.6 8-8v-56c0-4.4-3.6-8-8-8H408c-4.4 0-8 3.6-8 8v56zm504-486H120c-4.4 0-8 3.6-8 8v56c0 4.4 3.6 8 8 8h784c4.4 0 8-3.6 8-8v-56c0-4.4-3.6-8-8-8zm0 632H120c-4.4 0-8 3.6-8 8v56c0 4.4 3.6 8 8 8h784c4.4 0 8-3.6 8-8v-56c0-4.4-3.6-8-8-8zM115.4 518.9L271.7 642c5.8 4.6 14.4.5 14.4-6.9V388.9c0-7.4-8.5-11.5-14.4-6.9L115.4 505.1a8.74 8.74 0 0 0 0 13.8z"/>
+    </svg>
+  </symbol>
+  <symbol id="svg-menu" viewBox="0 0 24 24">
+    <title>Menu</title>
+    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none" stroke="currentColor"
+      stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="feather-menu">
+      <line x1="3" y1="12" x2="21" y2="12"></line>
+      <line x1="3" y1="6" x2="21" y2="6"></line>
+      <line x1="3" y1="18" x2="21" y2="18"></line>
+    </svg>
+  </symbol>
+  <symbol id="svg-arrow-right" viewBox="0 0 24 24">
+    <title>Expand</title>
+    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none" stroke="currentColor"
+      stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="feather-chevron-right">
+      <polyline points="9 18 15 12 9 6"></polyline>
+    </svg>
+  </symbol>
+  <symbol id="svg-sun" viewBox="0 0 24 24">
+    <title>Light mode</title>
+    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none" stroke="currentColor"
+      stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round" class="feather-sun">
+      <circle cx="12" cy="12" r="5"></circle>
+      <line x1="12" y1="1" x2="12" y2="3"></line>
+      <line x1="12" y1="21" x2="12" y2="23"></line>
+      <line x1="4.22" y1="4.22" x2="5.64" y2="5.64"></line>
+      <line x1="18.36" y1="18.36" x2="19.78" y2="19.78"></line>
+      <line x1="1" y1="12" x2="3" y2="12"></line>
+      <line x1="21" y1="12" x2="23" y2="12"></line>
+      <line x1="4.22" y1="19.78" x2="5.64" y2="18.36"></line>
+      <line x1="18.36" y1="5.64" x2="19.78" y2="4.22"></line>
+    </svg>
+  </symbol>
+  <symbol id="svg-moon" viewBox="0 0 24 24">
+    <title>Dark mode</title>
+    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none" stroke="currentColor"
+      stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round" class="icon-tabler-moon">
+      <path stroke="none" d="M0 0h24v24H0z" fill="none" />
+      <path d="M12 3c.132 0 .263 0 .393 0a7.5 7.5 0 0 0 7.92 12.446a9 9 0 1 1 -8.313 -12.454z" />
+    </svg>
+  </symbol>
+  <symbol id="svg-sun-half" viewBox="0 0 24 24">
+    <title>Auto light/dark mode</title>
+    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none" stroke="currentColor"
+      stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round" class="icon-tabler-shadow">
+      <path stroke="none" d="M0 0h24v24H0z" fill="none"/>
+      <circle cx="12" cy="12" r="9" />
+      <path d="M13 12h5" />
+      <path d="M13 15h4" />
+      <path d="M13 18h1" />
+      <path d="M13 9h4" />
+      <path d="M13 6h1" />
+    </svg>
+  </symbol>
+</svg>
+
+<input type="checkbox" class="sidebar-toggle" name="__navigation" id="__navigation">
+<input type="checkbox" class="sidebar-toggle" name="__toc" id="__toc">
+<label class="overlay sidebar-overlay" for="__navigation">
+  <div class="visually-hidden">Hide navigation sidebar</div>
+</label>
+<label class="overlay toc-overlay" for="__toc">
+  <div class="visually-hidden">Hide table of contents sidebar</div>
+</label>
+
+
+
+<div class="page">
+  <header class="mobile-header">
+    <div class="header-left">
+      <label class="nav-overlay-icon" for="__navigation">
+        <div class="visually-hidden">Toggle site navigation sidebar</div>
+        <i class="icon"><svg><use href="#svg-menu"></use></svg></i>
+      </label>
+    </div>
+    <div class="header-center">
+      <a href="../../../index.html"><div class="brand">UNIGIS | Realese Notes</div></a>
+    </div>
+    <div class="header-right">
+      <div class="theme-toggle-container theme-toggle-header">
+        <button class="theme-toggle">
+          <div class="visually-hidden">Toggle Light / Dark / Auto color theme</div>
+          <svg class="theme-icon-when-auto"><use href="#svg-sun-half"></use></svg>
+          <svg class="theme-icon-when-dark"><use href="#svg-moon"></use></svg>
+          <svg class="theme-icon-when-light"><use href="#svg-sun"></use></svg>
+        </button>
+      </div>
+      <label class="toc-overlay-icon toc-header-icon no-toc" for="__toc">
+        <div class="visually-hidden">Toggle table of contents sidebar</div>
+        <i class="icon"><svg><use href="#svg-toc"></use></svg></i>
+      </label>
+    </div>
+  </header>
+  <aside class="sidebar-drawer">
+    <div class="sidebar-container">
+      
+      <div class="sidebar-sticky"><a class="sidebar-brand" href="../../../index.html">
+  
+  <div class="sidebar-logo-container">
+    <img class="sidebar-logo only-light" src="../../../_static/Logolight.svg" alt="Light Logo"/>
+    <img class="sidebar-logo only-dark" src="../../../_static/logodark.svg" alt="Dark Logo"/>
+  </div>
+  
+  
+</a><form class="sidebar-search-container" method="get" action="../../../search.html" role="search">
+  <input class="sidebar-search" placeholder="Búsqueda" name="q" aria-label="Búsqueda">
+  <input type="hidden" name="check_keywords" value="yes">
+  <input type="hidden" name="area" value="default">
+</form>
+<div id="searchbox"></div><div class="sidebar-scroll"><div class="sidebar-tree">
+  <ul class="current">
+<li class="toctree-l1 current has-children"><a class="reference internal" href="../../Index230.html">Versión: 10.230.0.0-LTS</a><input checked="" class="toctree-checkbox" id="toctree-checkbox-1" name="toctree-checkbox-1" role="switch" type="checkbox"/><label for="toctree-checkbox-1"><div class="visually-hidden">Toggle navigation of Versión: 10.230.0.0-LTS</div><i class="icon"><svg><use href="#svg-arrow-right"></use></svg></i></label><ul class="current">
+<li class="toctree-l2 has-children"><a class="reference internal" href="../../MAPI/index1.html">MAPI</a><input class="toctree-checkbox" id="toctree-checkbox-2" name="toctree-checkbox-2" role="switch" type="checkbox"/><label for="toctree-checkbox-2"><div class="visually-hidden">Toggle navigation of MAPI</div><i class="icon"><svg><use href="#svg-arrow-right"></use></svg></i></label><ul>
+<li class="toctree-l3 has-children"><a class="reference internal" href="../../MAPI/NewFeatures/NewFeatures.html">Nuevas Características</a><input class="toctree-checkbox" id="toctree-checkbox-3" name="toctree-checkbox-3" role="switch" type="checkbox"/><label for="toctree-checkbox-3"><div class="visually-hidden">Toggle navigation of Nuevas Características</div><i class="icon"><svg><use href="#svg-arrow-right"></use></svg></i></label><ul>
+<li class="toctree-l4"><a class="reference internal" href="../../MAPI/NewFeatures/DocsNewFeatures/DEV-22147.html">[DEV-22147] Mejora en la Descarga de PDF para no Tomarlo del Caché</a></li>
+<li class="toctree-l4"><a class="reference internal" href="../../MAPI/NewFeatures/DocsNewFeatures/DEV-22321.html">[DEV-22321] Service Trace en MAPI</a></li>
+<li class="toctree-l4"><a class="reference internal" href="../../MAPI/NewFeatures/DocsNewFeatures/DEV-22349.html">[DEV-22349] Permitir Vincular “Pedido.IdOperacion” desde “Orden.Jornada.IdOperacion” al Crear Pedido desde Orden</a></li>
+<li class="toctree-l4"><a class="reference internal" href="../../MAPI/NewFeatures/DocsNewFeatures/DEV-22472.html">[DEV-22472] Webservice para Dar Alta de Proveedor</a></li>
+<li class="toctree-l4"><a class="reference internal" href="../../MAPI/NewFeatures/DocsNewFeatures/DEV-22483.html">[DEV-22483] Campos Dinámicos (Dyn) en WS de Consultas</a></li>
+<li class="toctree-l4"><a class="reference internal" href="../../MAPI/NewFeatures/DocsNewFeatures/DEV-22499.html">[DEV-22499] Solicitud de Action “EditarViaje”</a></li>
+<li class="toctree-l4"><a class="reference internal" href="../../MAPI/NewFeatures/DocsNewFeatures/DEV-22576.html">[DEV-22576] Permitir Modificar Viaje “ReferenciaExterna” en Método “ModificarViaje”</a></li>
+<li class="toctree-l4"><a class="reference internal" href="../../MAPI/NewFeatures/DocsNewFeatures/DEV-22691.html">[DEV-22691] Compatibilizar MAPI con WCF (Outsystem)</a></li>
+</ul>
+</li>
+<li class="toctree-l3 has-children"><a class="reference internal" href="../../MAPI/BugFixes/bugfixes.html">Corrección de Errores</a><input class="toctree-checkbox" id="toctree-checkbox-4" name="toctree-checkbox-4" role="switch" type="checkbox"/><label for="toctree-checkbox-4"><div class="visually-hidden">Toggle navigation of Corrección de Errores</div><i class="icon"><svg><use href="#svg-arrow-right"></use></svg></i></label><ul>
+<li class="toctree-l4"><a class="reference internal" href="../../MAPI/BugFixes/DocsFixes/DEV-22111.html">[DEV-22111]  Error Creación Conductor</a></li>
+<li class="toctree-l4"><a class="reference internal" href="../../MAPI/BugFixes/DocsFixes/DEV-22172.html">[DEV-22172]  Error al Generar CTE con Valores Decimales con Punto</a></li>
+<li class="toctree-l4"><a class="reference internal" href="../../MAPI/BugFixes/DocsFixes/DEV-22191.html">[DEV-22191]  Se Coloca Apikey Inválida y No Devuelve Código ERROR_API_KEY</a></li>
+<li class="toctree-l4"><a class="reference internal" href="../../MAPI/BugFixes/DocsFixes/DEV-22221.html">[DEV-22221] Error en Duplicidad Tabla “ConversiónUnidadMedidaProducto” en “CrearOrdenesDeTrabajo”</a></li>
+<li class="toctree-l4"><a class="reference internal" href="../../MAPI/BugFixes/DocsFixes/DEV-22337.html">[DEV-22337] Correcciones ABM Domicilio Orden «Limitaciones de Ingreso»</a></li>
+<li class="toctree-l4"><a class="reference internal" href="../../MAPI/BugFixes/DocsFixes/DEV-22348.html">[DEV-22348] JSON ModificarParadaItem No Modifica Cantidades</a></li>
+<li class="toctree-l4"><a class="reference internal" href="../../MAPI/BugFixes/DocsFixes/DEV-22350.html">[DEV-22350] Fix- id_cmd</a></li>
+<li class="toctree-l4"><a class="reference internal" href="../../MAPI/BugFixes/DocsFixes/DEV-22381.html">[DEV-22381] Error al Editar Tipo Documento por Contener Punto en ID</a></li>
+<li class="toctree-l4"><a class="reference internal" href="../../MAPI/BugFixes/DocsFixes/DEV-22391.html">[DEV-22391] ABM Domicilio Orden «Limitaciones de Ingreso»</a></li>
+<li class="toctree-l4"><a class="reference internal" href="../../MAPI/BugFixes/DocsFixes/DEV-22404.html">[DEV-22404] Servicio ObtenerGuiaPorId No Muestra Campos de la Operacion y la Sucursal Cuando se Consume</a></li>
+<li class="toctree-l4"><a class="reference internal" href="../../MAPI/BugFixes/DocsFixes/DEV-22408.html">[DEV-22408] Método ConsultarOrdenEntrega da Null Pointer</a></li>
+<li class="toctree-l4"><a class="reference internal" href="../../MAPI/BugFixes/DocsFixes/DEV-22419.html">[DEV-22419] Error Métodos “CrearViajeCompleto Time Zone 1 is Unknown to Source TZDB</a></li>
+<li class="toctree-l4"><a class="reference internal" href="../../MAPI/BugFixes/DocsFixes/DEV-22435.html">[DEV-22435] Error al Actualizar Pedido</a></li>
+<li class="toctree-l4"><a class="reference internal" href="../../MAPI/BugFixes/DocsFixes/DEV-22474.html">[DEV-22474] Procesos Entidad Liquidación Transición 0 No Se Ejecuta</a></li>
+<li class="toctree-l4"><a class="reference internal" href="../../MAPI/BugFixes/DocsFixes/DEV-22555.html">[DEV-22555] Error al Guardar LogApi</a></li>
+<li class="toctree-l4"><a class="reference internal" href="../../MAPI/BugFixes/DocsFixes/DEV-22649.html">[DEV-22649] Error en WS CrearVehiculos</a></li>
+<li class="toctree-l4"><a class="reference internal" href="../../MAPI/BugFixes/DocsFixes/DEV-22661.html">[DEV-22661] Error AsynchronousMapi No Muestra XML Request/Response</a></li>
+</ul>
+</li>
+</ul>
+</li>
+<li class="toctree-l2 has-children"><a class="reference internal" href="../../OM/index2.html">Order Management</a><input class="toctree-checkbox" id="toctree-checkbox-5" name="toctree-checkbox-5" role="switch" type="checkbox"/><label for="toctree-checkbox-5"><div class="visually-hidden">Toggle navigation of Order Management</div><i class="icon"><svg><use href="#svg-arrow-right"></use></svg></i></label><ul>
+<li class="toctree-l3 has-children"><a class="reference internal" href="../../OM/Improvements/Mejoras.html">Mejoras</a><input class="toctree-checkbox" id="toctree-checkbox-6" name="toctree-checkbox-6" role="switch" type="checkbox"/><label for="toctree-checkbox-6"><div class="visually-hidden">Toggle navigation of Mejoras</div><i class="icon"><svg><use href="#svg-arrow-right"></use></svg></i></label><ul>
+<li class="toctree-l4"><a class="reference internal" href="../../OM/Improvements/docsmejoras/DEV-22289.html">[DEV-22289] Quitar etiqueta de «Filtros» en TMS</a></li>
+<li class="toctree-l4"><a class="reference internal" href="../../OM/Improvements/docsmejoras/DEV-22667.html">[DEV-22667] Mejora Tab Pedidos</a></li>
+</ul>
+</li>
+<li class="toctree-l3 has-children"><a class="reference internal" href="../../OM/BugFixes/bugfixes.html">Corrección de Errores</a><input class="toctree-checkbox" id="toctree-checkbox-7" name="toctree-checkbox-7" role="switch" type="checkbox"/><label for="toctree-checkbox-7"><div class="visually-hidden">Toggle navigation of Corrección de Errores</div><i class="icon"><svg><use href="#svg-arrow-right"></use></svg></i></label><ul>
+<li class="toctree-l4"><a class="reference internal" href="../../OM/BugFixes/DocsFixes/DEV-22074.html">[DEV-22074] Pedidos - Items - Informacion - Menu Kebab</a></li>
+<li class="toctree-l4"><a class="reference internal" href="../../OM/BugFixes/DocsFixes/DEV-22106.html">[DEV-22106]  Filtro de Orden de Items Para Carga y Descarga</a></li>
+<li class="toctree-l4"><a class="reference internal" href="../../OM/BugFixes/DocsFixes/DEV-22108.html">[DEV-22108]  Filtro cliente</a></li>
+<li class="toctree-l4"><a class="reference internal" href="../../OM/BugFixes/DocsFixes/DEV-22136.html">[DEV-22136] Pedidos: No Permite Realizar la Edición Masiva</a></li>
+<li class="toctree-l4"><a class="reference internal" href="../../OM/BugFixes/DocsFixes/DEV-22166.html">[DEV-22166]  Buscador Mas Filtros No Responde</a></li>
+<li class="toctree-l4"><a class="reference internal" href="../../OM/BugFixes/DocsFixes/DEV-22194.html">[DEV-22194] No Funcionan las Siguientes Columnas</a></li>
+<li class="toctree-l4"><a class="reference internal" href="../../OM/BugFixes/DocsFixes/DEV-22201.html">[DEV-22201] Viajes - Cuando Ingresamos a la Solapa de Paradas Muestra el Error 500</a></li>
+<li class="toctree-l4"><a class="reference internal" href="../../OM/BugFixes/DocsFixes/DEV-22210.html">[DEV-22210] Lentitud Reportada</a></li>
+<li class="toctree-l4"><a class="reference internal" href="../../OM/BugFixes/DocsFixes/DEV-22262.html">[DEV-22262] Cuando se Elimina una Orden no es Posible Salir del PopUp de Confirmación</a></li>
+<li class="toctree-l4"><a class="reference internal" href="../../OM/BugFixes/DocsFixes/DEV-22303.html">[DEV-22303] Problema al Editar Ubicación de un Pedido</a></li>
+<li class="toctree-l4"><a class="reference internal" href="../../OM/BugFixes/DocsFixes/DEV-22320.html">[DEV-22320] Crear Pedido desde OT Item</a></li>
+<li class="toctree-l4"><a class="reference internal" href="../../OM/BugFixes/DocsFixes/DEV-22343.html">[DEV-22343] Estandarizar Menú Sidebar</a></li>
+<li class="toctree-l4"><a class="reference internal" href="../../OM/BugFixes/DocsFixes/DEV-22344.html">[DEV-22344] Estandarización Estilos Componente de Estado</a></li>
+<li class="toctree-l4"><a class="reference internal" href="../../OM/BugFixes/DocsFixes/DEV-22357.html">[DEV-22357] Los depósitos de Filtros y Edición de Pedidos No Coinciden</a></li>
+<li class="toctree-l4"><a class="reference internal" href="../../OM/BugFixes/DocsFixes/DEV-22358.html">[DEV-22358] Estandarizar Iconos de Header Bar</a></li>
+<li class="toctree-l4"><a class="reference internal" href="../../OM/BugFixes/DocsFixes/DEV-22366.html">[DEV-22366] No Es Posible Visualizar la Información de la Rendición de Ordenes</a></li>
+<li class="toctree-l4"><a class="reference internal" href="../../OM/BugFixes/DocsFixes/DEV-22378.html">[DEV-22378] Ver Información - Visualización</a></li>
+<li class="toctree-l4"><a class="reference internal" href="../../OM/BugFixes/DocsFixes/DEV-22383.html">[DEV-22383] Crear Pedido desde OT Item - Invertido Domicilio de PickUp y Delivery en Pantalla de Creacion de Pedido.</a></li>
+<li class="toctree-l4"><a class="reference internal" href="../../OM/BugFixes/DocsFixes/DEV-22394.html">[DEV-22394] Pedido No Hereda Datos de Date Time Cargados</a></li>
+<li class="toctree-l4"><a class="reference internal" href="../../OM/BugFixes/DocsFixes/DEV-22403.html">[DEV-22403]  Campos de la Solapa Paradas que no Respetan el UTC Configurado para el Usuario</a></li>
+<li class="toctree-l4"><a class="reference internal" href="../../OM/BugFixes/DocsFixes/DEV-22414.html">[DEV-22414] Errores en Creación de Pedido desde OtItem</a></li>
+<li class="toctree-l4"><a class="reference internal" href="../../OM/BugFixes/DocsFixes/DEV-22519.html">[DEV-22519] Errores al guardar Archivos en OM X</a></li>
+<li class="toctree-l4"><a class="reference internal" href="../../OM/BugFixes/DocsFixes/DEV-22552.html">[DEV-22552] El botón de Eliminar No Funciona Correctamente</a></li>
+<li class="toctree-l4"><a class="reference internal" href="../../OM/BugFixes/DocsFixes/DEV-22617.html">[DEV-22617] Issue al Obtener Reglas de Surtido de Destino</a></li>
+<li class="toctree-l4"><a class="reference internal" href="../../OM/BugFixes/DocsFixes/DEV-22666.html">[DEV-22666] Quitar Columnas de Pedidos de OrdenesOT</a></li>
+<li class="toctree-l4"><a class="reference internal" href="../../OM/BugFixes/DocsFixes/DEV-22677.html">[DEV-22677] No Se Autocompletan Datos de Carga al Crear un Pedido desde OT Item</a></li>
+<li class="toctree-l4"><a class="reference internal" href="../../OM/BugFixes/DocsFixes/DEV-22686.html">[DEV-22686] No Se Rebajan las Cantidades Solicitadas de la OT Item</a></li>
+<li class="toctree-l4"><a class="reference internal" href="../../OM/BugFixes/DocsFixes/DEV-22687.html">[DEV-22687] No Se Registra el Campo «Fecha de Recolección» Cuando se Crea un Pedido desde OT Item</a></li>
+</ul>
+</li>
+</ul>
+</li>
+<li class="toctree-l2 has-children"><a class="reference internal" href="../../Planning/index3.html">Planning</a><input class="toctree-checkbox" id="toctree-checkbox-8" name="toctree-checkbox-8" role="switch" type="checkbox"/><label for="toctree-checkbox-8"><div class="visually-hidden">Toggle navigation of Planning</div><i class="icon"><svg><use href="#svg-arrow-right"></use></svg></i></label><ul>
+<li class="toctree-l3 has-children"><a class="reference internal" href="../../Planning/NewFeatures/NewFeatures.html">Nuevas Características</a><input class="toctree-checkbox" id="toctree-checkbox-9" name="toctree-checkbox-9" role="switch" type="checkbox"/><label for="toctree-checkbox-9"><div class="visually-hidden">Toggle navigation of Nuevas Características</div><i class="icon"><svg><use href="#svg-arrow-right"></use></svg></i></label><ul>
+<li class="toctree-l4"><a class="reference internal" href="../../Planning/NewFeatures/DocsNewFeatures/DEV-21608.html">[DEV-21608] UNIGIS Geocoder X</a></li>
+<li class="toctree-l4"><a class="reference internal" href="../../Planning/NewFeatures/DocsNewFeatures/DEV-22140.html">[DEV-22140] UNIGIS | Snapshots Escenarios Almacenar Login Usuario que Modifica</a></li>
+<li class="toctree-l4"><a class="reference internal" href="../../Planning/NewFeatures/DocsNewFeatures/DEV-22157.html">[DEV-22157] Varonet X - Cache de Distancias de Map Network</a></li>
+<li class="toctree-l4"><a class="reference internal" href="../../Planning/NewFeatures/DocsNewFeatures/DEV-22491.html">[DEV-22491] Mejoras ETA</a></li>
+<li class="toctree-l4"><a class="reference internal" href="../../Planning/NewFeatures/DocsNewFeatures/DEV-22593.html">[DEV-22593] Mejora Limitaciones</a></li>
+<li class="toctree-l4"><a class="reference internal" href="../../Planning/NewFeatures/DocsNewFeatures/DEV-22619.html">[DEV-22619] Unificar Contextos en el Cambio de Estado Masivo de Rutas</a></li>
+<li class="toctree-l4"><a class="reference internal" href="../../Planning/NewFeatures/DocsNewFeatures/DEV-22652.html">[DEV-22652] Selección de Escenarios Históricos</a></li>
+<li class="toctree-l4"><a class="reference internal" href="../../Planning/NewFeatures/DocsNewFeatures/DEV-22673.html">[DEV-22673] Mejora Creación Ruta Lazo</a></li>
+</ul>
+</li>
+<li class="toctree-l3 has-children"><a class="reference internal" href="../../Planning/Improvements/Mejoras.html">Mejoras</a><input class="toctree-checkbox" id="toctree-checkbox-10" name="toctree-checkbox-10" role="switch" type="checkbox"/><label for="toctree-checkbox-10"><div class="visually-hidden">Toggle navigation of Mejoras</div><i class="icon"><svg><use href="#svg-arrow-right"></use></svg></i></label><ul>
+<li class="toctree-l4"><a class="reference internal" href="../../Planning/Improvements/docsmejoras/DEV-22101.html">[DEV-22101] Modificación Informar Resultado de No Ruteo (No Asignación)</a></li>
+<li class="toctree-l4"><a class="reference internal" href="../../Planning/Improvements/docsmejoras/DEV-22149.html">[DEV-22149] Maquetado Identificar Ordenes no GEOcodificadas</a></li>
+<li class="toctree-l4"><a class="reference internal" href="../../Planning/Improvements/docsmejoras/DEV-22475.html">[DEV-22475] Mejora visualización Información Orden en Mapa y Filtro en Tabla</a></li>
+<li class="toctree-l4"><a class="reference internal" href="../../Planning/Improvements/docsmejoras/DEV-22567.html">[DEV-22567] Edición / Detalle de Ruta en Routing, Invertir % con Valor</a></li>
+<li class="toctree-l4"><a class="reference internal" href="../../Planning/Improvements/docsmejoras/DEV-22569.html">[DEV-22571] Botón de Tres Puntos Desalineado</a></li>
+<li class="toctree-l4"><a class="reference internal" href="../../Planning/Improvements/docsmejoras/DEV-22575.html">[DEV-22575] Botones Outline</a></li>
+<li class="toctree-l4"><a class="reference internal" href="../../Planning/Improvements/docsmejoras/DEV-22660.html">[DEV-22660] Errores Visuales</a></li>
+</ul>
+</li>
+<li class="toctree-l3 has-children"><a class="reference internal" href="../../Planning/BugFixes/bugfixes.html">Corrección de Errores</a><input class="toctree-checkbox" id="toctree-checkbox-11" name="toctree-checkbox-11" role="switch" type="checkbox"/><label for="toctree-checkbox-11"><div class="visually-hidden">Toggle navigation of Corrección de Errores</div><i class="icon"><svg><use href="#svg-arrow-right"></use></svg></i></label><ul>
+<li class="toctree-l4"><a class="reference internal" href="../../Planning/BugFixes/DocsFixes/DEV-22092.html">[DEV-22092] Duplicidad en OrdenItem</a></li>
+<li class="toctree-l4"><a class="reference internal" href="../../Planning/BugFixes/DocsFixes/DEV-22112.html">[DEV-22112] Action de Estado de Ruta No Informa Correctamente el Impedimento de Eliminar</a></li>
+<li class="toctree-l4"><a class="reference internal" href="../../Planning/BugFixes/DocsFixes/DEV-22115.html">[DEV-22115] ROUTING | Al momento de generar</a></li>
+<li class="toctree-l4"><a class="reference internal" href="../../Planning/BugFixes/DocsFixes/DEV-22141.html">[DEV-22141] Respetar Actividades</a></li>
+<li class="toctree-l4"><a class="reference internal" href="../../Planning/BugFixes/DocsFixes/DEV-22144.html">[DEV-22144] No Se Visualiza Hora en Resultado de Ruteo</a></li>
+<li class="toctree-l4"><a class="reference internal" href="../../Planning/BugFixes/DocsFixes/DEV-22165.html">[DEV-22165] No es Posible Cambiar Estado en Ruta</a></li>
+<li class="toctree-l4"><a class="reference internal" href="../../Planning/BugFixes/DocsFixes/DEV-22198.html">[DEV-22198] Errores Estéticos</a></li>
+<li class="toctree-l4"><a class="reference internal" href="../../Planning/BugFixes/DocsFixes/DEV-22201.html">[DEV-22201] Error con Deposito Salida-Llegada al Utilizar Respetar Vehículo Pre-Asignado</a></li>
+<li class="toctree-l4"><a class="reference internal" href="../../Planning/BugFixes/DocsFixes/DEV-22217.html">[DEV-22217] No Actualiza el Estado de las Ordenes de PickUp de Depósito a Partir del Estado de la Ruta</a></li>
+<li class="toctree-l4"><a class="reference internal" href="../../Planning/BugFixes/DocsFixes/DEV-22225.html">[DEV-22225] Error al Cargar Archivos Para Rutas Fijas CSV</a></li>
+<li class="toctree-l4"><a class="reference internal" href="../../Planning/BugFixes/DocsFixes/DEV-22230.html">[DEV-22230] No Muestra Mensaje de Error en Cambio de Estado de Ordenes Desde Routing/OM pedidos/OM Ordenes y Cambio Estado Solicitud al Realizar Rollback</a></li>
+<li class="toctree-l4"><a class="reference internal" href="../../Planning/BugFixes/DocsFixes/DEV-22239.html">[DEV-22239] Error de Ruteo en Ordenes de Frecuencia Mensual</a></li>
+<li class="toctree-l4"><a class="reference internal" href="../../Planning/BugFixes/DocsFixes/DEV-22247.html">[DEV-22247] Error Motivo de No Ruteo</a></li>
+<li class="toctree-l4"><a class="reference internal" href="../../Planning/BugFixes/DocsFixes/DEV-22272.html">[DEV-22272] Error al Obtener Filtros de Jornada</a></li>
+<li class="toctree-l4"><a class="reference internal" href="../../Planning/BugFixes/DocsFixes/DEV-22283.html">[DEV-22283] Error en Validación de Rutas</a></li>
+<li class="toctree-l4"><a class="reference internal" href="../../Planning/BugFixes/DocsFixes/DEV-22284.html">[DEV-22284] Diferencias de ruteo entre Varonet y VaronetX</a></li>
+<li class="toctree-l4"><a class="reference internal" href="../../Planning/BugFixes/DocsFixes/DEV-22287.html">[DEV-22287] No Recarga al Borrar Consolidados</a></li>
+<li class="toctree-l4"><a class="reference internal" href="../../Planning/BugFixes/DocsFixes/DEV-22292.html">[DEV-22292] No permite Desplazarse con la Vertical al Crear/Editar un Cliente</a></li>
+<li class="toctree-l4"><a class="reference internal" href="../../Planning/BugFixes/DocsFixes/DEV-22297.html">[DEV-22297] No Recarga Completo al Agregar Ordenes Automáticamente</a></li>
+<li class="toctree-l4"><a class="reference internal" href="../../Planning/BugFixes/DocsFixes/DEV-22299.html">[DEV-22299] Liquidaciones No Permite Ver las Liquidaciones</a></li>
+<li class="toctree-l4"><a class="reference internal" href="../../Planning/BugFixes/DocsFixes/DEV-22312.html">[DEV-22312] Se Selecciona Vehículo en Ruteo Sin Asignación Automática del Mismo</a></li>
+<li class="toctree-l4"><a class="reference internal" href="../../Planning/BugFixes/DocsFixes/DEV-22364.html">[DEV-22364] Omitir Regreso a Deposito con Segundas Vueltas</a></li>
+<li class="toctree-l4"><a class="reference internal" href="../../Planning/BugFixes/DocsFixes/DEV-22405.html">[DEV-22405] Error Ruteo (No Considera el Horario del Consolidado)</a></li>
+<li class="toctree-l4"><a class="reference internal" href="../../Planning/BugFixes/DocsFixes/DEV-22407.html">[DEV-22407] No Es Posible Reordenar Columnas en Pestaña Rutas</a></li>
+<li class="toctree-l4"><a class="reference internal" href="../../Planning/BugFixes/DocsFixes/DEV-22417.html">[DEV-22417] Límite dígitos Orden.GrupoRuta en Front Editar Ordenes</a></li>
+<li class="toctree-l4"><a class="reference internal" href="../../Planning/BugFixes/DocsFixes/DEV-22477.html">[DEV-22477] Corregir Padding en Título de Jornada Webrouting</a></li>
+<li class="toctree-l4"><a class="reference internal" href="../../Planning/BugFixes/DocsFixes/DEV-22478.html">[DEV-22478] Filtros por Columnas: #Ruta en ColumnaRuta</a></li>
+<li class="toctree-l4"><a class="reference internal" href="../../Planning/BugFixes/DocsFixes/DEV-22481.html">[DEV-22481] Corrección Indice Jornada IdCondicionClimatica</a></li>
+<li class="toctree-l4"><a class="reference internal" href="../../Planning/BugFixes/DocsFixes/DEV-22482.html">[DEV-22482] Edición de Rutas Deseleccionar las Rutas de la Pestaña</a></li>
+<li class="toctree-l4"><a class="reference internal" href="../../Planning/BugFixes/DocsFixes/DEV-22490.html">[DEV-22490] Error Ruteo</a></li>
+<li class="toctree-l4"><a class="reference internal" href="../../Planning/BugFixes/DocsFixes/DEV-22493.html">[DEV-22493] Eliminación Ordenes/Consolidados Autocreados</a></li>
+<li class="toctree-l4"><a class="reference internal" href="../../Planning/BugFixes/DocsFixes/DEV-22573.html">[DEV-22573] Impactan Mal los Valores de Cantidad | Volumen | Peso</a></li>
+<li class="toctree-l4"><a class="reference internal" href="../../Planning/BugFixes/DocsFixes/DEV-22574.html">[DEV-22574] Rutas Duplicadas en Ruteo</a></li>
+<li class="toctree-l4"><a class="reference internal" href="../../Planning/BugFixes/DocsFixes/DEV-22578.html">[DEV-22578] Deposito de Salida / Llegada iguales. Ventana Horaria Ordenes en Múltiples Días</a></li>
+<li class="toctree-l4"><a class="reference internal" href="../../Planning/BugFixes/DocsFixes/DEV-22600.html">[DEV-22600] Separación de Validaciones: Supera Máximos TV vs Supera Ventana Horaria</a></li>
+<li class="toctree-l4"><a class="reference internal" href="../../Planning/BugFixes/DocsFixes/DEV-22603.html">[DEV-22603] Reordenamiento de Paradas Desconsolida las Ordenes</a></li>
+<li class="toctree-l4"><a class="reference internal" href="../../Planning/BugFixes/DocsFixes/DEV-22604.html">[DEV-22604] Rutas Exceden Regla de CapacidadDeReciboCedis</a></li>
+<li class="toctree-l4"><a class="reference internal" href="../../Planning/BugFixes/DocsFixes/DEV-22611.html">[DEV-22611] Visualizacion FechaEntrega Solapa Orden</a></li>
+<li class="toctree-l4"><a class="reference internal" href="../../Planning/BugFixes/DocsFixes/DEV-22616.html">[DEV-22616] Bloqueo de Edición por Lazo</a></li>
+<li class="toctree-l4"><a class="reference internal" href="../../Planning/BugFixes/DocsFixes/DEV-22640.html">[DEV-22640] SignalR RoutingX en AsyncAddToursResults</a></li>
+<li class="toctree-l4"><a class="reference internal" href="../../Planning/BugFixes/DocsFixes/DEV-22646.html">[DEV-22646] Error en Procedure Custom Z_AtributosPedido Proceso 109 TEST</a></li>
+<li class="toctree-l4"><a class="reference internal" href="../../Planning/BugFixes/DocsFixes/DEV-22647.html">[DEV-22647] Agregar Ordenes Automáticamente</a></li>
+<li class="toctree-l4"><a class="reference internal" href="../../Planning/BugFixes/DocsFixes/DEV-22648.html">[DEV-22648] Reubicación Restriccion Ambiental en Configuración Routing</a></li>
+<li class="toctree-l4"><a class="reference internal" href="../../Planning/BugFixes/DocsFixes/DEV-22659.html">[DEV-22659] Mensaje Incorrecto al Crear Jornada</a></li>
+<li class="toctree-l4"><a class="reference internal" href="../../Planning/BugFixes/DocsFixes/DEV-22703.html">[DEV-22703] VaronetX Inserción de DeposAux</a></li>
+</ul>
+</li>
+</ul>
+</li>
+<li class="toctree-l2 has-children"><a class="reference internal" href="../../Tracking/index4.html">Tracking</a><input class="toctree-checkbox" id="toctree-checkbox-12" name="toctree-checkbox-12" role="switch" type="checkbox"/><label for="toctree-checkbox-12"><div class="visually-hidden">Toggle navigation of Tracking</div><i class="icon"><svg><use href="#svg-arrow-right"></use></svg></i></label><ul>
+<li class="toctree-l3 has-children"><a class="reference internal" href="../../Tracking/NewFeatures/NewFeatures.html">Nuevas Características</a><input class="toctree-checkbox" id="toctree-checkbox-13" name="toctree-checkbox-13" role="switch" type="checkbox"/><label for="toctree-checkbox-13"><div class="visually-hidden">Toggle navigation of Nuevas Características</div><i class="icon"><svg><use href="#svg-arrow-right"></use></svg></i></label><ul>
+<li class="toctree-l4"><a class="reference internal" href="../../Tracking/NewFeatures/DocsNewFeatures/DEV-21104.html">[DEV-21104] UNIGIS | Mejora en repetición de encuestas ( histórico )</a></li>
+<li class="toctree-l4"><a class="reference internal" href="../../Tracking/NewFeatures/DocsNewFeatures/DEV-22576.html">[DEV-22576] Permitir Modificar “Viaje.ReferenciaExterna” en metodo “ModificarViaje” MAPI Logistic</a></li>
+<li class="toctree-l4"><a class="reference internal" href="../../Tracking/NewFeatures/DocsNewFeatures/DEV-22613.html">[DEV-22613] Mejora en Filtrado por Estado al Filtrar Paradas al Analizar</a></li>
+<li class="toctree-l4"><a class="reference internal" href="../../Tracking/NewFeatures/DocsNewFeatures/DEV-22650.html">[DEV-22652] No Estimar Viajes Viejos</a></li>
+</ul>
+</li>
+<li class="toctree-l3 has-children"><a class="reference internal" href="../../Tracking/Improvements/Mejoras.html">Mejoras</a><input class="toctree-checkbox" id="toctree-checkbox-14" name="toctree-checkbox-14" role="switch" type="checkbox"/><label for="toctree-checkbox-14"><div class="visually-hidden">Toggle navigation of Mejoras</div><i class="icon"><svg><use href="#svg-arrow-right"></use></svg></i></label><ul>
+<li class="toctree-l4"><a class="reference internal" href="../../Tracking/Improvements/docsmejoras/DEV-22154.html">[DEV-22069] Mejora en Lectura de Campos para Geo Interactiva</a></li>
+<li class="toctree-l4"><a class="reference internal" href="../../Tracking/Improvements/docsmejoras/DEV-22161.html">[DEV-22161] Maquetado Tracking Histórico de Vehículos</a></li>
+<li class="toctree-l4"><a class="reference internal" href="../../Tracking/Improvements/docsmejoras/DEV-22342.html">[DEV-22342] Estilos en Iconos en Detalles de Parada en Tracking</a></li>
+</ul>
+</li>
+<li class="toctree-l3 has-children"><a class="reference internal" href="../../Tracking/BugFixes/bugfixes.html">Corrección de Errores</a><input class="toctree-checkbox" id="toctree-checkbox-15" name="toctree-checkbox-15" role="switch" type="checkbox"/><label for="toctree-checkbox-15"><div class="visually-hidden">Toggle navigation of Corrección de Errores</div><i class="icon"><svg><use href="#svg-arrow-right"></use></svg></i></label><ul>
+<li class="toctree-l4"><a class="reference internal" href="../../Tracking/BugFixes/DocsFixes/DEV-22095.html">[DEV-22095] Dispatch Multiples paradas</a></li>
+<li class="toctree-l4"><a class="reference internal" href="../../Tracking/BugFixes/DocsFixes/DEV-22096.html">[DEV-22096] El icono de búsqueda (Lupa) no esta visible</a></li>
+<li class="toctree-l4"><a class="reference internal" href="../../Tracking/BugFixes/DocsFixes/DEV-22098.html">[DEV-22098] Vehículo - Buscador - Filtro por tipo de vehiculo se muestra mal</a></li>
+<li class="toctree-l4"><a class="reference internal" href="../../Tracking/BugFixes/DocsFixes/DEV-22167.html">[DEV-22167] No respeta Filtro Operación - Tracking &gt; Viajes</a></li>
+<li class="toctree-l4"><a class="reference internal" href="../../Tracking/BugFixes/DocsFixes/DEV-22190.html">[DEV-22190]  Viajes - Detalle de Viaje - Solapa Paradas - Botón Agregar Parada Esta Descuadrado</a></li>
+<li class="toctree-l4"><a class="reference internal" href="../../Tracking/BugFixes/DocsFixes/DEV-22213.html">[DEV-22213] Textos Fijos en Formato Remesa</a></li>
+<li class="toctree-l4"><a class="reference internal" href="../../Tracking/BugFixes/DocsFixes/DEV-22219.html">[DEV-22219] Filtros Consolidados y Ordenes No Realizan Filtrado Correctamente</a></li>
+<li class="toctree-l4"><a class="reference internal" href="../../Tracking/BugFixes/DocsFixes/DEV-22220.html">[DEV-22220] No hay Detecciones de vehículos en “SeguimientoControlDibujo”</a></li>
+<li class="toctree-l4"><a class="reference internal" href="../../Tracking/BugFixes/DocsFixes/DEV-22227.html">[DEV-22227] Validar Documentos al Cambiar Vehículo a un Viaje</a></li>
+<li class="toctree-l4"><a class="reference internal" href="../../Tracking/BugFixes/DocsFixes/DEV-22231.html">[DEV-22231] Botón Invisible</a></li>
+<li class="toctree-l4"><a class="reference internal" href="../../Tracking/BugFixes/DocsFixes/DEV-22234.html">[DEV-22234] Botón Invisible</a></li>
+<li class="toctree-l4"><a class="reference internal" href="../../Tracking/BugFixes/DocsFixes/DEV-22240.html">[DEV-22240] Refrescar Pantalla Para Visualizar Custodia Agregado</a></li>
+<li class="toctree-l4"><a class="reference internal" href="../../Tracking/BugFixes/DocsFixes/DEV-22245.html">[DEV-22245] Conductor - Crear Conductor - No Se Muestra Scroll Bar</a></li>
+<li class="toctree-l4"><a class="reference internal" href="../../Tracking/BugFixes/DocsFixes/DEV-22246.html">[DEV-22246] No Es Posible Replanificar Una Jornada con Gran Cantidad de Ordenes</a></li>
+<li class="toctree-l4"><a class="reference internal" href="../../Tracking/BugFixes/DocsFixes/DEV-22254.html">[DEV-22254] Dispatch Muestra Registros que Estan en Jornadas Cerradas</a></li>
+<li class="toctree-l4"><a class="reference internal" href="../../Tracking/BugFixes/DocsFixes/DEV-22275.html">[DEV-22275] Creación de Viajes - No Se Generan items al Crear un Viaje con Paradas</a></li>
+<li class="toctree-l4"><a class="reference internal" href="../../Tracking/BugFixes/DocsFixes/DEV-22279.html">[DEV-22279] Filtrar Botón Para Escanear Pedidos</a></li>
+<li class="toctree-l4"><a class="reference internal" href="../../Tracking/BugFixes/DocsFixes/DEV-22354.html">[DEV-22354] Modo Transporte - La Columna Tipo Se Muestra Encimada</a></li>
+<li class="toctree-l4"><a class="reference internal" href="../../Tracking/BugFixes/DocsFixes/DEV-22429.html">[DEV-22429] ParadaItem_Dyn No Hereda los Datos de OrdenItem_Dyn</a></li>
+<li class="toctree-l4"><a class="reference internal" href="../../Tracking/BugFixes/DocsFixes/DEV-22480.html">[DEV-22480] Ventanas PopUp No Se Reescalan De Acuerdo con la Información que se Muestra</a></li>
+<li class="toctree-l4"><a class="reference internal" href="../../Tracking/BugFixes/DocsFixes/DEV-22500.html">[DEV-22500] Corrección Label</a></li>
+<li class="toctree-l4"><a class="reference internal" href="../../Tracking/BugFixes/DocsFixes/DEV-22502.html">[DEV-22502] No respeta en el Registro la Hora Ingresada en la Actividad ActividaRecurso</a></li>
+<li class="toctree-l4"><a class="reference internal" href="../../Tracking/BugFixes/DocsFixes/DEV-22503.html">[DEV-22503] Quitar Varias Paradas de Forma Masiva de Viaje Correcciones</a></li>
+<li class="toctree-l4"><a class="reference internal" href="../../Tracking/BugFixes/DocsFixes/DEV-22552.html">[DEV-22552] Error en Búsqueda de Conductor No Determinado</a></li>
+<li class="toctree-l4"><a class="reference internal" href="../../Tracking/BugFixes/DocsFixes/DEV-22572.html">[DEV-22572] Error en Búsqueda de Conductor No Determinado</a></li>
+<li class="toctree-l4"><a class="reference internal" href="../../Tracking/BugFixes/DocsFixes/DEV-22577.html">[DEV-22577] Lentitud al Momento de Cambiar de Estado y Generar Manifiesto RNDC</a></li>
+<li class="toctree-l4"><a class="reference internal" href="../../Tracking/BugFixes/DocsFixes/DEV-22579.html">[DEV-22579] Error al Guardar Fecha de Creación al Dar de Alta RecursoActividad</a></li>
+<li class="toctree-l4"><a class="reference internal" href="../../Tracking/BugFixes/DocsFixes/DEV-22590.html">[DEV-22590] Lentitud al momento de cambiar de estado y generar manifiesto RNDC | Consulta documentos</a></li>
+<li class="toctree-l4"><a class="reference internal" href="../../Tracking/BugFixes/DocsFixes/DEV-22591.html">[DEV-22591] Lentitud al Momento de Cambiar de Estado y Generar Manifiesto RNDC | Corrección al Asignar VehiculoDisponible MAPI</a></li>
+<li class="toctree-l4"><a class="reference internal" href="../../Tracking/BugFixes/DocsFixes/DEV-22595.html">[DEV-22595] Error al Cambiar Depósito de Salida de un Viaje</a></li>
+<li class="toctree-l4"><a class="reference internal" href="../../Tracking/BugFixes/DocsFixes/DEV-22614.html">[DEV-22614] Smart Page de Paradas - Editar parada - Deposito</a></li>
+<li class="toctree-l4"><a class="reference internal" href="../../Tracking/BugFixes/DocsFixes/DEV-22639.html">[DEV-22639] Modo Mapa: No Se Visualizan Bien los Iconos en el Mapa</a></li>
+<li class="toctree-l4"><a class="reference internal" href="../../Tracking/BugFixes/DocsFixes/DEV-22662.html">[DEV-22662] Error en Apartado Inicio Viaje y Fin Viaje</a></li>
+<li class="toctree-l4"><a class="reference internal" href="../../Tracking/BugFixes/DocsFixes/DEV-22663.html">[DEV-22663] Agregar Paradas en Quick Mode - No Tiene Función Botón Agregar</a></li>
+<li class="toctree-l4"><a class="reference internal" href="../../Tracking/BugFixes/DocsFixes/DEV-22664.html">[DEV-22664] Paradas Quick Mode - No Se Habilita Botón Siguiente</a></li>
+<li class="toctree-l4"><a class="reference internal" href="../../Tracking/BugFixes/DocsFixes/DEV-22665.html">[DEV-22665] Formulario Agregar Parada Sin Margenes</a></li>
+<li class="toctree-l4"><a class="reference internal" href="../../Tracking/BugFixes/DocsFixes/DEV-22668.html">[DEV-22668] Error al Mostrar Información de Paradas y Viajes de una Jornada</a></li>
+<li class="toctree-l4"><a class="reference internal" href="../../Tracking/BugFixes/DocsFixes/DEV-22669.html">[DEV-22669] Pantalla en Blanco para Ejecutar Operaciones Masivas</a></li>
+<li class="toctree-l4"><a class="reference internal" href="../../Tracking/BugFixes/DocsFixes/DEV-22676.html">[DEV-22676] Error al Recalcular ETA al Notificar Arribo Próximo</a></li>
+<li class="toctree-l4"><a class="reference internal" href="../../Tracking/BugFixes/DocsFixes/DEV-22689.html">[DEV-22689] No Se Ve Correctamente la Selección de Operación</a></li>
+<li class="toctree-l4"><a class="reference internal" href="../../Tracking/BugFixes/DocsFixes/DEV-22690.html">[DEV-22690] Agrega las Paradas de Pickup y Delivery de Manera Invertida y con Error en la Numeración</a></li>
+<li class="toctree-l4"><a class="reference internal" href="../../Tracking/BugFixes/DocsFixes/DEV-22698.html">[DEV-22698] Mostrar Sentido de Vehículo</a></li>
+<li class="toctree-l4"><a class="reference internal" href="../../Tracking/BugFixes/DocsFixes/DEV-22702.html">[DEV-22702] Reordenamiento de Paradas Desconsolida las Ordenes</a></li>
+</ul>
+</li>
+</ul>
+</li>
+<li class="toctree-l2 has-children"><a class="reference internal" href="../../Mobile/index5.html">Mobile</a><input class="toctree-checkbox" id="toctree-checkbox-16" name="toctree-checkbox-16" role="switch" type="checkbox"/><label for="toctree-checkbox-16"><div class="visually-hidden">Toggle navigation of Mobile</div><i class="icon"><svg><use href="#svg-arrow-right"></use></svg></i></label><ul>
+<li class="toctree-l3 has-children"><a class="reference internal" href="../../Mobile/NewFeatures/NewFeatures.html">Nuevas Características</a><input class="toctree-checkbox" id="toctree-checkbox-17" name="toctree-checkbox-17" role="switch" type="checkbox"/><label for="toctree-checkbox-17"><div class="visually-hidden">Toggle navigation of Nuevas Características</div><i class="icon"><svg><use href="#svg-arrow-right"></use></svg></i></label><ul>
+<li class="toctree-l4"><a class="reference internal" href="../../Mobile/NewFeatures/DocsNewFeatures/DEV-21492.html">[DEV-21492] Botón de Pánico - GPS Tracker</a></li>
+<li class="toctree-l4"><a class="reference internal" href="../../Mobile/NewFeatures/DocsNewFeatures/DEV-22053.html">[DEV-22053] IFlow - Ajuste de Saldos de Recursos</a></li>
+<li class="toctree-l4"><a class="reference internal" href="../../Mobile/NewFeatures/DocsNewFeatures/DEV-22518.html">[DEV-22518] Notificación de Archivos Adjuntos</a></li>
+<li class="toctree-l4"><a class="reference internal" href="../../Mobile/NewFeatures/DocsNewFeatures/DEV-22601.html">[DEV-21601] Integración con Prestador GPS ITRACK</a></li>
+<li class="toctree-l4"><a class="reference internal" href="../../Mobile/NewFeatures/DocsNewFeatures/DEV-22608.html">[DEV-22608] Validacion de Valor Cobrado con Forma de Pago al Contado en la Generación del Request al Servicio</a></li>
+</ul>
+</li>
+<li class="toctree-l3 has-children"><a class="reference internal" href="../../Mobile/Improvements/Mejoras.html">Mejoras</a><input class="toctree-checkbox" id="toctree-checkbox-18" name="toctree-checkbox-18" role="switch" type="checkbox"/><label for="toctree-checkbox-18"><div class="visually-hidden">Toggle navigation of Mejoras</div><i class="icon"><svg><use href="#svg-arrow-right"></use></svg></i></label><ul>
+<li class="toctree-l4"><a class="reference internal" href="../../Mobile/Improvements/docsmejoras/DEV-22151.html">[DEV-22151] Maquetado Apps Mobile ReStyle</a></li>
+<li class="toctree-l4"><a class="reference internal" href="../../Mobile/Improvements/docsmejoras/DEV-22153.html">[DEV-22153] Eliminar Logs y Warnings</a></li>
+</ul>
+</li>
+<li class="toctree-l3 has-children"><a class="reference internal" href="../../Mobile/BugFixes/bugfixes.html">Corrección de Errores</a><input class="toctree-checkbox" id="toctree-checkbox-19" name="toctree-checkbox-19" role="switch" type="checkbox"/><label for="toctree-checkbox-19"><div class="visually-hidden">Toggle navigation of Corrección de Errores</div><i class="icon"><svg><use href="#svg-arrow-right"></use></svg></i></label><ul>
+<li class="toctree-l4"><a class="reference internal" href="../../Mobile/BugFixes/DocsFixes/DEV-22411.html">[DEV-22411] Control de Carga Viaje</a></li>
+<li class="toctree-l4"><a class="reference internal" href="../../Mobile/BugFixes/DocsFixes/DEV-22494.html">[DEV-22494]  Mejora Control de Carga y Descarga</a></li>
+<li class="toctree-l4"><a class="reference internal" href="../../Mobile/BugFixes/DocsFixes/DEV-22693.html">[DEV-22693] Vehículos Sin Reportar</a></li>
+</ul>
+</li>
+</ul>
+</li>
+<li class="toctree-l2 has-children"><a class="reference internal" href="../../Fleet/index6.html">Fleet</a><input class="toctree-checkbox" id="toctree-checkbox-20" name="toctree-checkbox-20" role="switch" type="checkbox"/><label for="toctree-checkbox-20"><div class="visually-hidden">Toggle navigation of Fleet</div><i class="icon"><svg><use href="#svg-arrow-right"></use></svg></i></label><ul>
+<li class="toctree-l3 has-children"><a class="reference internal" href="../../Fleet/NewFeatures/NewFeatures.html">Nuevas Características</a><input class="toctree-checkbox" id="toctree-checkbox-21" name="toctree-checkbox-21" role="switch" type="checkbox"/><label for="toctree-checkbox-21"><div class="visually-hidden">Toggle navigation of Nuevas Características</div><i class="icon"><svg><use href="#svg-arrow-right"></use></svg></i></label><ul>
+<li class="toctree-l4"><a class="reference internal" href="../../Fleet/NewFeatures/DocsNewFeatures/DEV-21515.html">[DEV-21515] Mejoras Actualización Masiva de Tarifas</a></li>
+<li class="toctree-l4"><a class="reference internal" href="../../Fleet/NewFeatures/DocsNewFeatures/DEV-22618.html">[DEV-22618] Mejora en Tarifas</a></li>
+</ul>
+</li>
+<li class="toctree-l3 has-children"><a class="reference internal" href="../../Fleet/Improvements/Mejoras.html">Mejoras</a><input class="toctree-checkbox" id="toctree-checkbox-22" name="toctree-checkbox-22" role="switch" type="checkbox"/><label for="toctree-checkbox-22"><div class="visually-hidden">Toggle navigation of Mejoras</div><i class="icon"><svg><use href="#svg-arrow-right"></use></svg></i></label><ul>
+<li class="toctree-l4"><a class="reference internal" href="../../Fleet/Improvements/docsmejoras/DEV-22109.html">[DEV-22109] Mejorar Estilos en Fleet X</a></li>
+<li class="toctree-l4"><a class="reference internal" href="../../Fleet/Improvements/docsmejoras/DEV-22529.html">[DEV-22529] Checks True False en Producto</a></li>
+<li class="toctree-l4"><a class="reference internal" href="../../Fleet/Improvements/docsmejoras/DEV-22535.html">[DEV-22535] Iconos Outline en React</a></li>
+<li class="toctree-l4"><a class="reference internal" href="../../Fleet/Improvements/docsmejoras/DEV-22589.html">[DEV-22589] Mejoras Viuales Fleet X - OM X</a></li>
+</ul>
+</li>
+<li class="toctree-l3 has-children"><a class="reference internal" href="../../Fleet/BugFixes/bugfixes.html">Corrección de Errores</a><input class="toctree-checkbox" id="toctree-checkbox-23" name="toctree-checkbox-23" role="switch" type="checkbox"/><label for="toctree-checkbox-23"><div class="visually-hidden">Toggle navigation of Corrección de Errores</div><i class="icon"><svg><use href="#svg-arrow-right"></use></svg></i></label><ul>
+<li class="toctree-l4"><a class="reference internal" href="../../Fleet/BugFixes/DocsFixes/DEV-22097.html">[DEV-22310] No es posible ordenar la columna Estado Viaje Secundario</a></li>
+<li class="toctree-l4"><a class="reference internal" href="../../Fleet/BugFixes/DocsFixes/DEV-22102.html">[DEV-22102] Liquidaciones: No Esta funcionando el Filtro Hasta</a></li>
+<li class="toctree-l4"><a class="reference internal" href="../../Fleet/BugFixes/DocsFixes/DEV-22104.html">[DEV-22104] Análisis de Borrado de Liquidación Sin Guías por Concurrencia</a></li>
+<li class="toctree-l4"><a class="reference internal" href="../../Fleet/BugFixes/DocsFixes/DEV-22107.html">[DEV-22107] Modificaciones Bitácora Categoría Viaje - No se registran en Fleet</a></li>
+<li class="toctree-l4"><a class="reference internal" href="../../Fleet/BugFixes/DocsFixes/DEV-22113.html">[DEV-22113]  Errores de Visualización</a></li>
+<li class="toctree-l4"><a class="reference internal" href="../../Fleet/BugFixes/DocsFixes/DEV-22175.html">[DEV-22175] Fleet Web No Permite Eliminar o Agregar Guías a una Liquidación Creada</a></li>
+<li class="toctree-l4"><a class="reference internal" href="../../Fleet/BugFixes/DocsFixes/DEV-22192.html">[DEV-22192] Tarifas - Error al Crear una Guía</a></li>
+<li class="toctree-l4"><a class="reference internal" href="../../Fleet/BugFixes/DocsFixes/DEV-22232.html">[DEV-22232] Problemas al Seleccionar Transporte</a></li>
+<li class="toctree-l4"><a class="reference internal" href="../../Fleet/BugFixes/DocsFixes/DEV-22237.html">[DEV-22237] No Valida Cantidad Máxima Ni Muestra LabelValor Configurado</a></li>
+<li class="toctree-l4"><a class="reference internal" href="../../Fleet/BugFixes/DocsFixes/DEV-22241.html">[DEV-22241] Carga por Rango de Valores No Funciona</a></li>
+<li class="toctree-l4"><a class="reference internal" href="../../Fleet/BugFixes/DocsFixes/DEV-22243.html">[DEV-22243] Carga Incidencia Cuando Ningún Estado Tiene el Action Cargar_Incidencia_Viaje</a></li>
+<li class="toctree-l4"><a class="reference internal" href="../../Fleet/BugFixes/DocsFixes/DEV-22252.html">[DEV-22252] Visibilidad de Columna</a></li>
+<li class="toctree-l4"><a class="reference internal" href="../../Fleet/BugFixes/DocsFixes/DEV-22259.html">[DEV-22259] Viajes - Guias - Ordenes  - Documentacion - Agregar</a></li>
+<li class="toctree-l4"><a class="reference internal" href="../../Fleet/BugFixes/DocsFixes/DEV-22269.html">[DEV-22269] Documentación: Error en Ordenamiento de Columnas</a></li>
+<li class="toctree-l4"><a class="reference internal" href="../../Fleet/BugFixes/DocsFixes/DEV-22270.html">[DEV-22270] Documentación: No funciona los Filtros</a></li>
+<li class="toctree-l4"><a class="reference internal" href="../../Fleet/BugFixes/DocsFixes/DEV-22295.html">[DEV-22295] Viajes - Persona - Trace Estado - Ordenamiento de Columnas</a></li>
+<li class="toctree-l4"><a class="reference internal" href="../../Fleet/BugFixes/DocsFixes/DEV-22307.html">[DEV-22307] No Permite Eiminar Una Tarifa</a></li>
+<li class="toctree-l4"><a class="reference internal" href="../../Fleet/BugFixes/DocsFixes/DEV-22333.html">[DEV-22333] Documentacion TraceEstado no Ordena por Estado Origen y Destino</a></li>
+<li class="toctree-l4"><a class="reference internal" href="../../Fleet/BugFixes/DocsFixes/DEV-22351.html">[DEV-22351] Custodios - Error 500 en Estado y Empresa Custodia</a></li>
+<li class="toctree-l4"><a class="reference internal" href="../../Fleet/BugFixes/DocsFixes/DEV-22353.html">[DEV-22353] Liquidaciones - No Muestra Información</a></li>
+<li class="toctree-l4"><a class="reference internal" href="../../Fleet/BugFixes/DocsFixes/DEV-22360.html">[DEV-22360] Clientes - Solapa Validaciones - Click Derecho</a></li>
+<li class="toctree-l4"><a class="reference internal" href="../../Fleet/BugFixes/DocsFixes/DEV-22395.html">[DEV-22395] Viajes - Solapa Bitacora - Ordenamiento de Columnas</a></li>
+<li class="toctree-l4"><a class="reference internal" href="../../Fleet/BugFixes/DocsFixes/DEV-22401.html">[DEV-22401] Creacion de Viaje por Rotura de Vehículo</a></li>
+<li class="toctree-l4"><a class="reference internal" href="../../Fleet/BugFixes/DocsFixes/DEV-22416.html">[DEV-22416] Copiar Fórmula No Funciona</a></li>
+<li class="toctree-l4"><a class="reference internal" href="../../Fleet/BugFixes/DocsFixes/DEV-22422.html">[DEV-22422] Tarifar Debug Tiene Problemas de Visualización</a></li>
+<li class="toctree-l4"><a class="reference internal" href="../../Fleet/BugFixes/DocsFixes/DEV-22427.html">[DEV-22427] Incidencias - Solapa Ubicación</a></li>
+<li class="toctree-l4"><a class="reference internal" href="../../Fleet/BugFixes/DocsFixes/DEV-22443.html">[DEV-22443] Creación de Agrupadores Paradas - Guías</a></li>
+<li class="toctree-l4"><a class="reference internal" href="../../Fleet/BugFixes/DocsFixes/DEV-22520.html">[DEV-22520] No Se Encuentra el Botón de Edición Masiva</a></li>
+<li class="toctree-l4"><a class="reference internal" href="../../Fleet/BugFixes/DocsFixes/DEV-22527.html">[DEV-22527] Ver información - Órdenes: Cancelar ítems</a></li>
+<li class="toctree-l4"><a class="reference internal" href="../../Fleet/BugFixes/DocsFixes/DEV-22528.html">[DEV-22528] Ver información - Órdenes: Pedidos Detalles / Viajes Detalles</a></li>
+<li class="toctree-l4"><a class="reference internal" href="../../Fleet/BugFixes/DocsFixes/DEV-22566.html">[DEV-22566] Error Consulta SQL Buscar Productos en Fleet</a></li>
+<li class="toctree-l4"><a class="reference internal" href="../../Fleet/BugFixes/DocsFixes/DEV-22622.html">[DEV-22622] Visualización de Documentos en Fleet</a></li>
+<li class="toctree-l4"><a class="reference internal" href="../../Fleet/BugFixes/DocsFixes/DEV-22634.html">[DEV-22634] Copiar Fórmula Tiene Errores</a></li>
+<li class="toctree-l4"><a class="reference internal" href="../../Fleet/BugFixes/DocsFixes/DEV-22636.html">[DEV-22636] Novedad con Vigencia Desde de Tarifas</a></li>
+<li class="toctree-l4"><a class="reference internal" href="../../Fleet/BugFixes/DocsFixes/DEV-22672.html">[DEV-22672] Emite Error al Crear Guía Manual</a></li>
+<li class="toctree-l4"><a class="reference internal" href="../../Fleet/BugFixes/DocsFixes/DEV-22707.html">[DEV-22707] Validación Tipo de Incidencia - Requiere Proveedor</a></li>
+<li class="toctree-l4"><a class="reference internal" href="../../Fleet/BugFixes/DocsFixes/DEV-22708.html">[DEV-22708] No Esta Permitiendo Cargar FLEET JAVA</a></li>
+<li class="toctree-l4"><a class="reference internal" href="../../Fleet/BugFixes/DocsFixes/DEV-22725.html">[DEV-22725] Homologación Campo Web Tracking con Fleet</a></li>
+</ul>
+</li>
+</ul>
+</li>
+<li class="toctree-l2 has-children"><a class="reference internal" href="../../Yard/index7.html">Yard</a><input class="toctree-checkbox" id="toctree-checkbox-24" name="toctree-checkbox-24" role="switch" type="checkbox"/><label for="toctree-checkbox-24"><div class="visually-hidden">Toggle navigation of Yard</div><i class="icon"><svg><use href="#svg-arrow-right"></use></svg></i></label><ul>
+<li class="toctree-l3 has-children"><a class="reference internal" href="../../Yard/BugFixes/bugfixes.html">Corrección de Errores</a><input class="toctree-checkbox" id="toctree-checkbox-25" name="toctree-checkbox-25" role="switch" type="checkbox"/><label for="toctree-checkbox-25"><div class="visually-hidden">Toggle navigation of Corrección de Errores</div><i class="icon"><svg><use href="#svg-arrow-right"></use></svg></i></label><ul>
+<li class="toctree-l4"><a class="reference internal" href="../../Yard/BugFixes/DocsFixes/DEV-22183.html">[DEV-22183] Muelles - Calendario - Redirección</a></li>
+<li class="toctree-l4"><a class="reference internal" href="../../Yard/BugFixes/DocsFixes/DEV-22184.html">[DEV-22184]  Citas - Filtros - Error 500</a></li>
+<li class="toctree-l4"><a class="reference internal" href="../../Yard/BugFixes/DocsFixes/DEV-22186.html">[DEV-22186]  Citas - Exportar a Excel - Error 500</a></li>
+<li class="toctree-l4"><a class="reference internal" href="../../Yard/BugFixes/DocsFixes/DEV-22187.html">[DEV-22187]  Citas - Citas de Entrega en Muelle -  Cambio de Estado Masivo</a></li>
+</ul>
+</li>
+</ul>
+</li>
+<li class="toctree-l2 current has-children"><a class="reference internal" href="../index8.html">B2C / B2B</a><input checked="" class="toctree-checkbox" id="toctree-checkbox-26" name="toctree-checkbox-26" role="switch" type="checkbox"/><label for="toctree-checkbox-26"><div class="visually-hidden">Toggle navigation of B2C / B2B</div><i class="icon"><svg><use href="#svg-arrow-right"></use></svg></i></label><ul class="current">
+<li class="toctree-l3 current has-children current-page"><a class="current reference internal" href="#">Nuevas Características</a><input checked="" class="toctree-checkbox" id="toctree-checkbox-27" name="toctree-checkbox-27" role="switch" type="checkbox"/><label for="toctree-checkbox-27"><div class="visually-hidden">Toggle navigation of Nuevas Características</div><i class="icon"><svg><use href="#svg-arrow-right"></use></svg></i></label><ul>
+<li class="toctree-l4"><a class="reference internal" href="DocsNewFeatures/DEV-22116.html">[DEV-22116] Modificaciones en B2C</a></li>
+<li class="toctree-l4"><a class="reference internal" href="DocsNewFeatures/DEV-22176.html">[DEV-22116] Mejoras B2B Agregar Campos Adicionales</a></li>
+<li class="toctree-l4"><a class="reference internal" href="DocsNewFeatures/DEV-22177.html">[DEV-22177] Mejoras B2B Generar Varios Pedidos de Uno Mismo</a></li>
+<li class="toctree-l4"><a class="reference internal" href="DocsNewFeatures/DEV-22724.html">[DEV-22724] Mejoras B2C</a></li>
+</ul>
+</li>
+<li class="toctree-l3 has-children"><a class="reference internal" href="../Improvements/Mejoras.html">Mejoras</a><input class="toctree-checkbox" id="toctree-checkbox-28" name="toctree-checkbox-28" role="switch" type="checkbox"/><label for="toctree-checkbox-28"><div class="visually-hidden">Toggle navigation of Mejoras</div><i class="icon"><svg><use href="#svg-arrow-right"></use></svg></i></label><ul>
+<li class="toctree-l4"><a class="reference internal" href="../Improvements/docsmejoras/DEV-22338.html">[DEV-22116] Modificaciones en B2C</a></li>
+<li class="toctree-l4"><a class="reference internal" href="../Improvements/docsmejoras/DEV-22521.html">[DEV-22521] Reemplazar Icono de Gift por Home en B2C</a></li>
+</ul>
+</li>
+<li class="toctree-l3 has-children"><a class="reference internal" href="../BugFixes/bugfixes.html">Corrección de Errores</a><input class="toctree-checkbox" id="toctree-checkbox-29" name="toctree-checkbox-29" role="switch" type="checkbox"/><label for="toctree-checkbox-29"><div class="visually-hidden">Toggle navigation of Corrección de Errores</div><i class="icon"><svg><use href="#svg-arrow-right"></use></svg></i></label><ul>
+<li class="toctree-l4"><a class="reference internal" href="../BugFixes/DocsFixes/DEV-22728.html">[DEV-22728] Error al Crear Pedidos B2B por Temas Recurso Contenedor</a></li>
+</ul>
+</li>
+</ul>
+</li>
+<li class="toctree-l2 has-children"><a class="reference internal" href="../../Setup/index9.html">Setup</a><input class="toctree-checkbox" id="toctree-checkbox-30" name="toctree-checkbox-30" role="switch" type="checkbox"/><label for="toctree-checkbox-30"><div class="visually-hidden">Toggle navigation of Setup</div><i class="icon"><svg><use href="#svg-arrow-right"></use></svg></i></label><ul>
+<li class="toctree-l3 has-children"><a class="reference internal" href="../../Setup/NewFeatures/NewFeatures.html">Nuevas Características</a><input class="toctree-checkbox" id="toctree-checkbox-31" name="toctree-checkbox-31" role="switch" type="checkbox"/><label for="toctree-checkbox-31"><div class="visually-hidden">Toggle navigation of Nuevas Características</div><i class="icon"><svg><use href="#svg-arrow-right"></use></svg></i></label><ul>
+<li class="toctree-l4"><a class="reference internal" href="../../Setup/NewFeatures/DocsNewFeatures/DEV-20309.html">[DEV-20309] Mejoras - Regresión - Configuración del Sistema</a></li>
+<li class="toctree-l4"><a class="reference internal" href="../../Setup/NewFeatures/DocsNewFeatures/DEV-22062.html">[DEV-22062] BackEnd - Desarrollo de Selección de Temas</a></li>
+<li class="toctree-l4"><a class="reference internal" href="../../Setup/NewFeatures/DocsNewFeatures/DEV-22117.html">[DEV-22117] Mejoras en Courier Adapter</a></li>
+<li class="toctree-l4"><a class="reference internal" href="../../Setup/NewFeatures/DocsNewFeatures/DEV-22118.html">[DEV-2218] Creación de las entidades para el manejo de patios (Almacenes)</a></li>
+<li class="toctree-l4"><a class="reference internal" href="../../Setup/NewFeatures/DocsNewFeatures/DEV-22134.html">[DEV-22134] Restricción por tipo de vehículo en “DomicilioOrden”</a></li>
+<li class="toctree-l4"><a class="reference internal" href="../../Setup/NewFeatures/DocsNewFeatures/DEV-22135.html">[DEV-22135] Detalle de LogMapServerX</a></li>
+<li class="toctree-l4"><a class="reference internal" href="../../Setup/NewFeatures/DocsNewFeatures/DEV-22168.html">[DEV-22168] Validación de Conexión al Ministerio</a></li>
+<li class="toctree-l4"><a class="reference internal" href="../../Setup/NewFeatures/DocsNewFeatures/DEV-22189.html">[DEV-22189] Agregar Acceso a Parámetros</a></li>
+<li class="toctree-l4"><a class="reference internal" href="../../Setup/NewFeatures/DocsNewFeatures/DEV-22209.html">[DEV-22209] Mejora Agrupador Guías</a></li>
+<li class="toctree-l4"><a class="reference internal" href="../../Setup/NewFeatures/DocsNewFeatures/DEV-22265.html">[DEV-22265] Agregar “TipoProducto” y “CategoríaProducto” a Módulo Productos</a></li>
+<li class="toctree-l4"><a class="reference internal" href="../../Setup/NewFeatures/DocsNewFeatures/DEV-22282.html">[DEV-22282] Proceso 34 Tarifas Generador RNDC</a></li>
+<li class="toctree-l4"><a class="reference internal" href="../../Setup/NewFeatures/DocsNewFeatures/DEV-22285.html">[DEV-22285] Nuevos atributos</a></li>
+<li class="toctree-l4"><a class="reference internal" href="../../Setup/NewFeatures/DocsNewFeatures/DEV-22316.html">[DEV-22316] Reporte de Servicio</a></li>
+<li class="toctree-l4"><a class="reference internal" href="../../Setup/NewFeatures/DocsNewFeatures/DEV-22318.html">[DEV-22318] Reporte de Consistencia</a></li>
+<li class="toctree-l4"><a class="reference internal" href="../../Setup/NewFeatures/DocsNewFeatures/DEV-22341.html">[DEV-22341] Adapter “CrearDocumentos”</a></li>
+<li class="toctree-l4"><a class="reference internal" href="../../Setup/NewFeatures/DocsNewFeatures/DEV-22440.html">[DEV-22440] ABM Deposito (Existente)</a></li>
+<li class="toctree-l4"><a class="reference internal" href="../../Setup/NewFeatures/DocsNewFeatures/DEV-22441.html">[DEV-22441] Gestion de Citas - Pedido RequiereBultado</a></li>
+<li class="toctree-l4"><a class="reference internal" href="../../Setup/NewFeatures/DocsNewFeatures/DEV-22444.html">[DEV-22444] Subfuncionalidad Configuración Pantalla Deposito Zona Turno (ABM y TAB)</a></li>
+<li class="toctree-l4"><a class="reference internal" href="../../Setup/NewFeatures/DocsNewFeatures/DEV-22446.html">[DEV-22446] Subfuncionalidad Configuración de la Pantalla Deposito Zona Tipo de Vehículo</a></li>
+<li class="toctree-l4"><a class="reference internal" href="../../Setup/NewFeatures/DocsNewFeatures/DEV-22447.html">[DEV-22447] Subfuncionalidad configuración Pantalla Producto de la Zona</a></li>
+<li class="toctree-l4"><a class="reference internal" href="../../Setup/NewFeatures/DocsNewFeatures/DEV-22448.html">[DEV-22448] ABM Estado Slot y su Workflow</a></li>
+<li class="toctree-l4"><a class="reference internal" href="../../Setup/NewFeatures/DocsNewFeatures/DEV-22449.html">[DEV-22449] ABM Estado Cita y su Workflow</a></li>
+<li class="toctree-l4"><a class="reference internal" href="../../Setup/NewFeatures/DocsNewFeatures/DEV-22450.html">[DEV-22450] Alta de Tipo Deposito Zona Track (ABM)</a></li>
+<li class="toctree-l4"><a class="reference internal" href="../../Setup/NewFeatures/DocsNewFeatures/DEV-22451.html">[DEV-22451] Alta de Tipo Producto (ABM)</a></li>
+<li class="toctree-l4"><a class="reference internal" href="../../Setup/NewFeatures/DocsNewFeatures/DEV-22452.html">[DEV-22452] Alta de Categoría de Producto</a></li>
+<li class="toctree-l4"><a class="reference internal" href="../../Setup/NewFeatures/DocsNewFeatures/DEV-22454.html">[DEV-22454]  Alta de Tipo Slot (Turnos)</a></li>
+<li class="toctree-l4"><a class="reference internal" href="../../Setup/NewFeatures/DocsNewFeatures/DEV-22455.html">[DEV-22455] Menú Citas en ABM</a></li>
+<li class="toctree-l4"><a class="reference internal" href="../../Setup/NewFeatures/DocsNewFeatures/DEV-22479.html">[DEV-22479]  Visualización de errores ABM Procesos</a></li>
+<li class="toctree-l4"><a class="reference internal" href="../../Setup/NewFeatures/DocsNewFeatures/DEV-22522.html">[DEV-22222]  Incluir Valores Mínimos en Adicional 1 y Adicional 2 Tipo de Vehículos, y como Variables de Ruteo</a></li>
+<li class="toctree-l4"><a class="reference internal" href="../../Setup/NewFeatures/DocsNewFeatures/DEV-22526.html">[DEV-22526]  Incluir Valores Mínimos en Adicional 1 y Adicional 2 Tipo de Vehículos, y como Variables de Ruteo</a></li>
+<li class="toctree-l4"><a class="reference internal" href="../../Setup/NewFeatures/DocsNewFeatures/DEV-22685.html">[DEV-22685] Subfuncionalidad Configuración de la Pantalla Zona Deposito (ABM)</a></li>
+<li class="toctree-l4"><a class="reference internal" href="../../Setup/NewFeatures/DocsNewFeatures/DEV-22726.html">[DEV-22726] Menú de Citas para Proveedores</a></li>
+</ul>
+</li>
+<li class="toctree-l3 has-children"><a class="reference internal" href="../../Setup/Improvements/Mejoras.html">Mejoras</a><input class="toctree-checkbox" id="toctree-checkbox-32" name="toctree-checkbox-32" role="switch" type="checkbox"/><label for="toctree-checkbox-32"><div class="visually-hidden">Toggle navigation of Mejoras</div><i class="icon"><svg><use href="#svg-arrow-right"></use></svg></i></label><ul>
+<li class="toctree-l4"><a class="reference internal" href="../../Setup/Improvements/docsmejoras/DEV-22153.html">[DEV-22153] Maquetado Quitar el Color relleno de estados</a></li>
+<li class="toctree-l4"><a class="reference internal" href="../../Setup/Improvements/docsmejoras/DEV-22155.html">[DEV-22155] Responsive de ABM e integrations center</a></li>
+<li class="toctree-l4"><a class="reference internal" href="../../Setup/Improvements/docsmejoras/DEV-22329.html">[DEV-22329] Eliminar doble scroll en ABM</a></li>
+<li class="toctree-l4"><a class="reference internal" href="../../Setup/Improvements/docsmejoras/DEV-22336.html">[DEV-22336] Correcciones Visuales de ABM de “DomicilioOrden”</a></li>
+<li class="toctree-l4"><a class="reference internal" href="../../Setup/Improvements/docsmejoras/DEV-22340.html">[DEV-22340] Doble Scroll en Integrations Center</a></li>
+<li class="toctree-l4"><a class="reference internal" href="../../Setup/Improvements/docsmejoras/DEV-22692.html">[DEV-22692] Mejoras Visuales y de Funcionalidad en Catálogos y Workflows</a></li>
+</ul>
+</li>
+<li class="toctree-l3 has-children"><a class="reference internal" href="../../Setup/BugFixes/bugfixes.html">Corrección de Errores</a><input class="toctree-checkbox" id="toctree-checkbox-33" name="toctree-checkbox-33" role="switch" type="checkbox"/><label for="toctree-checkbox-33"><div class="visually-hidden">Toggle navigation of Corrección de Errores</div><i class="icon"><svg><use href="#svg-arrow-right"></use></svg></i></label><ul>
+<li class="toctree-l4"><a class="reference internal" href="../../Setup/BugFixes/DocsFixes/DEV-22094.html">[DEV-22094] No Se Importan Valores en ABM Ventana Horaria Domicilio Orden</a></li>
+<li class="toctree-l4"><a class="reference internal" href="../../Setup/BugFixes/DocsFixes/DEV-22110.html">[DEV-22110] ABM Vehículo Requiere Cliente Para Crear Registro</a></li>
+<li class="toctree-l4"><a class="reference internal" href="../../Setup/BugFixes/DocsFixes/DEV-22137.html">[DEV-22137] Config de sistema - Recursos - Catálogos - Tipo de Vehiculo - Editar Registro</a></li>
+<li class="toctree-l4"><a class="reference internal" href="../../Setup/BugFixes/DocsFixes/DEV-22139.html">[DEV-22139] ABM - Botón de búsqueda</a></li>
+<li class="toctree-l4"><a class="reference internal" href="../../Setup/BugFixes/DocsFixes/DEV-22143.html">[DEV-22143] Error en Encuestas en WEB, Correctas en Mobile</a></li>
+<li class="toctree-l4"><a class="reference internal" href="../../Setup/BugFixes/DocsFixes/DEV-22145.html">[DEV-22145] No Se Visualiza Datos Cargados en Float 1 - Checkpoint SETUP</a></li>
+<li class="toctree-l4"><a class="reference internal" href="../../Setup/BugFixes/DocsFixes/DEV-22170.html">[DEV-22170] Problemas de Seguridad Catálogos Dinámico</a></li>
+<li class="toctree-l4"><a class="reference internal" href="../../Setup/BugFixes/DocsFixes/DEV-22193.html">[DEV-22193] Configuraciones del Sistema - Procesos</a></li>
+<li class="toctree-l4"><a class="reference internal" href="../../Setup/BugFixes/DocsFixes/DEV-22214.html">[DEV-22214] Dashboard - No Aparece Seleccionable Opción «OM» en Clasificación</a></li>
+<li class="toctree-l4"><a class="reference internal" href="../../Setup/BugFixes/DocsFixes/DEV-22244.html">[DEV-22244] Flujos de Trabajo - Se Muestran Mal os Márgenes</a></li>
+<li class="toctree-l4"><a class="reference internal" href="../../Setup/BugFixes/DocsFixes/DEV-22273.html">[DEV-22273] Error al Informar Vehiculo Utilizado</a></li>
+<li class="toctree-l4"><a class="reference internal" href="../../Setup/BugFixes/DocsFixes/DEV-22277.html">[DEV-22277] Error en Editar Ruta</a></li>
+<li class="toctree-l4"><a class="reference internal" href="../../Setup/BugFixes/DocsFixes/DEV-22281.html">[DEV-22281] No Se Muestra Correctamente la Pantalla</a></li>
+<li class="toctree-l4"><a class="reference internal" href="../../Setup/BugFixes/DocsFixes/DEV-22288.html">[DEV-22288] No Se Muestra Correctamente la Pantalla</a></li>
+<li class="toctree-l4"><a class="reference internal" href="../../Setup/BugFixes/DocsFixes/DEV-22309.html">[DEV-22309] El Adapter EDI No Está Funcionando de la Manera Correcta</a></li>
+<li class="toctree-l4"><a class="reference internal" href="../../Setup/BugFixes/DocsFixes/DEV-22328.html">[DEV-22328] Index EstadoRecursoTransición Referencia a Objeto No Establecida como Instancia de un Objeto</a></li>
+<li class="toctree-l4"><a class="reference internal" href="../../Setup/BugFixes/DocsFixes/DEV-22330.html">[DEV-22330] No Se Muestra Scroll Bar desde Iframe</a></li>
+<li class="toctree-l4"><a class="reference internal" href="../../Setup/BugFixes/DocsFixes/DEV-22359.html">[DEV-22359] Catálogos - Cliente Domicilio Orden Categoría - Pantalla Descuadrada en Importar Datos</a></li>
+<li class="toctree-l4"><a class="reference internal" href="../../Setup/BugFixes/DocsFixes/DEV-22365.html">[DEV-22365] Nombre Botón Corrido</a></li>
+<li class="toctree-l4"><a class="reference internal" href="../../Setup/BugFixes/DocsFixes/DEV-22369.html">[DEV-22369] No Integra en el Reenvió</a></li>
+<li class="toctree-l4"><a class="reference internal" href="../../Setup/BugFixes/DocsFixes/DEV-22392.html">[DEV-22392] Protección ABM TipoVehiculo - TiposServicios</a></li>
+<li class="toctree-l4"><a class="reference internal" href="../../Setup/BugFixes/DocsFixes/DEV-22397.html">[DEV-22397] No Se Guardan los Registros en la Carga Masiva de Categoría Domicilio Orden</a></li>
+<li class="toctree-l4"><a class="reference internal" href="../../Setup/BugFixes/DocsFixes/DEV-22409.html">[DEV-22409] Ajuste en Reenvió XML Remesa</a></li>
+<li class="toctree-l4"><a class="reference internal" href="../../Setup/BugFixes/DocsFixes/DEV-22412.html">[DEV-22412] Configuración Tendering Publicación Automática No Muestra Paginación</a></li>
+<li class="toctree-l4"><a class="reference internal" href="../../Setup/BugFixes/DocsFixes/DEV-22485.html">[DEV-22485] Problema Formato de Fecha - Error al Importar Ordenes</a></li>
+<li class="toctree-l4"><a class="reference internal" href="../../Setup/BugFixes/DocsFixes/DEV-22498.html">[DEV-22498] No Se Puede Rutear con Escenario Secundario</a></li>
+<li class="toctree-l4"><a class="reference internal" href="../../Setup/BugFixes/DocsFixes/DEV-22558.html">[DEV-22558] Visualización de Tiempo de Ejecución Excesivo ABM Procesos</a></li>
+<li class="toctree-l4"><a class="reference internal" href="../../Setup/BugFixes/DocsFixes/DEV-22561.html">[DEV-22561]  Duplicidad de Proveedor</a></li>
+<li class="toctree-l4"><a class="reference internal" href="../../Setup/BugFixes/DocsFixes/DEV-22602.html">[DEV-22602] ABM Reglas Surtido Destino</a></li>
+<li class="toctree-l4"><a class="reference internal" href="../../Setup/BugFixes/DocsFixes/DEV-22621.html">[DEV-22621] Null Pointer al Validar Si Carga/Descarga Conductor</a></li>
+<li class="toctree-l4"><a class="reference internal" href="../../Setup/BugFixes/DocsFixes/DEV-22670.html">[DEV-22670] Problema Permisos Portal Transporte</a></li>
+<li class="toctree-l4"><a class="reference internal" href="../../Setup/BugFixes/DocsFixes/DEV-22695.html">[DEV-22695] Limitación en el Número de Registros a Mostrar en el Desplegable Zona del Modelo de Condición</a></li>
+</ul>
+</li>
+</ul>
+</li>
+<li class="toctree-l2 has-children"><a class="reference internal" href="../../Dashboard/index10.html">Dashboard</a><input class="toctree-checkbox" id="toctree-checkbox-34" name="toctree-checkbox-34" role="switch" type="checkbox"/><label for="toctree-checkbox-34"><div class="visually-hidden">Toggle navigation of Dashboard</div><i class="icon"><svg><use href="#svg-arrow-right"></use></svg></i></label><ul>
+<li class="toctree-l3 has-children"><a class="reference internal" href="../../Dashboard/NewFeatures/NewFeatures.html">Nuevas Características</a><input class="toctree-checkbox" id="toctree-checkbox-35" name="toctree-checkbox-35" role="switch" type="checkbox"/><label for="toctree-checkbox-35"><div class="visually-hidden">Toggle navigation of Nuevas Características</div><i class="icon"><svg><use href="#svg-arrow-right"></use></svg></i></label><ul>
+<li class="toctree-l4"><a class="reference internal" href="../../Dashboard/NewFeatures/DocsNewFeatures/DEV-22150.html">[DEV-22150] Mejora y Rediseño de Dashboard</a></li>
+<li class="toctree-l4"><a class="reference internal" href="../../Dashboard/NewFeatures/DocsNewFeatures/DEV-22516.html">[DEV-22516] Mejoras en File Manager</a></li>
+<li class="toctree-l4"><a class="reference internal" href="../../Dashboard/NewFeatures/DocsNewFeatures/DEV-22699.html">[DEV-22699] Habilitación de Filtro Empresa para Dashboard</a></li>
+</ul>
+</li>
+<li class="toctree-l3 has-children"><a class="reference internal" href="../../Dashboard/BugFixes/bugfixes.html">Corrección de Errores</a><input class="toctree-checkbox" id="toctree-checkbox-36" name="toctree-checkbox-36" role="switch" type="checkbox"/><label for="toctree-checkbox-36"><div class="visually-hidden">Toggle navigation of Corrección de Errores</div><i class="icon"><svg><use href="#svg-arrow-right"></use></svg></i></label><ul>
+<li class="toctree-l4"><a class="reference internal" href="../../Dashboard/BugFixes/DocsFixes/DEV-22216.html">[DEV-22216] Visualización de Reportes No Respeta Campo Columnas</a></li>
+<li class="toctree-l4"><a class="reference internal" href="../../Dashboard/BugFixes/DocsFixes/DEV-22235.html">[DEV-22235] Migración LAST &amp; FOR ALL, Tamaños de Dashboard con Flex</a></li>
+<li class="toctree-l4"><a class="reference internal" href="../../Dashboard/BugFixes/DocsFixes/DEV-22301.html">[DEV-22301] Corrección scroll Vertical en Dashboards</a></li>
+<li class="toctree-l4"><a class="reference internal" href="../../Dashboard/BugFixes/DocsFixes/DEV-22310.html">[DEV-22310] Correccion de Altura de los Reportes en Dashboard</a></li>
+<li class="toctree-l4"><a class="reference internal" href="../../Dashboard/BugFixes/DocsFixes/DEV-22352.html">[DEV-22352] Correcciones Tamaños Dashboards Final</a></li>
+<li class="toctree-l4"><a class="reference internal" href="../../Dashboard/BugFixes/DocsFixes/DEV-22423.html">[DEV-22423] Errores de Visualización en Dashboard</a></li>
+<li class="toctree-l4"><a class="reference internal" href="../../Dashboard/BugFixes/DocsFixes/DEV-22487.html">[DEV-22487] Ajuste en las Cajas de Dashboard</a></li>
+<li class="toctree-l4"><a class="reference internal" href="../../Dashboard/BugFixes/DocsFixes/DEV-22568.html">[DEV-22568] Los Mapas de iFrames No Se Ven Completos</a></li>
+</ul>
+</li>
+</ul>
+</li>
+<li class="toctree-l2 has-children"><a class="reference internal" href="../../Arq/index11.html">Architecture</a><input class="toctree-checkbox" id="toctree-checkbox-37" name="toctree-checkbox-37" role="switch" type="checkbox"/><label for="toctree-checkbox-37"><div class="visually-hidden">Toggle navigation of Architecture</div><i class="icon"><svg><use href="#svg-arrow-right"></use></svg></i></label><ul>
+<li class="toctree-l3 has-children"><a class="reference internal" href="../../Arq/NewFeatures/NewFeatures.html">Nuevas Características</a><input class="toctree-checkbox" id="toctree-checkbox-38" name="toctree-checkbox-38" role="switch" type="checkbox"/><label for="toctree-checkbox-38"><div class="visually-hidden">Toggle navigation of Nuevas Características</div><i class="icon"><svg><use href="#svg-arrow-right"></use></svg></i></label><ul>
+<li class="toctree-l4"><a class="reference internal" href="../../Arq/NewFeatures/DocsNewFeatures/DEV-22280.html">[DEV-22280] UNIGIS OCRAdapterV2</a></li>
+<li class="toctree-l4"><a class="reference internal" href="../../Arq/NewFeatures/DocsNewFeatures/DEV-22341.html">[DEV-22341] Adapter CrearDocumentos</a></li>
+<li class="toctree-l4"><a class="reference internal" href="../../Arq/NewFeatures/DocsNewFeatures/DEV-22514.html">[DEV-22514] Lectura de Archivo para Renombre</a></li>
+<li class="toctree-l4"><a class="reference internal" href="../../Arq/NewFeatures/DocsNewFeatures/DEV-22515.html">[DEV-22515] Adapter de Importación de Archivos</a></li>
+<li class="toctree-l4"><a class="reference internal" href="../../Arq/NewFeatures/DocsNewFeatures/DEV-22612.html">[DEV-22612] QueryBuilder en DataBrowser</a></li>
+<li class="toctree-l4"><a class="reference internal" href="../../Arq/NewFeatures/DocsNewFeatures/DEV-22642.html">[DEV-22642] Requerimiento Ampliar Longitud Campo CUIT</a></li>
+</ul>
+</li>
+<li class="toctree-l3 has-children"><a class="reference internal" href="../../Arq/Improvements/Mejoras.html">Mejoras</a><input class="toctree-checkbox" id="toctree-checkbox-39" name="toctree-checkbox-39" role="switch" type="checkbox"/><label for="toctree-checkbox-39"><div class="visually-hidden">Toggle navigation of Mejoras</div><i class="icon"><svg><use href="#svg-arrow-right"></use></svg></i></label><ul>
+<li class="toctree-l4"><a class="reference internal" href="../../Arq/Improvements/docsmejoras/DEV-22298.html">[DEV-22298] Eliminacion de bordes con Colores de Estados en Tablas y Divs</a></li>
+<li class="toctree-l4"><a class="reference internal" href="../../Arq/Improvements/docsmejoras/DEV-22339.html">[DEV-22339] Consistencia en Font size de Header en Todos los Navegadores</a></li>
+<li class="toctree-l4"><a class="reference internal" href="../../Arq/Improvements/docsmejoras/DEV-22385.html">[DEV-22385] Estandarizar Menús</a></li>
+<li class="toctree-l4"><a class="reference internal" href="../../Arq/Improvements/docsmejoras/DEV-22386.html">[DEV-22386] Mejorar y Estandarizar Tabs en el Producto</a></li>
+</ul>
+</li>
+<li class="toctree-l3 has-children"><a class="reference internal" href="../../Arq/BugFixes/bugfixes.html">Corrección de Errores</a><input class="toctree-checkbox" id="toctree-checkbox-40" name="toctree-checkbox-40" role="switch" type="checkbox"/><label for="toctree-checkbox-40"><div class="visually-hidden">Toggle navigation of Corrección de Errores</div><i class="icon"><svg><use href="#svg-arrow-right"></use></svg></i></label><ul>
+<li class="toctree-l4"><a class="reference internal" href="../../Arq/BugFixes/DocsFixes/DEV-22671.html">[DEV-22671] Cambiar Uso de Window.App por Window.ReactApp</a></li>
+</ul>
+</li>
+</ul>
+</li>
+<li class="toctree-l2 has-children"><a class="reference internal" href="../../Seguridad/index12.html">Security</a><input class="toctree-checkbox" id="toctree-checkbox-41" name="toctree-checkbox-41" role="switch" type="checkbox"/><label for="toctree-checkbox-41"><div class="visually-hidden">Toggle navigation of Security</div><i class="icon"><svg><use href="#svg-arrow-right"></use></svg></i></label><ul>
+<li class="toctree-l3 has-children"><a class="reference internal" href="../../Seguridad/NewFeatures/NewFeatures.html">Nuevas Características</a><input class="toctree-checkbox" id="toctree-checkbox-42" name="toctree-checkbox-42" role="switch" type="checkbox"/><label for="toctree-checkbox-42"><div class="visually-hidden">Toggle navigation of Nuevas Características</div><i class="icon"><svg><use href="#svg-arrow-right"></use></svg></i></label><ul>
+<li class="toctree-l4"><a class="reference internal" href="../../Seguridad/NewFeatures/DocsNewFeatures/DEV-22642.html">[DEV-22642] Validación de Versión</a></li>
+</ul>
+</li>
+</ul>
+</li>
+</ul>
+</li>
+</ul>
+
+</div>
+</div>
+
+      </div>
+      
+    </div>
+  </aside>
+  <div class="main">
+    <div class="content">
+      <div class="article-container">
+        <a href="#" class="back-to-top muted-link">
+          <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24">
+            <path d="M13 20h-2V8l-5.5 5.5-1.42-1.42L12 4.16l7.92 7.92-1.42 1.42L13 8v12z"></path>
+          </svg>
+          <span>Back to top</span>
+        </a>
+        <div class="content-icon-container">
+          
+<div class="theme-toggle-container theme-toggle-content">
+            <button class="theme-toggle">
+              <div class="visually-hidden">Toggle Light / Dark / Auto color theme</div>
+              <svg class="theme-icon-when-auto"><use href="#svg-sun-half"></use></svg>
+              <svg class="theme-icon-when-dark"><use href="#svg-moon"></use></svg>
+              <svg class="theme-icon-when-light"><use href="#svg-sun"></use></svg>
+            </button>
+          </div>
+          <label class="toc-overlay-icon toc-content-icon no-toc" for="__toc">
+            <div class="visually-hidden">Toggle table of contents sidebar</div>
+            <i class="icon"><svg><use href="#svg-toc"></use></svg></i>
+          </label>
+        </div>
+        <article role="main">
+          <section id="nuevas-caracteristicas">
+<h1>Nuevas Características<a class="headerlink" href="#nuevas-caracteristicas" title="Link to this heading">#</a></h1>
+<div class="seealso admonition">
+<p class="admonition-title">Información</p>
+<p><strong>Fecha de lanzamiento:</strong> Abril 2024</p>
+</div>
+<div class="toctree-wrapper compound">
+<ul>
+<li class="toctree-l1"><a class="reference internal" href="DocsNewFeatures/DEV-22116.html">[DEV-22116] Modificaciones en B2C</a></li>
+<li class="toctree-l1"><a class="reference internal" href="DocsNewFeatures/DEV-22176.html">[DEV-22116] Mejoras B2B Agregar Campos Adicionales</a></li>
+<li class="toctree-l1"><a class="reference internal" href="DocsNewFeatures/DEV-22177.html">[DEV-22177] Mejoras B2B Generar Varios Pedidos de Uno Mismo</a></li>
+<li class="toctree-l1"><a class="reference internal" href="DocsNewFeatures/DEV-22724.html">[DEV-22724] Mejoras B2C</a></li>
+</ul>
+</div>
+</section>
+
+        </article>
+      </div>
+      <footer>
+        
+        <div class="related-pages">
+          <a class="next-page" href="DocsNewFeatures/DEV-22116.html">
+              <div class="page-info">
+                <div class="context">
+                  <span>Next</span>
+                </div>
+                <div class="title">[DEV-22116] Modificaciones en B2C</div>
+              </div>
+              <svg class="furo-related-icon"><use href="#svg-arrow-right"></use></svg>
+            </a>
+          <a class="prev-page" href="../index8.html">
+              <svg class="furo-related-icon"><use href="#svg-arrow-right"></use></svg>
+              <div class="page-info">
+                <div class="context">
+                  <span>Previous</span>
+                </div>
+                
+                <div class="title">B2C / B2B</div>
+                
+              </div>
+            </a>
+        </div>
+        <div class="bottom-of-page">
+          <div class="left-details">
+            <div class="copyright">
+                Copyright &#169; 2024, UNIGIS TMS
+            </div>
+            Made with 
+            <a href="https://github.com/pradyunsg/furo">Furo</a>
+            
+          </div>
+          <div class="right-details">
+            
+          </div>
+        </div>
+        
+      </footer>
+    </div>
+    <aside class="toc-drawer no-toc">
+      
+      
+      
+    </aside>
+  </div>
+</div><script src="../../../_static/documentation_options.js?v=e2bb6099"></script>
+    <script src="../../../_static/doctools.js?v=888ff710"></script>
+    <script src="../../../_static/sphinx_highlight.js?v=dc90522c"></script>
+    <script src="../../../_static/scripts/furo.js?v=32e29ea5"></script>
+    <script src="../../../_static/translations.js?v=efdbd0b9"></script>
+    </body>
+</html>

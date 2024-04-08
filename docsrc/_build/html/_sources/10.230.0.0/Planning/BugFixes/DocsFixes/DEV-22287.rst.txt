@@ -1,0 +1,17 @@
+[DEV-22287] No Recarga al Borrar Consolidados
+===========================================================
+
+|badge|
+
+.. |badge| raw:: html
+   
+   <span style="background-color: #7c04de; color: white; padding: 4px 8px; border-radius: 4px;">Corrección</span>
+
+Módulo: 
+   Planning
+
+Descripción: 
+ Se ajustó recarga de información correspondiente solo a consolidados de routing.
+
+.. versionchanged:: 10.221.0.0-LTS
+

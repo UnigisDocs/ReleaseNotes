@@ -1,0 +1,20 @@
+[DEV-22526]  Incluir Valores Mínimos en Adicional 1 y Adicional 2 Tipo de Vehículos, y como Variables de Ruteo
+----------------------------------------------------------------------------------------------------------------
+
+|badge|
+
+.. |badge| raw:: html
+   
+   <span style="background-color: #04a7de; color: white; padding: 4px 8px; border-radius: 4px;">Nueva característica</span>
+
+Módulo:
+   Setup
+
+Descripción:
+ Se agregó dos campos a la entidad Tipo Vehiculo los cuales son:
+
+ - AdicionalMinimo1.
+ - AdicionalMinimo2.
+
+.. versionadded:: 10.221.0.0-LTS
+

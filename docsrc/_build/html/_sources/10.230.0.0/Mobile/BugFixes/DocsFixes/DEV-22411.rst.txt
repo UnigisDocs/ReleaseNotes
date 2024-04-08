@@ -1,0 +1,17 @@
+[DEV-22411] Control de Carga Viaje
+=======================================
+
+|badge|
+
+.. |badge| raw:: html
+   
+   <span style="background-color: #7c04de; color: white; padding: 4px 8px; border-radius: 4px;">Corrección</span>
+
+Módulo: 
+   Mobile
+
+Descripción: 
+ Se corrigió error al hacer el control de carga del viaje a través de la aplicación UNIGIS Deliveries.
+
+.. versionadded:: 10.221.0.0-LTS
+

@@ -1,0 +1,17 @@
+[DEV-22386] Mejorar y Estandarizar Tabs en el Producto
+=========================================================================
+
+|badge|
+
+.. |badge| raw:: html
+   
+   <span style="background-color: #4CAF50; color: white; padding: 4px 8px; border-radius: 4px;">Mejora</span>
+
+Módulo: 
+   Architecture
+
+Descripción: 
+  Se estandarizó los tabs entre react y angular.
+
+.. versionchanged:: 10.221.0.0-LTS
+
