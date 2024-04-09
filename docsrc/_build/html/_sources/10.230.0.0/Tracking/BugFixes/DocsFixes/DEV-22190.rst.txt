@@ -13,5 +13,5 @@ Módulo:
 Descripción: 
    Se ajusta botón de mas (+) para que se visualice al mismo nivel que el botón de filtro.
 
-.. versionchanged:: 10.221.0.0-LTS
+.. versionchanged:: 10.223.0.0-LTS
 

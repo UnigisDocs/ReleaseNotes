@@ -17,5 +17,5 @@ Descripción:
  2. Entidad.
  3. Campo Viaje.
 
-.. versionadded:: 10.221.0.0-LTS
+.. versionchanged:: 10.223.0.0-LTS
 

@@ -21,6 +21,6 @@ Descripción:
  - Proveedor Orden2 - Referencia Externa.
  - Proveedor Orden2 - Razón Social.
 
-.. versionchanged:: 10.222.0.0-LTS
+.. versionchanged:: 10.223.0.0-LTS
 
 

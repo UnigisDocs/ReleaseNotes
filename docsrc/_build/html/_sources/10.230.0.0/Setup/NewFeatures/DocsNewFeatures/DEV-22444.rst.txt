@@ -13,5 +13,5 @@ Módulo:
 Descripción:
  Se agregó la subfuncionalidad donde al momento de tener habilitado un deposito para citas, se tenga que realizar la división de zonas. 
 
-.. versionadded:: 10.221.0.0-LTS
+.. versionchanged:: 10.223.0.0-LTS
 

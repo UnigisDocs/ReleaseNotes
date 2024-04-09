@@ -16,5 +16,5 @@ Módulo:
 Descripción: 
   Se creó una TablaBitácora para mantener disponible la información de los escenarios creados anteriormente.
 
-.. versionadded:: 10.221.0.0-LTS
+.. versionchanged:: 10.223.0.0-LTS
 

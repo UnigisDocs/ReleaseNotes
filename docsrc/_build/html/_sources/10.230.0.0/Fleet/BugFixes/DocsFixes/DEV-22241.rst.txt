@@ -14,5 +14,5 @@ Descripción:
  Se corrigió un error que impedía que los posibles valores configurados en un tipo de incidencia aplicable a viajes con rango de valores se mostraran al cargarlo en FleetX. 
  Anteriormente, FleetX no mostraba estos posibles valores, a diferencia de Fleet Java que sí lo hacía.
 
-.. versionchanged:: 10.221.0.0-LTS
+.. versionchanged:: 10.223.0.0-LTS
 

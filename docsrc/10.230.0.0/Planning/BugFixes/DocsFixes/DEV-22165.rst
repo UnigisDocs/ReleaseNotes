@@ -13,5 +13,5 @@ Módulo:
 Descripción: 
  Se corrigió error al momento de realizar cambios de estado manual de preparado a programado, mostrandolo en bitacora.
    
-.. versionchanged:: 10.221.0.0-LTS
+.. versionchanged:: 10.223.0.0-LTS
 

@@ -13,5 +13,5 @@ Módulo:
 Descripción: 
    Cuando se realizaba un filtro por tipo de vehículo en el buscador de vehículos, se observaba que al ingresar el dato, este se superponía con la línea de escritura.
 
-.. versionchanged:: 10.221.0.0-LTS
+.. versionchanged:: 10.223.0.0-LTS
 

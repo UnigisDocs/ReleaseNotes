@@ -17,5 +17,5 @@ Descripción:
  - Al Guardar más de un archivo, no ejecuta el guardado hasta dar click en guardar tantas veces como archivos se Hallan incluido. 
  - Al Guardar archivos en la entidad de vehículos, no se está asociando el archivo guardado al vehículo
 
-.. versionchanged:: 10.221.0.0-LTS
+.. versionchanged:: 10.223.0.0-LTS
 

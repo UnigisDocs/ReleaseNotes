@@ -20,6 +20,7 @@ Nuevas Características
    NewFeatures/NewFeatures.rst
 
 :doc:`NewFeatures/DocsNewFeatures/DEV-21104`
+:doc:`NewFeatures/DocsNewFeatures/DEV-22499`
 :doc:`NewFeatures/DocsNewFeatures/DEV-22576`
 :doc:`NewFeatures/DocsNewFeatures/DEV-22613`
 :doc:`NewFeatures/DocsNewFeatures/DEV-22650`

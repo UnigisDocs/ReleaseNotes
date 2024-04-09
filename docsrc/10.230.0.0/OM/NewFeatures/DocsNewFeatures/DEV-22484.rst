@@ -1,0 +1,17 @@
+[DEV-22484] Permitir Ignorar Filtro de Cliente en Modulo de Ordenes OM
+------------------------------------------------------------------------
+
+|badge|
+
+.. |badge| raw:: html
+   
+   <span style="background-color: #04a7de; color: white; padding: 4px 8px; border-radius: 4px;">Nueva característica</span>
+
+Módulo:
+   Order Management
+
+Descripción:
+ Se habilitó la funcionalidad de ignorar el filtro de cliente en el módulo de Ordenes en OM.
+
+.. versionchanged:: 10.223.0.0-LTS
+

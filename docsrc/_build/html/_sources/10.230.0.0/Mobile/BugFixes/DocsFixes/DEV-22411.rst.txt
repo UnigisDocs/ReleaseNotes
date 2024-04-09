@@ -13,5 +13,5 @@ Módulo:
 Descripción: 
  Se corrigió error al hacer el control de carga del viaje a través de la aplicación UNIGIS Deliveries.
 
-.. versionadded:: 10.221.0.0-LTS
+.. versionchanged:: 10.223.0.0-LTS
 

@@ -14,5 +14,5 @@ Descripción:
   Para llevar a cabo el disparo del proceso, se necesita que un usuario edite un viaje, ya sea desde la pantalla de edición del mismo, o bien si el viaje es modificado a través de un Web Service.
 
 
-.. versionadded:: 10.221.0.0-LTS
+.. versionchanged:: 10.223.0.0-LTS
 

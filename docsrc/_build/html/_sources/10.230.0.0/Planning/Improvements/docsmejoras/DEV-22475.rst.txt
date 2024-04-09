@@ -17,6 +17,6 @@ Descripción:
 
  2. Fecha de Entrega: Se considera la fecha de entrega del Pedido asociado a la Orden.
 
-.. versionchanged:: 10.221.0.0-LTS
+.. versionchanged:: 10.223.0.0-LTS
 
    

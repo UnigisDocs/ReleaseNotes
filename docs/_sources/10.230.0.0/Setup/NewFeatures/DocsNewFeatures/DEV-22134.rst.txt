@@ -13,5 +13,5 @@ Módulo:
 Descripción:
  Se creó nuevo servicio para crear y mantener las restricciones de tipo de vehículo en los'DomicilioOrden'.
 
-.. versionadded:: 10.221.0.0-LTS
+.. versionchanged:: 10.223.0.0-LTS
 

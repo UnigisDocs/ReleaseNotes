@@ -13,6 +13,6 @@ Módulo:
 Descripción: 
  Se corrigió duplicidad en la tabla 'OrdenItem' cuando se crea un pedido con el método 'CrearOrdenesPedido'.
    
-.. versionchanged:: 10.221.0.0-LTS
+.. versionchanged:: 10.223.0.0-LTS
 
 

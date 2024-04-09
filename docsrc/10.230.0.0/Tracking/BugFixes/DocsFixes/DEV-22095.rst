@@ -20,5 +20,5 @@ Descripción:
 - Eliminación de Paradas: Al querer eliminar paradas da mensaje de advertencia en ingles y español.
 - Paginado: El paginado muestra el total de las paginas. 
 
-.. versionchanged:: 10.221.0.0-LTS
+.. versionchanged:: 10.223.0.0-LTS
 

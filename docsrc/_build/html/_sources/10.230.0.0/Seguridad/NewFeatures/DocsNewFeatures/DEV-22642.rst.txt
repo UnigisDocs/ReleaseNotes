@@ -14,5 +14,5 @@ Descripción:
   Se implementó una nueva funcionalidad para validar que el sistema o sistemas estén en la misma versión que la base de datos. En caso de que no estén en la misma versión, se mostrará un mensaje de error y se registrará un registro en el log (tabla log) indicando que el sistema no puede ejecutarse.
 
 
-.. versionadded:: 10.221.0.0-LTS
+.. versionchanged:: 10.223.0.0-LTS
 

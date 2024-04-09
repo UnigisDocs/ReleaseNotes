@@ -32,6 +32,7 @@ Mejoras
 
 :doc:`Improvements/docsmejoras/DEV-22109`
 :doc:`Improvements/docsmejoras/DEV-22529`
+:doc:`Improvements/docsmejoras/DEV-22533`
 :doc:`Improvements/docsmejoras/DEV-22535`
 :doc:`Improvements/docsmejoras/DEV-22589`
 
@@ -56,6 +57,7 @@ Corrección de Errores
 :doc:`BugFixes/DocsFixes/DEV-22243`
 :doc:`BugFixes/DocsFixes/DEV-22252`
 :doc:`BugFixes/DocsFixes/DEV-22259`
+:doc:`BugFixes/DocsFixes/DEV-22263`
 :doc:`BugFixes/DocsFixes/DEV-22269`
 :doc:`BugFixes/DocsFixes/DEV-22270`
 :doc:`BugFixes/DocsFixes/DEV-22295`

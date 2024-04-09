@@ -13,6 +13,6 @@ Componente:
 Descripción: 
   Se renovó el diseño del módulo de Tracking para alinear la apariencia con los estilos visuales.
 
-.. versionchanged:: 10.221.0.0-LTS
+.. versionchanged:: 10.223.0.0-LTS
 
 

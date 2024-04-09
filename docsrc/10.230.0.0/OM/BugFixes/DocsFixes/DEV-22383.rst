@@ -13,6 +13,6 @@ Módulo:
 Descripción: 
  Se corrigió error al crear un pedido a partir de una OT Items para que muestre los datos correspondientes a cada campo.
 
-.. versionchanged:: 10.221.0.0-LTS
+.. versionchanged:: 10.223.0.0-LTS
 
 

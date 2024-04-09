@@ -13,5 +13,5 @@ Módulo:
 Descripción: 
   Se creó nuevo WebService llamado 'CrearProveedorOrden' para registrar y actualizar 'ProveedoresOrdenes' y se modifica 'CrearOrdenesDeTrabajo' que agrega la posibilidad de asignar 'ProvedoresOrden' a la Orden de Trabajo.
 
-.. versionadded:: 10.221.0.0-LTS
+.. versionchanged:: 10.223.0.0-LTS
 

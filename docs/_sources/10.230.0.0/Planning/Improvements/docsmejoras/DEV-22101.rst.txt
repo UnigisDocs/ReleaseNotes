@@ -14,6 +14,6 @@ Descripción:
   Se corrigió "Error de MapServer", ya que en realidad indica un "Error en la creación de rutas". Ahora el mensaje permite a los usuarios visualizar con mayor facilidad los motivos por la cual no se pueden crear ruta.
   Principlamente por falta de datso o errores en los tipos de vehículos empleados.
 
-.. versionchanged:: 10.221.0.0-LTS
+.. versionchanged:: 10.223.0.0-LTS
 
 

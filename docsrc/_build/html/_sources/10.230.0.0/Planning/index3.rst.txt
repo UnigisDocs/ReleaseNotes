@@ -24,7 +24,9 @@ Nuevas Características
 :doc:`NewFeatures/DocsNewFeatures/DEV-22157`
 :doc:`NewFeatures/DocsNewFeatures/DEV-22491`
 :doc:`NewFeatures/DocsNewFeatures/DEV-22593`
+:doc:`NewFeatures/DocsNewFeatures/DEV-22599`
 :doc:`NewFeatures/DocsNewFeatures/DEV-22619`
+:doc:`NewFeatures/DocsNewFeatures/DEV-22652`
 :doc:`NewFeatures/DocsNewFeatures/DEV-22673`
 
 Mejoras
@@ -89,6 +91,7 @@ Corrección de Errores
 :doc:`BugFixes/DocsFixes/DEV-22603`
 :doc:`BugFixes/DocsFixes/DEV-22604`
 :doc:`BugFixes/DocsFixes/DEV-22611`
+:doc:`BugFixes/DocsFixes/DEV-22615`
 :doc:`BugFixes/DocsFixes/DEV-22616`
 :doc:`BugFixes/DocsFixes/DEV-22640`
 :doc:`BugFixes/DocsFixes/DEV-22646`

@@ -13,5 +13,5 @@ Módulo:
 Descripción: 
     Se corrigió error relacionado con la falta de aplicar los descuentos correspondientes en las cantidades solicitadas al crear pedidos desde una Orden de Trabajo (OT) Item.
 
-.. versionchanged:: 10.222.0.0-LTS
+.. versionchanged:: 10.223.0.0-LTS
 

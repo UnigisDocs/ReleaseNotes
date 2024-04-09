@@ -13,5 +13,5 @@ Módulo:
 Descripción: 
  Se mejoran los tiempos de ejecución en ABMs.
 
-.. versionchanged:: 10.221.0.0-LTS
+.. versionchanged:: 10.223.0.0-LTS
 

@@ -1,0 +1,16 @@
+[DEV-22197] El botón de Eliminar No Funciona Correctamente
+=============================================================
+
+|badge|
+
+.. |badge| raw:: html
+   
+   <span style="background-color: #7c04de; color: white; padding: 4px 8px; border-radius: 4px;">Corrección</span>
+
+Módulo: 
+   Order Management
+
+Descripción: 
+ Se corrigió error en la funcionalidad del botón eliminar.
+   
+.. versionchanged:: 10.223.0.0-LTS

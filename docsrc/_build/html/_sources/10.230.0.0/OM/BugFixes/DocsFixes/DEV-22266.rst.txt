@@ -1,0 +1,17 @@
+[DEV-22266] OrdenItem / Ordenes que se Mantienen con 0 (ceros) después de Unir o Dividir
+==========================================================================================
+
+|badge|
+
+.. |badge| raw:: html
+   
+   <span style="background-color: #7c04de; color: white; padding: 4px 8px; border-radius: 4px;">Corrección</span>
+
+Módulo: 
+   Order Management
+
+Descripción: 
+ Se ajustó la validación en las operaciones.
+   
+.. versionchanged:: 10.223.0.0-LTS
+

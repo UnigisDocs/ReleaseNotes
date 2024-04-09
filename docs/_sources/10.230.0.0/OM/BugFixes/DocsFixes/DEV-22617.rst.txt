@@ -13,5 +13,5 @@ Módulo:
 Descripción: 
  Se corrigió error 500 que presentaba al obtener reglas de surtido de destino.
 
-.. versionchanged:: 10.221.0.0-LTS
+.. versionchanged:: 10.223.0.0-LTS
 

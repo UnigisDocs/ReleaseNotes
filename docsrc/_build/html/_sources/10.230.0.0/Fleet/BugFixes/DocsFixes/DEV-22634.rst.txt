@@ -13,7 +13,7 @@ Módulo:
 Descripción: 
    Se corrigió error presentado en el proceso de copiar fórmula.
 
-.. versionchanged:: 10.222.0.0-LTS
+.. versionchanged:: 10.223.0.0-LTS
 
 
 

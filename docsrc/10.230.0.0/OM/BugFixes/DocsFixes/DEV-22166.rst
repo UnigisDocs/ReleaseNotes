@@ -13,5 +13,5 @@ Módulo:
 Descripción: 
  Se corrigió error dentro del buscador mas filtros para que muestra la información correspondiente.
    
-.. versionchanged:: 10.221.0.0-LTS
+.. versionchanged:: 10.223.0.0-LTS
 

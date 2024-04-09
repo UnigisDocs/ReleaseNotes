@@ -14,5 +14,5 @@ Descripción:
   En el momento que se crea un Pedido desde una Orden es necesario que el nuevo Pedido herede en su campo 'Pedido.IdOperacion' el valor de 'Orden.Jornada.IdOperacion'.
 
 
-.. versionadded:: 10.221.0.0-LTS
+.. versionchanged:: 10.223.0.0-LTS
 

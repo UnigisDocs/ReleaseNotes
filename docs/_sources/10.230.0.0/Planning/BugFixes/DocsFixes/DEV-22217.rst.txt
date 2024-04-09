@@ -14,5 +14,5 @@ Descripción:
  Se corrigió error en cambio de estado de la Orden de Pickup de Depósito generadas automáticamente por 'OrdenTipoPedido'.
  'CrearDepositosPickups' = 1 a partir del cambio de estado de la Ruta.
 
-.. versionchanged:: 10.221.0.0-LTS
+.. versionchanged:: 10.223.0.0-LTS
 

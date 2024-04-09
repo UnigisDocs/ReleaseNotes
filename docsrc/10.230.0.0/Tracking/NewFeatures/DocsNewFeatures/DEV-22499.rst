@@ -1,0 +1,17 @@
+[DEV-22499] Solicitud de Action "EditarViaje "
+------------------------------------------------
+
+|badge|
+
+.. |badge| raw:: html
+   
+   <span style="background-color: #04a7de; color: white; padding: 4px 8px; border-radius: 4px;">Nueva característica</span>
+
+Módulo: 
+   Tracking
+
+Descripción: 
+  Se agrega un nuevo proceso cuando un usuario edita un viaje, ya sea en la pantalla de edición del viaje o si el viaje es modificado por un Web Service
+
+.. versionadded:: 10.200.21.0-LTS
+

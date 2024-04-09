@@ -1,0 +1,16 @@
+[DEV-22533] Espacio en Borde Lateral al Seleccionar un Registro
+--------------------------------------------------------------------
+
+|badge|
+
+.. |badge| raw:: html
+   
+   <span style="background-color: #4CAF50; color: white; padding: 4px 8px; border-radius: 4px;">Mejora</span>
+
+Módulo: 
+ Fleet
+
+Descripción: 
+  Se ajustaron tablas de fleet para que el movimiento no se muestre.
+
+.. versionchanged:: 10.223.0.0-LTS

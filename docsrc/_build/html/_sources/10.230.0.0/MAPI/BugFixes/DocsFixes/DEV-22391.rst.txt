@@ -13,5 +13,5 @@ Módulo:
 Descripción: 
  Se corrigió los servicios de la Mapi y los campos agregados previamente. 
 
-.. versionadded:: 10.221.0.0-LTS
+.. versionchanged:: 10.223.0.0-LTS
 

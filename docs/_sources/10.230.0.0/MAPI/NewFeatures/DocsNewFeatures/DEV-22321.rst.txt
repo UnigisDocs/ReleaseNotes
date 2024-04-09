@@ -14,5 +14,5 @@ Descripción:
   Se agregó el Service Trace para la MAPI Custom en el ambiente de TEST.
 
 
-.. versionadded:: 10.221.0.0-LTS
+.. versionchanged:: 10.223.0.0-LTS
 

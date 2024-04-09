@@ -13,5 +13,5 @@ Módulo:
 Descripción: 
  se corrigió error presentado al crear un vehículo, no se permitía crearlo porque faltaba indicar un cliente en la pestaña "Adicional". Al revisar este campo, se observaba que mostraba el valor "Sin Selección".
 
-.. versionchanged:: 10.221.0.0-LTS
+.. versionchanged:: 10.223.0.0-LTS
 

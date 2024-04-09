@@ -1,0 +1,16 @@
+[DEV-22349] Permitir Vincular 'Pedido.IdOperacion' desde 'Orden.Jornada.IdOperacion' al Crear Pedido desde Orden
+-------------------------------------------------------------------------------------------------------------------
+
+|badge|
+
+.. |badge| raw:: html
+   
+   <span style="background-color: #04a7de; color: white; padding: 4px 8px; border-radius: 4px;">Nueva característica</span>
+
+Módulo:
+   Order Management
+
+Descripción:
+ Al crear un Pedido desde una Orden, el nuevo pedido hereda en su campo 'Pedido.IdOperacion' el valor de 'Orden.Jornada.IdOperacion'.
+
+.. versionchanged:: 10.223.0.0-LTS

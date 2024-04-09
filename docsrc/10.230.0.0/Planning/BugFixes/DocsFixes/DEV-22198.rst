@@ -17,5 +17,5 @@ Descripción:
 - Los botones al importar ordenes o entidades.
 - Al tener una pantalla pequeña y tener el navegador al 100% de zoom, el tamaño del estado de las ordenes en el grafico de la home.
 
-.. versionchanged:: 10.221.0.0-LTS
+.. versionchanged:: 10.223.0.0-LTS
 

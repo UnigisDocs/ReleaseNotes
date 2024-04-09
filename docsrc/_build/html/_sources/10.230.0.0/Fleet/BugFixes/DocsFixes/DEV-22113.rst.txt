@@ -15,5 +15,5 @@ Descripción:
 
  Además, se corrigió panel derecho del Administrador de Tendering, al mostrar los detalles de los transportes, se notó que el botón "Cancelar" estaba desplazado y desalineado.
 
-.. versionchanged:: 10.221.0.0-LTS
+.. versionchanged:: 10.223.0.0-LTS
 

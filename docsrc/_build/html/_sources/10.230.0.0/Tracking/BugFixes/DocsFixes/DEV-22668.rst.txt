@@ -13,5 +13,5 @@ Módulo:
 Descripción: 
  Se corrigió errores en detalles de jornada con errores de tipo 500.
 
-.. versionchanged:: 10.222.0.0-LTS
+.. versionchanged:: 10.223.0.0-LTS
 

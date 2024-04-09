@@ -13,5 +13,5 @@ Módulo:
 Descripción: 
     Se corrigió error en campo Fecha de Recolección cuando se crea un pedido desde (OT) Item.
 
-.. versionchanged:: 10.222.0.0-LTS
+.. versionchanged:: 10.223.0.0-LTS
 

@@ -13,5 +13,5 @@ Módulo:
 Descripción: 
    Se validó la creación de dos liquidaciones con la misma guía, el inconveniente radica en que no deben generarse liquidaciones sin guias.
 
-.. versionchanged:: 10.221.0.0-LTS
+.. versionchanged:: 10.223.0.0-LTS
 

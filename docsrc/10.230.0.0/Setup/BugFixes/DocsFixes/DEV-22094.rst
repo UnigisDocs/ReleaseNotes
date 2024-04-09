@@ -13,5 +13,5 @@ Módulo:
 Descripción: 
  se corrigió error en la importación de datos por excel pese a respetar estructura y formato.
 
-.. versionchanged:: 10.221.0.0-LTS
+.. versionchanged:: 10.223.0.0-LTS
 

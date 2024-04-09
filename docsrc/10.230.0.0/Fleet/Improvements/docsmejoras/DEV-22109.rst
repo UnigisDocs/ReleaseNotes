@@ -13,6 +13,6 @@ Módulo:
 Descripción: 
   Se refinaron y actualizaron los estilos y la apariencia de las secciones de Agregar en Ordenes, Pedidos, Ordenes de Trabajo y Viaje de Fleet X para lograr una interfaz más atractiva y coherente con el resto de la aplicación.
 
-.. versionchanged:: 10.221.0.0-LTS
+.. versionchanged:: 10.223.0.0-LTS
 
 

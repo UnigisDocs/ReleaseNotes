@@ -13,5 +13,5 @@ Módulo:
 Descripción: 
  Se ajustó parámetro de 'OrderControlItems' para que aplique correctamente en la app UNIGIS Mobile.
    
-.. versionchanged:: 10.221.0.0-LTS
+.. versionchanged:: 10.223.0.0-LTS
 

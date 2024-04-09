@@ -13,5 +13,5 @@ Módulo:
 Descripción: 
   Se desarrolló reporte denominado 'NPS Entregas', que permite al cliente ver el porcentaje de aceptación entre sus clientes de acuerdo a las respuestas proporcionadas en la encuesta de satisfacción de servicio.
 
-.. versionadded:: 10.221.0.0-LTS
+.. versionchanged:: 10.223.0.0-LTS
 

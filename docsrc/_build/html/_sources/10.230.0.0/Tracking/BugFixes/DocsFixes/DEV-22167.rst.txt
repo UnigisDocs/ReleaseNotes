@@ -13,5 +13,5 @@ Módulo:
 Descripción: 
    Se corrige error al filtrar viajes por operación para que muestre la operación que corresponde.
 
-.. versionchanged:: 10.221.0.0-LTS
+.. versionchanged:: 10.223.0.0-LTS
 

@@ -13,5 +13,5 @@ Módulo:
 Descripción: 
  En los campos de registro de tipo de Vehículo se agregó el campo "Omitir Regreso a Deposito".
 
-.. versionchanged:: 10.221.0.0-LTS
+.. versionchanged:: 10.223.0.0-LTS
 

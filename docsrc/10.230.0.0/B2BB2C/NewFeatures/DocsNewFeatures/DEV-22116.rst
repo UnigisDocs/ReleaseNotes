@@ -17,5 +17,5 @@ Descripción:
 
  3. Movimiento en modo demo de camión.
 
-.. versionadded:: 10.221.0.0-LTS
+.. versionchanged:: 10.223.0.0-LTS
 

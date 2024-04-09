@@ -14,5 +14,5 @@ Descripción:
  Relevamiento Funcionalidad Fleet Java vs Fleet X, agregando campos faltantes como:
  “Origen”, “Destino”, “Estado Inicial”, “Motivos”, “Consecuencias”, “Motivos Remesa” y “Proceso RNDC”.
 
-.. versionchanged:: 10.221.0.0-LTS
+.. versionchanged:: 10.223.0.0-LTS
 

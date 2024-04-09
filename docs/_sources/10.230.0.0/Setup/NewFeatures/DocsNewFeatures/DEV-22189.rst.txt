@@ -13,5 +13,5 @@ Módulo:
 Descripción: 
   Se habilitó la opción de parámetros en el administrador de sistema y en el Integration Center.
 
-.. versionadded:: 10.221.0.0-LTS
+.. versionchanged:: 10.223.0.0-LTS
 

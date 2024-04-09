@@ -1,0 +1,17 @@
+[DEV-22305] Deshabilitar Combos de Filtros en Tablas de Reporte
+-------------------------------------------------------------------
+
+|badge|
+
+.. |badge| raw:: html
+   
+   <span style="background-color: #7c04de; color: white; padding: 4px 8px; border-radius: 4px;">Corrección</span>
+
+Módulo: 
+   MAPI
+
+Descripción: 
+  Se ajustó json la variable showCombos con un valor true.
+
+
+.. versionchanged:: 10.223.0.0-LTS

@@ -15,9 +15,11 @@ Corrección de Errores
    DocsFixes/DEV-22136.rst
    DocsFixes/DEV-22166.rst
    DocsFixes/DEV-22194.rst
-   DocsFixes/DEV-22201.rst
+   DocsFixes/DEV-22197.rst
+   DocsFixes/DEV-22199.rst
    DocsFixes/DEV-22210.rst
    DocsFixes/DEV-22262.rst
+   DocsFixes/DEV-22266.rst
    DocsFixes/DEV-22303.rst
    DocsFixes/DEV-22320.rst
    DocsFixes/DEV-22343.rst

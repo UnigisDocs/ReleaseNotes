@@ -13,5 +13,5 @@ Módulo:
 Descripción: 
  Se ajustó campo data time para que herede los datos que correspondientes.
 
-.. versionchanged:: 10.221.0.0-LTS
+.. versionchanged:: 10.223.0.0-LTS
 

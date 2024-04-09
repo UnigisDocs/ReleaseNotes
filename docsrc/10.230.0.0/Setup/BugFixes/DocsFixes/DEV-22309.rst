@@ -17,5 +17,5 @@ Descripción:
  2. Movimiento de archivos a un directorio local con la configuración <add key="Path_Resp">.
  3. Elimianr archivos de la carpeta original.
 
-.. versionchanged:: 10.221.0.0-LTS
+.. versionchanged:: 10.223.0.0-LTS
 

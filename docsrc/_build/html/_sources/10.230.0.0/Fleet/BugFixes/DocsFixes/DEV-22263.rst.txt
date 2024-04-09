@@ -1,0 +1,17 @@
+[DEV-22263]  Viajes - Guias - Paradas - Exportar a Excel 
+===================================================================
+
+|badge|
+
+.. |badge| raw:: html
+   
+   <span style="background-color: #7c04de; color: white; padding: 4px 8px; border-radius: 4px;">Corrección</span>
+
+Módulo: 
+   Fleet
+
+Descripción: 
+ Se corrigió error dentro en el botón de exportar a excel. 
+
+.. versionchanged:: 10.223.0.0-LTS
+

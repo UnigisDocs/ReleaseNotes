@@ -1,4 +1,4 @@
-[DEV-22310] No es posible ordenar la columna Estado Viaje Secundario
+[DEV-22097] No es posible ordenar la columna Estado Viaje Secundario
 =====================================================================
 
 |badge|
@@ -13,7 +13,7 @@ Módulo:
 Descripción: 
    Se corrigió error en el ordenamiento de la columna de estado de viaje secundario en la flota X, se presentaba un error en la pantalla y en la consola, pero la columna no se ordenaba correctamente.
 
-.. versionchanged:: 10.221.0.0-LTS
+.. versionchanged:: 10.223.0.0-LTS
 
 
 

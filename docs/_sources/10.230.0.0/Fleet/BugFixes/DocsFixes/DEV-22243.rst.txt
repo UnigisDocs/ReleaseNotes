@@ -13,5 +13,5 @@ Módulo:
 Descripción: 
  Se ajustó Cargar_Incidencia_Viaje para que se permita la carga de incidencia a cualquier viaje, independiente de su estado.
 
-.. versionchanged:: 10.221.0.0-LTS
+.. versionchanged:: 10.223.0.0-LTS
 

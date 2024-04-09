@@ -20,5 +20,5 @@
  2. Flag en la encuesta que permita decidir si se muestra un histórico de las respuestas al momento de re-hacer encuestas.
  3. Cambio en el diseño de las encuestas para poder mostrar (en caso de un flag de histórico en true) todas las respuestas a través del tiempo para poder visualizar la evolución de las respuestas.
 
-.. versionadded:: 10.221.0.0-LTS
+.. versionchanged:: 10.223.0.0-LTS
 

@@ -13,5 +13,5 @@ Módulo:
 Descripción: 
  Se corrigió error en el apartado de inicio y fin de viaje con los campos fecha y hora.
 
-.. versionchanged:: 10.222.0.0-LTS
+.. versionchanged:: 10.223.0.0-LTS
 
