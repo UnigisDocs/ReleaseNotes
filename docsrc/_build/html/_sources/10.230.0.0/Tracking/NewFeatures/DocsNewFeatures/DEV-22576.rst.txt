@@ -11,7 +11,7 @@ Módulo:
    Tracking
 
 Descripción: 
-  Se añade un nuevo método que permita modificar viajes por 'IdViaje', de forma tal que pueda ser modificado el campo 'ReferenciaExterna' toda vez que se envíe un mensaje haciendo referencia por el campo 'Viaje.IdViaje'.
+  Se añadió un nuevo método que permita modificar viajes por 'IdViaje', de forma tal que pueda ser modificado el campo 'ReferenciaExterna' toda vez que se envíe un mensaje haciendo referencia por el campo 'Viaje.IdViaje'.
 
 .. versionadded:: 10.230.0.0-LTS
 
