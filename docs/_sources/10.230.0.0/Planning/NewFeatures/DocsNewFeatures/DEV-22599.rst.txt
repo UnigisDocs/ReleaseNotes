@@ -1,0 +1,18 @@
+[DEV-22599] Agregar Recorridos Sin Recarga de Datos
+----------------------------------------------------------------------
+
+|badge|
+
+.. |badge| raw:: html
+   
+   <span style="background-color: #04a7de; color: white; padding: 4px 8px; border-radius: 4px;">Nueva característica</span>
+
+Módulo: 
+   Planning
+
+Descripción: 
+ Al agregar recorridos, solamente se actualizará la ruta afectada en la pantalla, no en su totalidad.
+
+
+.. versionchanged:: 10.223.0.0-LTS
+

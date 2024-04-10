@@ -20,12 +20,8 @@ Nuevas Características
    NewFeatures/NewFeatures.rst
 
 :doc:`NewFeatures/DocsNewFeatures/DEV-22147`
-:doc:`NewFeatures/DocsNewFeatures/DEV-22321`
-:doc:`NewFeatures/DocsNewFeatures/DEV-22349`
 :doc:`NewFeatures/DocsNewFeatures/DEV-22472`
 :doc:`NewFeatures/DocsNewFeatures/DEV-22483`
-:doc:`NewFeatures/DocsNewFeatures/DEV-22499`
-:doc:`NewFeatures/DocsNewFeatures/DEV-22576`
 :doc:`NewFeatures/DocsNewFeatures/DEV-22691`
 
 Corrección de Errores 
@@ -40,6 +36,7 @@ Corrección de Errores
 :doc:`BugFixes/DocsFixes/DEV-22172`
 :doc:`BugFixes/DocsFixes/DEV-22191`
 :doc:`BugFixes/DocsFixes/DEV-22221`
+:doc:`BugFixes/DocsFixes/DEV-22305`
 :doc:`BugFixes/DocsFixes/DEV-22337`
 :doc:`BugFixes/DocsFixes/DEV-22348`
 :doc:`BugFixes/DocsFixes/DEV-22350`
@@ -53,4 +50,5 @@ Corrección de Errores
 :doc:`BugFixes/DocsFixes/DEV-22555`
 :doc:`BugFixes/DocsFixes/DEV-22649`
 :doc:`BugFixes/DocsFixes/DEV-22661`
+:doc:`BugFixes/DocsFixes/DEV-22681`
 

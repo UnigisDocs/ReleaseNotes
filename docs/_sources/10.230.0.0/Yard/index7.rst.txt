@@ -21,6 +21,7 @@ Corrección de Errores
 
 :doc:`BugFixes/DocsFixes/DEV-22183`
 :doc:`BugFixes/DocsFixes/DEV-22184`
+:doc:`BugFixes/DocsFixes/DEV-22185`
 :doc:`BugFixes/DocsFixes/DEV-22186`
 :doc:`BugFixes/DocsFixes/DEV-22187`
 

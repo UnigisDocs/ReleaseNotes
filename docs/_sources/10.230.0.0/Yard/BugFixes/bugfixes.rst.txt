@@ -11,6 +11,7 @@ Corrección de Errores
 
   DocsFixes/DEV-22183.rst
   DocsFixes/DEV-22184.rst
+  DocsFixes/DEV-22185.rst
   DocsFixes/DEV-22186.rst
   DocsFixes/DEV-22187.rst
 

@@ -1,4 +1,4 @@
-[DEV-22310] No es posible ordenar la columna Estado Viaje Secundario
+[DEV-22097] No es posible ordenar la columna Estado Viaje Secundario
 =====================================================================
 
 |badge|

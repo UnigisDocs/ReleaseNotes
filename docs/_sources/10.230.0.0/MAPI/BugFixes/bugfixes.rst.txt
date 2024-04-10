@@ -13,6 +13,7 @@ Corrección de Errores
    DocsFixes/DEV-22172.rst
    DocsFixes/DEV-22191.rst
    DocsFixes/DEV-22221.rst
+   DocsFixes/DEV-22305.rst
    DocsFixes/DEV-22337.rst
    DocsFixes/DEV-22348.rst
    DocsFixes/DEV-22350.rst
@@ -26,3 +27,4 @@ Corrección de Errores
    DocsFixes/DEV-22555.rst
    DocsFixes/DEV-22649.rst
    DocsFixes/DEV-22661.rst
+   DocsFixes/DEV-22681.rst

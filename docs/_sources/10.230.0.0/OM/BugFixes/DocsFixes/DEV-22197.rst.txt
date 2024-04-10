@@ -1,5 +1,5 @@
-[DEV-22201] Viajes - Cuando Ingresamos a la Solapa de Paradas Muestra el Error 500
-===================================================================================
+[DEV-22197] El botón de Eliminar No Funciona Correctamente
+=============================================================
 
 |badge|
 
@@ -11,7 +11,6 @@ Módulo:
    Order Management
 
 Descripción: 
- Se corrigió error al ver información en la solapa de paradas.
+ Se corrigió error en la funcionalidad del botón eliminar.
    
 .. versionchanged:: 10.223.0.0-LTS
-
