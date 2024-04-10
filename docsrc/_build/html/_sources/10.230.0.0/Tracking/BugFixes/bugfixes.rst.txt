@@ -48,7 +48,11 @@ Corrección de Errores
   DocsFixes/DEV-22668.rst
   DocsFixes/DEV-22669.rst
   DocsFixes/DEV-22676.rst
+  DocsFixes/DEV-22679.rst
   DocsFixes/DEV-22689.rst
   DocsFixes/DEV-22690.rst
   DocsFixes/DEV-22698.rst
   DocsFixes/DEV-22702.rst
+  DocsFixes/DEV-22755.rst
+  DocsFixes/DEV-22758.rst
+  DocsFixes/DEV-22767.rst

@@ -1,0 +1,18 @@
+[DEV-22743] Pedidos Etiquedas
+---------------------------------
+
+|badge|
+
+.. |badge| raw:: html
+   
+   <span style="background-color: #04a7de; color: white; padding: 4px 8px; border-radius: 4px;">Nueva característica</span>
+
+Componente: 
+   Fleet
+
+Descripción: 
+ Se agregó nuevo campo llamado “Etiquetas” en tab de Items del módulo de Pedidos.
+ 
+ En éste campo se deberán mostrar todas las etiquetas separadas por coma correspondientes al PedidoItem.
+
+.. versionadded:: 10.223.21.0-LTS

@@ -1,0 +1,16 @@
+[DEV-21718] Edición de Grupos y Creación Manual (Lazo)
+---------------------------------------------------------------
+
+|badge|
+
+.. |badge| raw:: html
+   
+   <span style="background-color: #04a7de; color: white; padding: 4px 8px; border-radius: 4px;">Nueva característica</span>
+
+Módulo:
+   Planning
+
+Descripción:
+ En territory planning ahora se podrá crear/editar los grupos de una jornada, mediante lazo al momento de ampliar el mapa.
+
+.. versionadded:: 10.223.0.0-LTS

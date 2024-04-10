@@ -1,0 +1,16 @@
+[DEV-22750] Generar CMD tal que Consulte la Salida de Optimizacion
+-----------------------------------------------------------------------
+
+|badge|
+
+.. |badge| raw:: html
+   
+   <span style="background-color: #04a7de; color: white; padding: 4px 8px; border-radius: 4px;">Nueva característica</span>
+
+Módulo: 
+   Planning
+
+Descripción: 
+  Se generó un nuevo comando tal que pueda consultarse la Salida de Optimización segúnn el IdJob de Hangfire. Opcionalmente como parámetro de búsqueda puede seleccionarse la Zona.
+
+.. versionadded:: 10.223.0.0-LTS

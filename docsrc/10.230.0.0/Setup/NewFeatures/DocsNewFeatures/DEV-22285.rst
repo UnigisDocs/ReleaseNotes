@@ -13,5 +13,5 @@ Módulo:
 Descripción: 
   Se actualizaron las entidades RoutedMatrix, añadiendo columnas limitadoras de peso, altura, ancho y profundidad según el tipo de vehículo. Estas configuraciones deben ser ajustables desde el ABM.
 
-.. versionchanged:: 10.223.0.0-LTS
+.. versionadded:: 10.223.0.0-LTS
 

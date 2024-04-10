@@ -1,0 +1,16 @@
+[DEV-22767] Problema Crear Viaje Individual | PROD
+-----------------------------------------------------
+
+|badge|
+
+.. |badge| raw:: html
+   
+   <span style="background-color: #7c04de; color: white; padding: 4px 8px; border-radius: 4px;">Corrección</span>
+
+Módulo: 
+   Tracking
+
+Descripción: 
+    Se corrigió error al agregar una parada a un viaje creado de manera individual.
+
+.. versionchanged:: 10.223.0.0-LTS

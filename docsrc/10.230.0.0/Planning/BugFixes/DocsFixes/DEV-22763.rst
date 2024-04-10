@@ -1,0 +1,16 @@
+[DEV-22763] Error con el Servidor Geográfico
+----------------------------------------------
+
+|badge|
+
+.. |badge| raw:: html
+   
+   <span style="background-color: #7c04de; color: white; padding: 4px 8px; border-radius: 4px;">Corrección</span>
+
+Módulo: 
+   Planning
+
+Descripción: 
+    Se corrigió error al crear un nuevo modelo de zona.
+
+.. versionchanged:: 10.223.0.0-LTS

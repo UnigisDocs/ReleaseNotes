@@ -14,5 +14,5 @@ Descripción:
   Se implementa un control por fecha en 'ControlViaje' y 'ControlVehiculo' para abordar el problema de viajes que permanecen activos con fechas antiguas en algunos entornos. 
   Si la 'FechaInicioReal' de un viaje tiene más de 7 días de antigüedad, las paradas de ese viaje no serán analizadas para evitar el cálculo del ETA.
 
-.. versionchanged:: 10.223.0.0-LTS
+.. versionadded:: 10.223.21.0-LTS
 

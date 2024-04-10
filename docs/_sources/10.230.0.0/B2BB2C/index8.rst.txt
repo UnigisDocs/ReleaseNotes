@@ -43,3 +43,4 @@ Corrección de Errores
    BugFixes/bugfixes.rst
 
 :doc:`BugFixes/DocsFixes/DEV-22728`
+:doc:`BugFixes/DocsFixes/DEV-22768`

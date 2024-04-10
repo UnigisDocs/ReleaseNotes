@@ -1,0 +1,16 @@
+[DEV-21870] Grupos Vacíos desde Botón Crear Grupo (Jornadas & Planeación)
+---------------------------------------------------------------------------
+
+|badge|
+
+.. |badge| raw:: html
+   
+   <span style="background-color: #04a7de; color: white; padding: 4px 8px; border-radius: 4px;">Nueva característica</span>
+
+Módulo:
+   Planning
+
+Descripción:
+  Cuando el usuario ingrese a la pestaña de grupos dentro de una jornada y esta no tenga grupos, se le invitara a crearlos mediante un botón "Crear Grupos" a nivel del litado y comience el proceso. 
+
+.. versionadded:: 10.223.0.0-LTS

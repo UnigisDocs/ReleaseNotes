@@ -1,0 +1,16 @@
+[DEV-22774] Inconsistencia Servicio ModificaItemParada
+---------------------------------------------------------------------
+
+|badge|
+
+.. |badge| raw:: html
+   
+   <span style="background-color: #7c04de; color: white; padding: 4px 8px; border-radius: 4px;">Corrección</span>
+
+Módulo: 
+   MAPI
+
+Descripción: 
+    Adicional se habilitaron los campos ValorAcobrar, ValorUnitario, ValorCobrado, ValorCorte, y los campos Dinámicos del Nodo Parada Item como atributo para la generación de tarifas.
+
+.. versionchanged:: 10.223.0.0-LTS

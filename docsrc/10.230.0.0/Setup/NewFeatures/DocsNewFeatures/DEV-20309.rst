@@ -15,5 +15,5 @@ Descripción:
   Se realizaron mejoras a los mensajes de campos obligatorios, ubicándolos de manera visible y evitando fragmentación (ruptura) del texto.
   
 
-.. versionchanged:: 10.223.0.0-LTS
+.. versionadded:: 10.223.0.0-LTS
 

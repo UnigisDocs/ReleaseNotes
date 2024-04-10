@@ -1,0 +1,20 @@
+[DEV-22768] B2B Generar Varios pedidos de uno
+----------------------------------------------
+
+|badge|
+
+.. |badge| raw:: html
+   
+   <span style="background-color: #7c04de; color: white; padding: 4px 8px; border-radius: 4px;">Corrección</span>
+
+Módulo: 
+   Dashboard
+
+Descripción: 
+  Se corrigió errores presentados en el módulo B2B al generar varios pedidos en uno.
+
+  1. Se corrigió error que se presentaba al colocar cantidad de pedidos.
+  2. Se corrigió error al ordenar por alguna columna.
+  3. Se corrigió erro al guardar pedido.
+
+.. versionchanged:: 10.223.0.0-LTS

@@ -14,5 +14,5 @@ Módulo:
 Descripción:
  Se agregó descripciones por ABM Dinamico.
 
-.. versionchanged:: 10.223.0.0-LTS
+.. versionadded:: 10.223.0.0-LTS
 

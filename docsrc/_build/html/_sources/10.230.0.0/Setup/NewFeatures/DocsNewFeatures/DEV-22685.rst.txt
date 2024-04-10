@@ -14,6 +14,5 @@ Módulo:
 Descripción: 
    Se desarrolla la funcionalidad de asignar una o varias zonas a un deposito existente o creado y habilitado para gestionar citas.
   
-
-.. versionadded:: 10.222.0.0-LTS
+.. versionadded:: 10.223.0.0-LTS
 

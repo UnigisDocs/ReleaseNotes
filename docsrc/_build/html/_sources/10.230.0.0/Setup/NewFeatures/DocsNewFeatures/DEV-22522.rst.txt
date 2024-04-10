@@ -13,5 +13,5 @@ Módulo:
 Descripción:
  Se permite al cliente rutear con una variable personalizada de Valor Declarado en los adicionales. Estos adicionales deberían comportarse de manera similar a otras variables como Peso y Volumen, con la capacidad de configurar máximos y mínimos.
 
-.. versionchanged:: 10.223.0.0-LTS
+.. versionadded:: 10.223.0.0-LTS
 

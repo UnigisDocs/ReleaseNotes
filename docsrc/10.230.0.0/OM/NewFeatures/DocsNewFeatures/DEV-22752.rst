@@ -1,0 +1,66 @@
+[DEV-22752] Workflows de Ordenes Vinculados con Ordenes
+---------------------------------------------------------
+
+|badge|
+
+.. |badge| raw:: html
+   
+   <span style="background-color: #04a7de; color: white; padding: 4px 8px; border-radius: 4px;">Nueva característica</span>
+
+Módulo:
+   Order Management
+
+Descripción:
+ Resumen de Actualizaciones en la Base de Datos
+
+ - Creación de Tablas:
+
+ TipoOrdenRelacion: Tabla creada con un campo identificador y un campo Descripcion para almacenar descripciones de hasta 50 caracteres.
+
+ OrdenRelacion: Inicialmente creada para relacionar órdenes específicas, incorporando campos para referenciar órdenes y sus relaciones asociadas.
+
+ - Modificaciones en Tablas Existentes:
+ 
+ EstadoOrdenTransicion: Añadido el campo IdEstadoOrden con capacidad para referencias nulas a la tabla EstadoOrden. 
+ 
+ Incorporado el campo IdTipoOrdenRelacion también con referencias nulas a la tabla TipoOrdenRelacion.
+
+ - Ajustes y Añadiduras Adicionales:
+
+ OrdenRelacion: Actualizada para incluir un nuevo campo IdTipoOrdenRelacion como un campo obligatorio, asegurando la integridad de la relación entre órdenes.
+
+ -General:
+
+ Todas las operaciones de creación y modificación se han protegido con verificaciones para asegurar que solo se ejecuten si los elementos no existen previamente.
+
+ Se han establecido claves foráneas para mantener la integridad referencial entre las tablas relacionadas.
+
+ Se han añadido índices no agrupados a las claves foráneas para optimizar el rendimiento de las consultas.
+
+ - Funcionamiento:
+
+ Recuperación de Transiciones: Se recuperan todas las transiciones de estado disponibles (EstadoOrdenTransicion). Si no hay transiciones definidas, la función termina prematuramente.
+
+ Filtrado de Transiciones Aplicables: De la lista de transiciones recuperadas, se filtran aquellas que corresponden al estado de la orden principal a través de IdEstadoOrdenRelacion.
+
+ Recuperación de Órdenes Relacionadas: Se obtienen todas las órdenes relacionadas con la orden principal por su IdOrden.
+
+ - Aplicación de Transiciones a Órdenes Relacionadas:
+
+ Para cada orden relacionada, se filtran las transiciones aplicables basándose en IdTipoOrdenRelacion.
+
+ Se descartan aquellas órdenes eliminadas o para las cuales no aplican las transiciones.
+
+ Las transiciones que pueden aplicarse se ordenan y se selecciona la primera de ellas.
+
+ Se cambia el estado de la orden relacionada al estado destino definido por la transición seleccionada, sin validar la transición nuevamente.
+
+ - Consideraciones Importantes:
+
+ Validación de Transiciones: Antes de aplicar una transición, la función verifica si la transición es aplicable mediante canApply. Esto asegura que solo se apliquen transiciones válidas según la lógica de negocio.
+
+ Orden de Aplicación: Las transiciones se ordenan por IdEstadoOrigen antes de aplicar la primera transición válida. Esto implica que, en caso de múltiples transiciones válidas, la prioridad se determina por el orden de los estados de origen.
+
+ Manejo de Transiciones sin Validación: Al aplicar la transición al estado destino, se especifica no validar la transición (validarTransicion: false). Esto sugiere que la función asume que la validación previa es suficiente para garantizar la aplicabilidad de la transición.
+
+.. versionadded:: 10.223.0.0-LTS

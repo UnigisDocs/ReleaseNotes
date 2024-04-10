@@ -1,0 +1,16 @@
+[DEV-22757] Error de Integración JsonSyncout por XML
+------------------------------------------------------
+
+|badge|
+
+.. |badge| raw:: html
+   
+   <span style="background-color: #7c04de; color: white; padding: 4px 8px; border-radius: 4px;">Corrección</span>
+
+Módulo: 
+   Architecture
+
+Descripción: 
+    Se corrigió error en la integración de JsonSyncount.
+
+.. versionchanged:: 10.223.0.0-LTS

@@ -1,0 +1,38 @@
+[DEV-22751] Gestion de Citas: Acceso Entidades de Proveedor Orden
+-----------------------------------------------------------------
+
+|badge|
+
+.. |badge| raw:: html
+   
+   <span style="background-color: #04a7de; color: white; padding: 4px 8px; border-radius: 4px;">Nueva característica</span>
+
+Módulo: 
+   Setup
+
+Descripción: 
+    Se agregaron las siguientes entidades:
+
+    - Ordenes de Trabajo:
+    
+    WorkOrdersAPI/getWorkOrders
+    
+    - Orden Items de trabajo:
+    
+    MoveOrderItemsAPI/getMoveOrderItems
+    - Pedidos:
+    
+    OrdersAPI/obtenerPedidos
+    - PedidoItems:
+    
+    OrderBaseItemAPI/getOrdersBaseItems
+    
+    - Packs:
+    
+    PackAPI/getPacks
+    
+    - PackItems:
+    
+    PackItemAPI/getPackItems
+
+.. versionadded:: 10.223.0.0-LTS

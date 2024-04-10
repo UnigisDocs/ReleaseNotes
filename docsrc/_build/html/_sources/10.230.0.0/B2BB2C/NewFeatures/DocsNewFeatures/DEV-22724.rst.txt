@@ -13,5 +13,5 @@ Módulo:
 Descripción: 
  Dentro de B2C es unicamente accesible via login: Para ello se creo la Application B2C y en la pantalla de configuracion de B2C el parametro “B2CLoginRequired” ( B2CConfiguration ).
 
-.. versionchanged:: 10.223.0.0-LTS
+.. versionadded:: 10.223.21.0-LTS
 

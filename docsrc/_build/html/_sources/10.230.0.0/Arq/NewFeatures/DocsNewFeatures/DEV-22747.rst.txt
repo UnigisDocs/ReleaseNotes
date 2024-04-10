@@ -1,0 +1,16 @@
+[DEV-22747] Backend de Idioma por Usuario
+------------------------------------------------------
+
+|badge|
+
+.. |badge| raw:: html
+   
+   <span style="background-color: #04a7de; color: white; padding: 4px 8px; border-radius: 4px;">Nueva característica</span>
+
+Módulo: 
+   Arquitectura
+
+Descripción: 
+  Como mejora, si en el campo Usuario.Language tiene valores ( en, es, pt ), luego del login el idioma de la aplicacion cambia a ese lenguaje.
+
+.. versionadded:: 10.223.21.0-LTS

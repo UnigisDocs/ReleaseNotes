@@ -14,6 +14,6 @@ Descripción:
   Se corrigió error en XML.
 
 
-.. versionadded:: 10.222.0.0-LTS
+.. versionchanged:: 10.223.0.0-LTS
 
 

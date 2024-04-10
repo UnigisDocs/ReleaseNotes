@@ -13,5 +13,5 @@ Módulo:
 Descripción:
  Se agregó iconos de figura de campanas donde se visualizan al momento que se detecten errores en los procesos de los ABMs.
 
-.. versionchanged:: 10.223.0.0-LTS
+.. versionadded:: 10.223.0.0-LTS
 

@@ -13,5 +13,5 @@ Módulo:
 Descripción: 
   Se realizó un desarrollo para generar consultas de forma visual en el databrowser.
 
-.. versionadded:: 10.200.21.0-LTS
+.. versionadded:: 10.223.21.0-LTS
 

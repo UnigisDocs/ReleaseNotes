@@ -1,0 +1,16 @@
+[DEV-22710] No Permite Navegar de Columna a Columna con el Botón "Tab"
+------------------------------------------------------------------------
+
+|badge|
+
+.. |badge| raw:: html
+   
+   <span style="background-color: #7c04de; color: white; padding: 4px 8px; border-radius: 4px;">Corrección</span>
+
+Módulo: 
+   Planning
+
+Descripción: 
+    Se corrigió error en funcionalidad del botón TAB para filtrar columna.
+
+.. versionchanged:: 10.223.0.0-LTS

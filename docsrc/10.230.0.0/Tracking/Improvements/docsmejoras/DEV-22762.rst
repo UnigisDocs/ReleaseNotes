@@ -1,0 +1,16 @@
+[DEV-22762] Visualización de 'PedidoItemEtiqueta' en Detalle de Pedido
+------------------------------------------------------------------------------------
+
+|badge|
+
+.. |badge| raw:: html
+   
+   <span style="background-color: #4CAF50; color: white; padding: 4px 8px; border-radius: 4px;">Mejora</span>
+
+Componente: 
+   Tracking
+
+Descripción: 
+  Al ingresar en el detalle de un pedido ahora se puede visualizar el campo 'PedidoItemEtiqueta'.
+
+.. versionchanged:: 10.223.0.0-LTS

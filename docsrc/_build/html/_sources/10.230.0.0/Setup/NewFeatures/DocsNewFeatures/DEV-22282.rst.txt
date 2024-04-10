@@ -13,5 +13,5 @@ Módulo:
 Descripción:
  Como parte de los procesos RNDC se debe cumplir ante el Ministerio de Transporte de Colombia, se agrega la adición del proceso 34 Tarifas generador. En este proceso, los generadores/dadores de carga reportan el pool de datos definido en el XML mencionado.
 
-.. versionchanged:: 10.223.0.0-LTS
+.. versionadded:: 10.223.0.0-LTS
 

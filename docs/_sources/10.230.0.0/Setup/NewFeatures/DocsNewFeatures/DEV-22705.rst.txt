@@ -1,0 +1,16 @@
+[DEV-22705] Valores Fraccionados en Ancho,Alto y Profundidad
+-------------------------------------------------------------------------------------
+
+|badge|
+
+.. |badge| raw:: html
+   
+   <span style="background-color: #04a7de; color: white; padding: 4px 8px; border-radius: 4px;">Nueva característica</span>
+
+Módulo: 
+   Setup
+
+Descripción: 
+    Se ajustó campos Ancho, Alto y Profundidad dentro del módulo vehículos para fines informativos. 
+
+.. versionadded:: 10.223.0.0-LTS

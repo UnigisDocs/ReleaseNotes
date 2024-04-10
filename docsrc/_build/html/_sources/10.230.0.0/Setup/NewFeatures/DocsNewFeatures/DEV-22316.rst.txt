@@ -13,5 +13,5 @@ Módulo:
 Descripción:
  Se agregó reporte de servicio, que permite al usuario ver el tiempo promedio de entrega de cada uno de sus pedidos en un rango de tiempo seleccionado.
 
-.. versionchanged:: 10.223.0.0-LTS
+.. versionadded:: 10.223.0.0-LTS
 

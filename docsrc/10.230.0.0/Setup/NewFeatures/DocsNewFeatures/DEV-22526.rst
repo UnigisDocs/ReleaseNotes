@@ -16,5 +16,5 @@ Descripción:
  - AdicionalMinimo1.
  - AdicionalMinimo2.
 
-.. versionchanged:: 10.223.0.0-LTS
+.. versionadded:: 10.223.0.0-LTS
 

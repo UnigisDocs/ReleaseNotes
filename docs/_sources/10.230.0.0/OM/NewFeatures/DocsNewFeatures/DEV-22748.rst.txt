@@ -1,0 +1,16 @@
+[DEV-22748] Permitir Utilizar Campos Datetime1, Datetime2 y Datetime3 de Pedido como Fecha de Jornada Para Creación de Ordenes
+---------------------------------------------------------------------------------------------------------------------------------
+
+|badge|
+
+.. |badge| raw:: html
+   
+   <span style="background-color: #04a7de; color: white; padding: 4px 8px; border-radius: 4px;">Nueva característica</span>
+
+Módulo:
+   Order Management
+
+Descripción:
+ Para obtener la fecha de jornada desde 'OrdenTipoPedido' se puede utilizar en 'OrdenTipoPedido'.'CampoFecha' los valores Datetime1, Datetime2 o Datetime3, y asi las ordenes se crean en las jornadas indicadas la fecha de alguno de esos campos.
+
+.. versionadded:: 10.223.0.0-LTS

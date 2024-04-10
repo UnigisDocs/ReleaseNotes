@@ -13,5 +13,5 @@ Módulo:
 Descripción: 
   Se mejoró descarga de archivos PDF.
 
-.. versionchanged:: 10.223.0.0-LTS
+.. versionadded:: 10.223.0.0-LTS
 

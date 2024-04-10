@@ -1,0 +1,16 @@
+[DEV-22758] Tipo de Dato Campos Entidad Vehículo
+--------------------------------------------------------------
+
+|badge|
+
+.. |badge| raw:: html
+   
+   <span style="background-color: #7c04de; color: white; padding: 4px 8px; border-radius: 4px;">Corrección</span>
+
+Módulo: 
+   Tracking
+
+Descripción: 
+    Se corrigió error en aplicación debido a los tipos de dato en campos Alto, Ancho y Profundidad de la entidad Vehiculo.
+
+.. versionchanged:: 10.223.0.0-LTS

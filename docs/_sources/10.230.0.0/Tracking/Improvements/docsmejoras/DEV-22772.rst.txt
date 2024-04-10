@@ -1,0 +1,20 @@
+[DEV-22772] Mejoras en visualizacion de Etiquetas 'ParadaItemEtiqueta' en Smart Page Parada
+-------------------------------------------------------------------------------------------
+
+|badge|
+
+.. |badge| raw:: html
+   
+   <span style="background-color: #4CAF50; color: white; padding: 4px 8px; border-radius: 4px;">Mejora</span>
+
+Componente: 
+   Tracking
+
+Descripción: 
+  Se mejoró visualización:
+ 
+ - Mensaje al validar etiquetas que avise si el orden de escaneo de etiquetas no es correcto.
+ 
+ - Control de Descarga por Parada.
+
+.. versionchanged:: 10.223.0.0-LTS

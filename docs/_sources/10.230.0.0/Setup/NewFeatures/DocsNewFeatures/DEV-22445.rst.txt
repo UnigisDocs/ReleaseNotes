@@ -1,0 +1,17 @@
+
+[DEV-22445] Configuración Pantalla Deposito Zona Muelle (Existente TAB)
+-------------------------------------------------------------------------------------
+
+|badge|
+
+.. |badge| raw:: html
+   
+   <span style="background-color: #04a7de; color: white; padding: 4px 8px; border-radius: 4px;">Nueva característica</span>
+
+Módulo: 
+   Setup
+
+Descripción: 
+   Se habilitó configurcación para habilitar un muelle dentro de un track (portal Citas).
+
+.. versionadded:: 10.223.0.0-LTS

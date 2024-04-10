@@ -10,3 +10,4 @@ Corrección de Errores
    :maxdepth: 1
 
    DocsFixes/DEV-22671.rst
+   DocsFixes/DEV-22757.rst

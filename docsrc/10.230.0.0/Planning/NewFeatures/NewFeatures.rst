@@ -10,6 +10,8 @@ Nuevas Características
    :maxdepth: 1
 
    DocsNewFeatures/DEV-21608.rst
+   DocsNewFeatures/DEV-21718.rst
+   DocsNewFeatures/DEV-21870.rst
    DocsNewFeatures/DEV-22140.rst
    DocsNewFeatures/DEV-22157.rst
    DocsNewFeatures/DEV-22491.rst
@@ -18,4 +20,5 @@ Nuevas Características
    DocsNewFeatures/DEV-22619.rst
    DocsNewFeatures/DEV-22652.rst
    DocsNewFeatures/DEV-22673.rst
+   DocsNewFeatures/DEV-22750.rst
    

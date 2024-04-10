@@ -11,3 +11,4 @@ Nuevas Características
 
    DocsNewFeatures/DEV-21515.rst
    DocsNewFeatures/DEV-22618.rst
+   DocsNewFeatures/DEV-22743.rst

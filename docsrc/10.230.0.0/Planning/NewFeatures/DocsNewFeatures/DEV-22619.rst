@@ -15,5 +15,5 @@ Descripción:
  Es importante que se implemente un rollback solo en la o las rutas que no hayan sido validadas.
 
 
-.. versionchanged:: 10.223.0.0-LTS
+.. versionadded:: 10.223.0.0-LTS
 

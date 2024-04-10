@@ -28,3 +28,6 @@ Corrección de Errores
    DocsFixes/DEV-22649.rst
    DocsFixes/DEV-22661.rst
    DocsFixes/DEV-22681.rst
+   DocsFixes/DEV-22771.rst
+   DocsFixes/DEV-22773.rst
+   DocsFixes/DEV-22774.rst

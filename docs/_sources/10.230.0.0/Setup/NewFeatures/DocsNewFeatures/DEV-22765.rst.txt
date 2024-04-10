@@ -1,0 +1,16 @@
+[DEV-22765] Visualización de Errores y Tiempos de Procesos desde Transiciones de Viajes y Paradas
+---------------------------------------------------------------------------------------------------
+
+|badge|
+
+.. |badge| raw:: html
+   
+   <span style="background-color: #04a7de; color: white; padding: 4px 8px; border-radius: 4px;">Nueva característica</span>
+
+Módulo: 
+   Setup
+
+Descripción: 
+    Ahora el usuario puede visualizar en las transiciones de viajes y paradas, errores genéricos y los tiempos que llevo el proceso.
+
+.. versionadded:: 10.223.0.0-LTS

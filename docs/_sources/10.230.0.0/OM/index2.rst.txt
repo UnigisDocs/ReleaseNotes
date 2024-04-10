@@ -22,6 +22,8 @@ Nuevas Características
 :doc:`NewFeatures/DocsNewFeatures/DEV-22484`
 :doc:`NewFeatures/DocsNewFeatures/DEV-22349`
 :doc:`NewFeatures/DocsNewFeatures/DEV-22726`
+:doc:`NewFeatures/DocsNewFeatures/DEV-22748`
+:doc:`NewFeatures/DocsNewFeatures/DEV-22752`
 
 Mejoras
 ------------

@@ -25,6 +25,7 @@ Nuevas Características
 :doc:`NewFeatures/DocsNewFeatures/DEV-22515`
 :doc:`NewFeatures/DocsNewFeatures/DEV-22612`
 :doc:`NewFeatures/DocsNewFeatures/DEV-22642`
+:doc:`NewFeatures/DocsNewFeatures/DEV-22747`
 
 Mejoras
 ------------------------------------------------
@@ -48,5 +49,6 @@ Corrección de Errores
    BugFixes/bugfixes.rst
 
 :doc:`BugFixes/DocsFixes/DEV-22671`
+:doc:`BugFixes/DocsFixes/DEV-22757`
 
 

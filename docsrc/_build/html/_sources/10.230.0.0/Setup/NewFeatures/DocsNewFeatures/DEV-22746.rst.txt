@@ -1,0 +1,36 @@
+[DEV-22746] Nuevos Campos en Modelo de Datos Empresa y Sucursal
+-----------------------------------------------------------------
+
+|badge|
+
+.. |badge| raw:: html
+   
+   <span style="background-color: #04a7de; color: white; padding: 4px 8px; border-radius: 4px;">Nueva característica</span>
+
+Módulo: 
+   Setup
+
+Descripción: 
+    Se agregaron lo siguientes campos en la base de datos de Empresa y sucursal:
+    
+    Empresa - CodigoPostal
+    
+    Sucursal - CUIT
+    
+    Sucursal - RazonSocial
+    
+    Sucursal - Dirección
+    
+    Sucursal - Localidad
+    
+    Sucursal - Partido
+    
+    Sucursal - Provincia
+    
+    Sucursal - Pais
+    
+    Sucursal - Telefono
+    
+    Sucursal - CodigoPostal
+
+.. versionadded:: 10.223.0.0-LTS
