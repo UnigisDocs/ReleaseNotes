@@ -14,4 +14,4 @@ Módulo:
 Descripción: 
    Se agregó la pestaña de un Track dentro de un Depósito, para portal citas
   
-.. versionadded:: 10.223.0.0-LTS
+.. versionadded:: 10.230.0.0-LTS

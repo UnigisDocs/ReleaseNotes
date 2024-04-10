@@ -20,5 +20,5 @@ Descripción:
  - Reordenar y reasignar mismo problema.
  - Al momento de ver la opción de resueltos se queda la pantalla en blanco.
 
-.. versionchanged:: 10.223.0.0-LTS
+.. versionchanged:: 10.230.0.0-LTS
 

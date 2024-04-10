@@ -13,5 +13,5 @@ Módulo:
 Descripción:
   Se agrega menú con secciónes para la gestión de citas.
 
-.. versionadded:: 10.223.0.0-LTS
+.. versionadded:: 10.230.0.0-LTS
 

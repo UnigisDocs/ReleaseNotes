@@ -11,6 +11,6 @@ Módulo:
    Tracking
 
 Descripción: 
-    Se corrigió error al agregar una parada a un viaje creado de manera individual.
+   Se corrigió error al agregar una parada a un viaje creado de manera individual.
 
-.. versionchanged:: 10.223.0.0-LTS
+.. versionchanged:: 10.230.0.0-LTS

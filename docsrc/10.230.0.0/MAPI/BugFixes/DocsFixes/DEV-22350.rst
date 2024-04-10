@@ -13,5 +13,5 @@ Módulo:
 Descripción: 
  Al editar manualmente una ruta, se agregan restricciones que validan el orden de inserción. Además, se puede determinar qué validaciones tiene la ruta modificada.
 
-.. versionchanged:: 10.223.0.0-LTS
+.. versionchanged:: 10.230.0.0-LTS
 

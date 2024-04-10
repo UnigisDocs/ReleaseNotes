@@ -13,6 +13,6 @@ Módulo:
 Descripción: 
   Los botones dentro del módulo con outline.    
 
-.. versionchanged:: 10.223.0.0-LTS
+.. versionchanged:: 10.230.0.0-LTS
 
    

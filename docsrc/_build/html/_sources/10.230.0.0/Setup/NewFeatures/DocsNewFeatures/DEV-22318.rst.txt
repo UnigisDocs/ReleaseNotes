@@ -13,5 +13,5 @@ Módulo:
 Descripción:
  Se agregó reporte denominado consistencia, que permite al usuario ver el porcentaje de facturas entregadas por en 4.5 horas o menos.
 
-.. versionadded:: 10.223.0.0-LTS
+.. versionadded:: 10.230.0.0-LTS
 

@@ -13,4 +13,4 @@ Módulo:
 Descripción: 
     Adicional se habilitaron los campos ValorAcobrar, ValorUnitario, ValorCobrado, ValorCorte, y los campos Dinámicos del Nodo Parada Item como atributo para la generación de tarifas.
 
-.. versionchanged:: 10.223.0.0-LTS
+.. versionchanged:: 10.230.0.0-LTS

@@ -13,5 +13,5 @@ Módulo:
 Descripción: 
  Se corrigó error al usar latencia mensual para crossplanificación y campo latencia para ruteo en jornada.
 
-.. versionchanged:: 10.223.0.0-LTS
+.. versionchanged:: 10.230.0.0-LTS
 

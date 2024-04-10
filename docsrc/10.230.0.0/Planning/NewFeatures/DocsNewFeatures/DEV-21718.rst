@@ -13,4 +13,4 @@ Módulo:
 Descripción:
  En territory planning ahora se podrá crear/editar los grupos de una jornada, mediante lazo al momento de ampliar el mapa.
 
-.. versionadded:: 10.223.0.0-LTS
+.. versionadded:: 10.230.0.0-LTS

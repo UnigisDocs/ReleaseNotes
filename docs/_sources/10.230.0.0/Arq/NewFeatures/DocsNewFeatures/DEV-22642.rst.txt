@@ -13,5 +13,5 @@ Módulo:
 Descripción: 
   Como mejora, se amplia el campo CUIT en todas las entidades, dado que anteriormente solo aceptaba un tipo de dato char (13).
 
-.. versionadded:: 10.223.21.0-LTS
+.. versionadded:: 10.230.0.0-LTS
 

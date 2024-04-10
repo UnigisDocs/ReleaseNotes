@@ -13,6 +13,6 @@ Módulo:
 Descripción: 
   A todos los estados de un viaje, parada, etc., se les eliminó el relleno, dejando solo el contorno y manteniendo los colores asignados.
 
-.. versionchanged:: 10.223.0.0-LTS
+.. versionchanged:: 10.230.0.0-LTS
 
 

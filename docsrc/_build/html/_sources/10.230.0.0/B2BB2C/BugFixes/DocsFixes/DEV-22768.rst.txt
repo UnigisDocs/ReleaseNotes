@@ -17,4 +17,4 @@ Descripción:
   2. Se corrigió error al ordenar por alguna columna.
   3. Se corrigió erro al guardar pedido.
 
-.. versionchanged:: 10.223.0.0-LTS
+.. versionchanged:: 10.230.0.0-LTS

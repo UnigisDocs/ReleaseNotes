@@ -11,7 +11,7 @@ Módulo:
    Tracking
 
 Descripción: 
-   Se corrige visualización del botón Ver dentro de las solapas.
+   Se corrigió visualización del botón Ver dentro de las solapas.
 
-.. versionchanged:: 10.223.0.0-LTS
+.. versionchanged:: 10.230.0.0-LTS
 

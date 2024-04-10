@@ -13,5 +13,5 @@ Módulo:
 Descripción:
  Se agregó dentro del registro para Depositos un check con la funcionalidad de 'Permitir Citas'.
 
-.. versionadded:: 10.223.0.0-LTS
+.. versionadded:: 10.230.0.0-LTS
 

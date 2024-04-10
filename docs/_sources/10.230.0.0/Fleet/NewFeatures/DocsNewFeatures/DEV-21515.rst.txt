@@ -13,5 +13,5 @@ Módulo:
 Descripción: 
   Se realizan mejoras al módulo de tarifas donde se puede generar la vigencia masivamente agregando el campo "desde" y "hasta".
 
-.. versionadded:: 10.223.0.0-LTS
+.. versionadded:: 10.230.0.0-LTS
 

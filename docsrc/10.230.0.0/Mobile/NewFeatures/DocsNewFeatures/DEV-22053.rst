@@ -12,5 +12,5 @@ Módulo:
 Descripción:
  Esta funcionalidad permitirá al usuario revisar la información del movimiento de recursos no nominados antes de entregarla en donde le corresponda. Ajustando los diferentes valores en caso de necesitarlo o por haber detectado algún error durante el proceso.
 
-.. versionadded:: 10.223.21.0-LTS
+.. versionadded:: 10.230.0.0-LTS
 

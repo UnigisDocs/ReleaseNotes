@@ -14,4 +14,4 @@ Módulo:
 Descripción: 
    Se habilitó configurcación para habilitar un muelle dentro de un track (portal Citas).
 
-.. versionadded:: 10.223.0.0-LTS
+.. versionadded:: 10.230.0.0-LTS

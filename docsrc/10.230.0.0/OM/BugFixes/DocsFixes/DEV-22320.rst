@@ -13,5 +13,5 @@ Módulo:
 Descripción: 
  Se corrigió error 500 al momento de guardar para crear los pedidos desde OT Item.
 
-.. versionchanged:: 10.223.0.0-LTS
+.. versionchanged:: 10.230.0.0-LTS
 

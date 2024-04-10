@@ -13,4 +13,4 @@ Módulo:
 Descripción: 
    Se corrigió error al hacer click para que se rediriga a la smart page del viaje.
 
-.. versionchanged:: 10.223.0.0-LTS
+.. versionchanged:: 10.230.0.0-LTS

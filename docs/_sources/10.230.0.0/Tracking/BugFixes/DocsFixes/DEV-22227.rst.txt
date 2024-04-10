@@ -11,7 +11,7 @@ Módulo:
    Tracking
 
 Descripción: 
-   Se ajusta validación para vigencia de documentación para el vehículo correspondiente para asignar. 
+   Se ajustó validación para vigencia de documentación para el vehículo correspondiente para asignar. 
 
-.. versionchanged:: 10.223.0.0-LTS
+.. versionchanged:: 10.230.0.0-LTS
 

@@ -13,4 +13,4 @@ Módulo:
 Descripción: 
     Se corrigió error al usar el web Service y  Modificar "Parada Item" se envíe, se modifique y el valor se visualice en la tabla.
 
-.. versionchanged:: 10.223.0.0-LTS
+.. versionchanged:: 10.230.0.0-LTS

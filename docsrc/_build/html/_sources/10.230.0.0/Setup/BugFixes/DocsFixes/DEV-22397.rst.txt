@@ -13,5 +13,5 @@ Módulo:
 Descripción: 
  Se corrigió error al intentar guardar nuevas categorías de Domicilio Orden por carga masiva.
 
-.. versionchanged:: 10.223.0.0-LTS
+.. versionchanged:: 10.230.0.0-LTS
 

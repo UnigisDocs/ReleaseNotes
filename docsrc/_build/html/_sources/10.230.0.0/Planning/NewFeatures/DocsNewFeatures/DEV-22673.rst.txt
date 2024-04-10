@@ -16,5 +16,5 @@ Descripción:
   Anteriormente se debía ir a Ordenes sin ruta para que determine la opción.
 
 
-.. versionadded:: 10.223.0.0-LTS
+.. versionadded:: 10.230.0.0-LTS
 

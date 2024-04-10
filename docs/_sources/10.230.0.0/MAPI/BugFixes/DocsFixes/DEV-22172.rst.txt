@@ -14,5 +14,5 @@ Descripción:
   Se corrigió error al recibir valores decimales separados por punto.
 
 
-.. versionchanged:: 10.223.0.0-LTS
+.. versionchanged:: 10.230.0.0-LTS
 

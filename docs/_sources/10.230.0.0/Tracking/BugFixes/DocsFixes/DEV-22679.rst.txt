@@ -11,6 +11,6 @@ Módulo:
    Tracking
 
 Descripción: 
-    Se corrigió error de visualización de margen dentro del mensaje al crear un viaje individual.
+   Se corrigió error de visualización de margen dentro del mensaje al crear un viaje individual.
 
-.. versionchanged:: 10.223.0.0-LTS
+.. versionchanged:: 10.230.0.0-LTS

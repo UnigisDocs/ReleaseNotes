@@ -15,4 +15,4 @@ Descripción:
   
   Documentación del Servicio 'MarcarParadaItemEtiqueta': El servicio 'MarcarParadaItemEtiqueta' está diseñado para actualizar la información de etiquetas asociadas a elementos de parada en un sistema de logística o transporte.
 
-.. versionadded:: 10.223.0.0-LTS
+.. versionadded:: 10.230.0.0-LTS

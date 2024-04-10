@@ -14,5 +14,5 @@ Descripción:
  Al habilitar la opción "Respetar vehículo preasignado", se produjo una inconsistencia que resultó en un error al intentar planificar la ruta. 
  Se ajusta validación para que se tome en cuenta el Depósito de Salida seleccionado en la planificación automática.
 
-.. versionchanged:: 10.223.0.0-LTS
+.. versionchanged:: 10.230.0.0-LTS
 

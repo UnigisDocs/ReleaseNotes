@@ -13,5 +13,5 @@ Componente:
 Descripción: 
  Se ajustó campo (ValorChar) se aumento el tamaño a 2000 caracteres.
 
-.. versionadded:: 10.223.21.0-LTS
+.. versionadded:: 10.230.0.0-LTS
 

@@ -12,5 +12,5 @@ Módulo
 Descripción:
  Se implementa una validación en el flujo de cambio de estado de parada. Durante la construcción de la solicitud hacia el método del servicio móvil para modificar el estado de una parada, se verifica la presencia de una cobranza realizada con forma de pago al contado (FormaPago.RequiereFormaPago = 1).
 
-.. versionadded:: 10.223.21.0-LTS
+.. versionadded:: 10.230.0.0-LTS
 

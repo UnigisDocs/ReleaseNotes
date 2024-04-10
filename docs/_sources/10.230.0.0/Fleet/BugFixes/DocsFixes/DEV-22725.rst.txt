@@ -12,5 +12,5 @@ Módulo:
 Descripción: 
   Se ajustó en el modulo fleet para realizar configuración de tarifas apartir del campo tipo carga.
 
-.. versionadded:: 10.223.0.0-LTS
+.. versionadded:: 10.230.0.0-LTS
 

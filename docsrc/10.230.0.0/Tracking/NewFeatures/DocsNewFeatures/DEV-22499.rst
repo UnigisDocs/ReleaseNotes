@@ -13,5 +13,5 @@ Módulo:
 Descripción: 
   Se agrega un nuevo proceso cuando un usuario edita un viaje, ya sea en la pantalla de edición del viaje o si el viaje es modificado por un Web Service
 
-.. versionadded:: 10.223.21.0-LTS
+.. versionadded:: 10.230.0.0-LTS
 

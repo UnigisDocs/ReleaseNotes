@@ -12,5 +12,5 @@ Módulo:
 Descripción: 
   Se realizan mejoras para la funcionalidad de seleccionar un proovedor cuando el tipo de incidencia es requerida.
 
-.. versionadded:: 10.223.0.0-LTS
+.. versionadded:: 10.230.0.0-LTS
 

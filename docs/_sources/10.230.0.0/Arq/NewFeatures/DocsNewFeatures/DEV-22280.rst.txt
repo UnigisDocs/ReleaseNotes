@@ -13,5 +13,5 @@ Módulo:
 Descripción: 
   La funcionalidad principal es el reconocimiento OCR de diversos comprobantes digitalizados, como remitos y facturas, entre otros. A través de un identificador de archivo recuperado mediante una expresión regular, se puede integrar en un viaje, pedido o parada con el fin de realizar alguna transición de estado.
 
-.. versionadded:: 10.223.21.0-LTS
+.. versionadded:: 10.230.21.0-LTS
 

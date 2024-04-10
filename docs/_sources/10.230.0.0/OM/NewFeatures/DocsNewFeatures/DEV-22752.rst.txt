@@ -63,4 +63,4 @@ Descripción:
 
  Manejo de Transiciones sin Validación: Al aplicar la transición al estado destino, se especifica no validar la transición (validarTransicion: false). Esto sugiere que la función asume que la validación previa es suficiente para garantizar la aplicabilidad de la transición.
 
-.. versionadded:: 10.223.0.0-LTS
+.. versionadded:: 10.230.0.0-LTS

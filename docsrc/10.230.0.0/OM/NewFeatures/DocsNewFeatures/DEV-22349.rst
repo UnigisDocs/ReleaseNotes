@@ -13,4 +13,4 @@ Módulo:
 Descripción:
  Al crear un Pedido desde una Orden, el nuevo pedido hereda en su campo 'Pedido.IdOperacion' el valor de 'Orden.Jornada.IdOperacion'.
 
-.. versionadded:: 10.223.0.0-LTS
+.. versionadded:: 10.230.0.0-LTS

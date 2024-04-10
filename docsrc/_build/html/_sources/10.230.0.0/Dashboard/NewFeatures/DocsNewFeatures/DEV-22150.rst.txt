@@ -13,4 +13,4 @@ Módulo:
 Descripción: 
   El diseño del módulo de Dashboard se renueva para alinear su apariencia con los estilos visuales del resto de la aplicación.
 
-.. versionadded:: 10.223.21.0-LTS
+.. versionadded:: 10.230.0.0-LTS

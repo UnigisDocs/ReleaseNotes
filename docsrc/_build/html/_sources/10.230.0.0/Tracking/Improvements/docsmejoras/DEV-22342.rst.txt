@@ -13,4 +13,4 @@ Componente:
 Descripción: 
   Se verificó que los iconos no fueran imágenes y, en caso de serlo, se reemplazaron por iconos. Se corrigió el formato en negrita de los iconos y se agregaron efectos hover y tooltips. Estas correcciones se aplicaron en todas las pestañas de detalle dentro de los módulos de Tracking, Routing y el resto de los módulos.
 
-.. versionchanged:: 10.223.0.0-LTS
+.. versionchanged:: 10.230.0.0-LTS

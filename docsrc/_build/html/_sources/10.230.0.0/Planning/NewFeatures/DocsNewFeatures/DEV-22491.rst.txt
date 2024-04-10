@@ -11,8 +11,8 @@ Módulo:
    Planning
 
 Descripción: 
-vSe realizaron mejoras al tiempo estimado de arribo.
+   Se realizaron mejoras al tiempo estimado de arribo.
 
 
-.. versionadded:: 10.223.0.0-LTS
+.. versionadded:: 10.230.0.0-LTS
 

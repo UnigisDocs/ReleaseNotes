@@ -11,7 +11,7 @@ Módulo:
    Tracking
 
 Descripción: 
- Se corrigió error en la visualización del selector para operación.
+   Se corrigió error en la visualización del selector para operación.
 
-.. versionchanged:: 10.223.0.0-LTS
+.. versionchanged:: 10.230.0.0-LTS
 

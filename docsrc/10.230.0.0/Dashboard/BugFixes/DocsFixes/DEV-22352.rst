@@ -17,5 +17,5 @@ Descripción:
  - Ont weight 500 para todos los headings.
  - Las cajas min-height individual.
 
-.. versionchanged:: 10.223.0.0-LTS
+.. versionchanged:: 10.230.0.0-LTS
 

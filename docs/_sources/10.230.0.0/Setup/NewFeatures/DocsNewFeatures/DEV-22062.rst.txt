@@ -13,5 +13,5 @@ Módulo:
 Descripción:
    Ahora, el usuario puede seleccionar el color que desee visualizar en el header ajustando el tema de la web a través de los ajustes de usuario.
 
-.. versionadded:: 10.223.0.0-LTS
+.. versionadded:: 10.230.0.0-LTS
 

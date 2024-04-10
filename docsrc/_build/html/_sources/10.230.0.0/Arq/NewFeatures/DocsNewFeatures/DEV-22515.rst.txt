@@ -13,5 +13,5 @@ Módulo:
 Descripción: 
   Para mejorar la comunicación entre Avery y sus clientes, se buscó que el usuario pueda obtener de forma inmediata las evidencias y archivos de facturación posteriores a la entrega.
 
-.. versionadded:: 10.223.21.0-LTS
+.. versionadded:: 10.230.0.0-LTS
 

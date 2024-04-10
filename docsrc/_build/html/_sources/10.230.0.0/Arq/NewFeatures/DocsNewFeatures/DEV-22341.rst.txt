@@ -13,5 +13,5 @@ Módulo:
 Descripción: 
  Se agregó a adapter de viajes, la opción de módulo de Documentos, para carga masiva de documentos.
 
-.. versionadded:: 10.223.21.0-LTS
+.. versionadded:: 10.230.0.0-LTS
 

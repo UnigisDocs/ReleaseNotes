@@ -14,4 +14,4 @@ Descripción:
   Se ajustó json la variable showCombos con un valor true.
 
 
-.. versionchanged:: 10.223.0.0-LTS
+.. versionchanged:: 10.230.0.0-LTS

@@ -13,4 +13,4 @@ Módulo:
 Descripción: 
     Ahora el usuario puede visualizar en las transiciones de viajes y paradas, errores genéricos y los tiempos que llevo el proceso.
 
-.. versionadded:: 10.223.0.0-LTS
+.. versionadded:: 10.230.0.0-LTS

@@ -13,5 +13,5 @@ Módulo:
 Descripción: 
  Se corrigió error al realizar una edición masiva en un pedido. Al presionar el botón de guardar, valida la funcionalidad.
    
-.. versionchanged:: 10.223.0.0-LTS
+.. versionchanged:: 10.230.0.0-LTS
 

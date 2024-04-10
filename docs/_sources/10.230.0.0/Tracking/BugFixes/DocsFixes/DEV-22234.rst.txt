@@ -11,7 +11,7 @@ Módulo:
    Tracking
 
 Descripción: 
-   Se corrige texto de títulos y márgenes.
+   Se corrigió texto de títulos y márgenes.
 
-.. versionchanged:: 10.223.0.0-LTS
+.. versionchanged:: 10.230.0.0-LTS
 

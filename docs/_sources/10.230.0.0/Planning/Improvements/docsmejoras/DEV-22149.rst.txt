@@ -13,5 +13,5 @@ Módulo:
 Descripción: 
   Se mejoró la visibilidad de las órdenes que no habían sido codificadas en el listado, proporcionando indicadores claros para que los usuarios pudieran comprender su estado y saber cómo codificarlas.
 
-.. versionchanged:: 10.223.0.0-LTS
+.. versionchanged:: 10.230.0.0-LTS
 

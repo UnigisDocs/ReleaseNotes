@@ -13,5 +13,5 @@ Módulo:
 Descripción:
  Se habilitó la funcionalidad de ignorar el filtro de cliente en el módulo de Ordenes en OM.
 
-.. versionadded:: 10.223.0.0-LTS
+.. versionadded:: 10.230.0.0-LTS
 

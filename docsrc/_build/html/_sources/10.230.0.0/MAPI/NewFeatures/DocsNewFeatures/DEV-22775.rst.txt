@@ -13,4 +13,4 @@ Módulo:
 Descripción:  
   Se realizó desarrollo para que el método 'CrearViajeCompleto', además de actualizar las paradas como lo hace a partir de la última modificación, también permita cambiar vehículo y/o conductor.
 
-.. versionadded:: 10.223.0.0-LTS
+.. versionadded:: 10.230.0.0-LTS

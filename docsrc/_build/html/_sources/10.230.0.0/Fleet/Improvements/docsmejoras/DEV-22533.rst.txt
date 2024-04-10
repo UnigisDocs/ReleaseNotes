@@ -13,4 +13,4 @@ Módulo:
 Descripción: 
   Se ajustaron tablas de fleet para que el movimiento no se muestre.
 
-.. versionchanged:: 10.223.0.0-LTS
+.. versionchanged:: 10.230.0.0-LTS

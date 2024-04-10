@@ -18,6 +18,6 @@ Descripción:
  - Cambio de font-size en tablas en distintos tamaño de alto de fila.
  - Corrección de doble scroll.
 
-.. versionchanged:: 10.223.0.0-LTS
+.. versionchanged:: 10.230.0.0-LTS
 
 

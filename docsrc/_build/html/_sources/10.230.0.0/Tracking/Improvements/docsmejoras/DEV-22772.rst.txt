@@ -11,10 +11,10 @@ Componente:
    Tracking
 
 Descripción: 
-  Se mejoró visualización:
+   Se mejoró visualización:
  
- - Mensaje al validar etiquetas que avise si el orden de escaneo de etiquetas no es correcto.
+   - Mensaje al validar etiquetas que avise si el orden de escaneo de etiquetas no es correcto.
  
- - Control de Descarga por Parada.
+   - Control de Descarga por Parada.
 
-.. versionchanged:: 10.223.0.0-LTS
+.. versionchanged:: 10.230.0.0-LTS
