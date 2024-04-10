@@ -11,7 +11,7 @@ Módulo:
    Setup
 
 Descripción: 
- se corrigió error en la importación de datos por excel pese a respetar estructura y formato.
+   Se corrigió error en la importación de datos por excel pese a respetar estructura y formato.
 
 .. versionchanged:: 10.230.0.0-LTS
 
