@@ -1,6 +1,6 @@
 
-[DEV-22441] Gestion de Citas - Pedido RequiereBultado
-===============================================================================
+[DEV-22441] Sub Funcionalidad Configuración de la Pantalla Zona Deposito (ABM)
+----------------------------------------------------------------------------------
 
 |badge|
 
@@ -9,10 +9,10 @@
    <span style="background-color: #04a7de; color: white; padding: 4px 8px; border-radius: 4px;">Nueva característica</span>
 
 Módulo: 
-   Administración del Sistema
+   SetUp
 
 Descripción: 
-   Mejoras para especificar en el caso de portal citas si un producto requiere información de abultado (medidas, peso, etc.).
-  
+   Se desarrolló la funcionalidad de asignar una o varias zonas a un deposito existente o creado y habilitado para gestionar citas.
+   
 .. versionadded:: 10.230.0.0-LTS
 

@@ -8,7 +8,7 @@
    <span style="background-color: #04a7de; color: white; padding: 4px 8px; border-radius: 4px;">Nueva característica</span>
 
 Módulo:
-   Administración del Sistema
+   SetUp
 
 Descripción:
    Ahora, el usuario puede seleccionar el color que desee visualizar en el header ajustando el tema de la web a través de los ajustes de usuario.

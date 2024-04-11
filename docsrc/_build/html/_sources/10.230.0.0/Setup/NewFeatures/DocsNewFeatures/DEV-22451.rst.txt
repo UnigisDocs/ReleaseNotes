@@ -9,7 +9,7 @@
 
 
 Módulo:
-   Administración del Sistema
+   SetUp
 
 Descripción:
  Se agregó descripciones por ABM Dinamico.

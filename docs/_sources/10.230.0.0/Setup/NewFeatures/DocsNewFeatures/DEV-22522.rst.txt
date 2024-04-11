@@ -1,4 +1,4 @@
-[DEV-22222]  Incluir Valores Mínimos en Adicional 1 y Adicional 2 Tipo de Vehículos, y como Variables de Ruteo
+[DEV-22522]  Incluir Valores Mínimos en Adicional 1 y Adicional 2 Tipo de Vehículos, y como Variables de Ruteo
 ----------------------------------------------------------------------------------------------------------------
 
 |badge|
@@ -8,7 +8,7 @@
    <span style="background-color: #04a7de; color: white; padding: 4px 8px; border-radius: 4px;">Nueva característica</span>
 
 Módulo:
-   Setup
+   SetUp
 
 Descripción:
  Se permite al cliente rutear con una variable personalizada de Valor Declarado en los adicionales. Estos adicionales deberían comportarse de manera similar a otras variables como Peso y Volumen, con la capacidad de configurar máximos y mínimos.

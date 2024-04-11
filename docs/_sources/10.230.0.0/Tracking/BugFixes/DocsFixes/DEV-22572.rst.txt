@@ -1,5 +1,5 @@
-[DEV-22572] Error en Búsqueda de Conductor No Determinado
-========================================================================================
+[DEV-22572] Creación de Viajes - Problema en Vinculación con IdPedido en Ordenes Generadas por Mobile
+----------------------------------------------------------------------------------------------------------
 
 |badge|
 
@@ -11,7 +11,7 @@ Módulo:
    Tracking
 
 Descripción: 
- Se corrigió error al momento de generar un viaje en Mobile escaneando una orden parada.
+ Se corrigió error durante la generación de un viaje en Mobile mediante el escaneo de una orden. En este proceso, el sistema crea una segunda orden vinculada a la parada. Sin embargo, esta segunda orden carece de un IdPedido, lo que impide que cualquier cambio de estado aplicado a la orden se refleje en el pedido según el Workflow configurado para el Usuario.
 
 .. versionchanged:: 10.230.0.0-LTS
 

@@ -11,6 +11,6 @@ Módulo:
    Order Management
 
 Descripción:
- Para obtener la fecha de jornada desde 'OrdenTipoPedido' se puede utilizar en 'OrdenTipoPedido'.'CampoFecha' los valores Datetime1, Datetime2 o Datetime3, y asi las ordenes se crean en las jornadas indicadas la fecha de alguno de esos campos.
+   Para obtener la fecha de jornada desde 'OrdenTipoPedido' se puede utilizar en 'OrdenTipoPedido'.'CampoFecha' los valores Datetime1, Datetime2 o Datetime3, y asi las ordenes se crean en las jornadas indicadas a la fecha de alguno de esos campos.
 
 .. versionadded:: 10.230.0.0-LTS

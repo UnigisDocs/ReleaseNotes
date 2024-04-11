@@ -1,5 +1,5 @@
-[DEV-22116] Modificaciones en B2C
-------------------------------------
+[DEV-22338] ABM de B2B correcciones visuales
+----------------------------------------------
 
 |badge|
 

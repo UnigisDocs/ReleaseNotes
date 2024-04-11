@@ -60,6 +60,7 @@ Corrección de Errores
 :doc:`BugFixes/DocsFixes/DEV-22227`
 :doc:`BugFixes/DocsFixes/DEV-22231`
 :doc:`BugFixes/DocsFixes/DEV-22234`
+:doc:`BugFixes/DocsFixes/DEV-22236`
 :doc:`BugFixes/DocsFixes/DEV-22240`
 :doc:`BugFixes/DocsFixes/DEV-22245`
 :doc:`BugFixes/DocsFixes/DEV-22246`

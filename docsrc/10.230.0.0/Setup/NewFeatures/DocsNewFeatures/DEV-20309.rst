@@ -9,7 +9,7 @@
    <span style="background-color: #04a7de; color: white; padding: 4px 8px; border-radius: 4px;">Nueva característica</span>
 
 Módulo: 
-   Administración del Sistema
+   SetUp
 
 Descripción: 
   Se realizaron mejoras a los mensajes de campos obligatorios, ubicándolos de manera visible y evitando fragmentación (ruptura) del texto.

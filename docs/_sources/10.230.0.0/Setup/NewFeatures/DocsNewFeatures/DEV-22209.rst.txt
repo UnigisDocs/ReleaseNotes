@@ -9,7 +9,7 @@
 
 
 Módulo:
-   Administración del Sistema
+   SetUp
 
 Descripción:
  En la tabla de 'TipoGuiaCondicion' se agrega el campo de 'IdCategoriaViaje' para identificar que tipo de guia crear.

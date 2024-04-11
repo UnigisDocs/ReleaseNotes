@@ -1,5 +1,5 @@
-[DEV-22288] No Se Muestra Correctamente la Pantalla
-===================================================
+[DEV-22288] Escanear Orden - Error al Escanear Orden por Segunda Vez
+-----------------------------------------------------------------------------
 
 |badge|
 

@@ -20,6 +20,7 @@ Corrección de Errores
   DocsFixes/DEV-22227.rst
   DocsFixes/DEV-22231.rst
   DocsFixes/DEV-22234.rst
+  DocsFixes/DEV-22236.rst
   DocsFixes/DEV-22240.rst
   DocsFixes/DEV-22245.rst
   DocsFixes/DEV-22246.rst

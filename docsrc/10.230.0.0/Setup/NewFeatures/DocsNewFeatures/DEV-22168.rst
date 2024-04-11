@@ -9,7 +9,7 @@
 
 
 Módulo:
-   Administración del Sistema
+   SetUp
 
 Descripción:
  Se desarrollaron mejoras para validar el endpoint de los metodos que se consumen por RNDC el cual se agregan un validador visual y uno interno (back).

@@ -1,5 +1,5 @@
-[DEV-22234] Botón Invisible
-============================
+[DEV-22234] Operación masiva - Replicar Viajes - Títulos sobrepuestos
+-------------------------------------------------------------------------------
 
 |badge|
 
@@ -11,7 +11,7 @@ Módulo:
    Tracking
 
 Descripción: 
-   Se corrigió texto de títulos y márgenes.
+   Se corrigió error en los textos de títulos y se ajustaron márgenes.
 
 .. versionchanged:: 10.230.0.0-LTS
 

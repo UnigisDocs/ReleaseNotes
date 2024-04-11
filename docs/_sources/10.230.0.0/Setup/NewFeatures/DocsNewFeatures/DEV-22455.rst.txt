@@ -8,7 +8,7 @@
    <span style="background-color: #04a7de; color: white; padding: 4px 8px; border-radius: 4px;">Nueva característica</span>
 
 Módulo: 
-   Setup
+   SetUp
 
 Descripción: 
  Se muestra en el menú lateral izquierdo del TMS con el nombre Citas.

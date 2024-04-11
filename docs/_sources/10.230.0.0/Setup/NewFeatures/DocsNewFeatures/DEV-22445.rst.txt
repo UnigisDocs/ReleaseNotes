@@ -9,7 +9,7 @@
    <span style="background-color: #04a7de; color: white; padding: 4px 8px; border-radius: 4px;">Nueva característica</span>
 
 Módulo: 
-   Setup
+   SetUp
 
 Descripción: 
    Se habilitó configurcación para habilitar un muelle dentro de un track (portal Citas).
