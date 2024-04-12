@@ -11,7 +11,7 @@ Módulo:
    MAPI
 
 Descripción: 
- Se corrigió error en los campos los campos de Id Operación, Sucursal y Referencia Externa.
+ Se corrigió error en los campos de Id Operación, Sucursal y Referencia Externa.
 
 .. versionchanged:: 10.230.0.0-LTS
 

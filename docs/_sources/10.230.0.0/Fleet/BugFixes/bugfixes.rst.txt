@@ -9,6 +9,7 @@ Corrección de Errores
 .. toctree::
    :maxdepth: 1
    
+   DocsFixes/DEV-22000.rst
    DocsFixes/DEV-22097.rst
    DocsFixes/DEV-22102.rst
    DocsFixes/DEV-22104.rst
@@ -48,3 +49,5 @@ Corrección de Errores
    DocsFixes/DEV-22707.rst
    DocsFixes/DEV-22708.rst
    DocsFixes/DEV-22725.rst
+   DocsFixes/DEV-22779.rst
+   DocsFixes/DEV-22788.rst

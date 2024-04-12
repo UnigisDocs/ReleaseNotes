@@ -104,7 +104,5 @@ Corrección de Errores
 :doc:`BugFixes/DocsFixes/DEV-22703`
 :doc:`BugFixes/DocsFixes/DEV-22710`
 :doc:`BugFixes/DocsFixes/DEV-22745`
+:doc:`BugFixes/DocsFixes/DEV-22750`
 :doc:`BugFixes/DocsFixes/DEV-22763`
-
-
-

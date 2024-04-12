@@ -1,0 +1,16 @@
+[DEV-22779] Solapa Guías: No Permite Crear una Guía
+-------------------------------------------------------
+
+|badge|
+
+.. |badge| raw:: html
+   
+   <span style="background-color: #7c04de; color: white; padding: 4px 8px; border-radius: 4px;">Corrección</span>
+
+Módulo: 
+   Fleet
+
+Descripción: 
+  Se ajustó visualización en solapa Guías.
+
+.. versionadded:: 10.230.0.0-LTS

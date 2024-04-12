@@ -8,7 +8,7 @@
    <span style="background-color: #4CAF50; color: white; padding: 4px 8px; border-radius: 4px;">Mejora</span>
 
 Módulo: 
-   Architecture
+   SetUp
 
 Descripción: 
   Se corrijen funcionaldidades y se realizan mejoras visuales evitando el amontonamiento de botones.

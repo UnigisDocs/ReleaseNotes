@@ -15,3 +15,4 @@ Mejoras
    docsmejoras/DEV-22336.rst
    docsmejoras/DEV-22340.rst
    docsmejoras/DEV-22692.rst
+   docsmejoras/DEV-22780.rst

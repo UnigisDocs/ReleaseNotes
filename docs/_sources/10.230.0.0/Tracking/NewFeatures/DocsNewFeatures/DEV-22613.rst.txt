@@ -11,8 +11,8 @@ Módulo:
    Tracking
 
 Descripción: 
-  Actualmente, se filtran las paradas con estado anulado y visita real iniciada. La filtración por estado anulado está correcta, pero no la segunda. 
-  Se modifica esta validación para incluir el estado de visita real (EstadoParada.VisitaReal), y se agregan los estados de Realizado, Realizado Parcial y No Realizado.
+  Actualmente, se filtran las paradas con estado anulado y visita real iniciada. El filtro por estado anulado está correcta, pero no la segunda. 
+  Se modificó esta validación para incluir el estado de visita real (EstadoParada.VisitaReal), y se agregó los estados de Realizado, Realizado Parcial y No Realizado.
 
 .. versionadded:: 10.230.0.0-LTS
 

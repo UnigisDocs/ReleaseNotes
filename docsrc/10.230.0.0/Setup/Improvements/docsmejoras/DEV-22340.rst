@@ -8,7 +8,7 @@
    <span style="background-color: #4CAF50; color: white; padding: 4px 8px; border-radius: 4px;">Mejora</span>
 
 Módulo:
-   Setup
+   SetUp
 
 Descripción: 
   Se corrigió error doble scroll en integrations center.

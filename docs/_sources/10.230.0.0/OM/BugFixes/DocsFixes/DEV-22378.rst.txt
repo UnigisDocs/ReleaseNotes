@@ -11,7 +11,7 @@ Módulo:
    Order Management
 
 Descripción: 
- Se ajustaron errores visuales en desplamiento de elementos.
+ Se ajustaron errores visuales en el desplazamiento de elementos.
 
 .. versionchanged:: 10.230.0.0-LTS
 

@@ -1,0 +1,16 @@
+[DEV-22542] Pantalla Registro de Pallets y Bultos (Cajas)
+-----------------------------------------------------------
+
+|badge|
+
+.. |badge| raw:: html
+   
+   <span style="background-color: #04a7de; color: white; padding: 4px 8px; border-radius: 4px;">Nueva característica</span>
+
+Módulo:
+   Order Management
+
+Descripción:
+    Se habilitó una pantalla para el registro de Pallets y Bultos, hacia el portal citas.
+
+.. versionadded:: 10.230.0.0-LTS

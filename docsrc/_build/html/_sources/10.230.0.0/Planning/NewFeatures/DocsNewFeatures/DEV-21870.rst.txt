@@ -11,6 +11,6 @@ Módulo:
    Planning
 
 Descripción:
-  Cuando el usuario ingrese a la pestaña de grupos dentro de una jornada y esta no tenga grupos, se le invitara a crearlos mediante un botón "Crear Grupos" a nivel del litado y comience el proceso. 
+  Cuando el usuario ingrese a la pestaña de grupos dentro de una jornada y esta no tenga grupos, se le invitara a crearlos mediante un botón "Crear Grupos" a nivel del listado para iniciar el proceso. 
 
 .. versionadded:: 10.230.0.0-LTS

@@ -12,21 +12,22 @@ Order Management
    **Fecha de lanzamiento:** Abril 2024
 
 Nuevas Características
---------------------------
+-------------------------
 
 .. toctree::
    :hidden:
 
    NewFeatures/NewFeatures.rst
 
-:doc:`NewFeatures/DocsNewFeatures/DEV-22484`
 :doc:`NewFeatures/DocsNewFeatures/DEV-22349`
+:doc:`NewFeatures/DocsNewFeatures/DEV-22484`
+:doc:`NewFeatures/DocsNewFeatures/DEV-22542`
 :doc:`NewFeatures/DocsNewFeatures/DEV-22726`
 :doc:`NewFeatures/DocsNewFeatures/DEV-22748`
 :doc:`NewFeatures/DocsNewFeatures/DEV-22752`
 
 Mejoras
-------------
+----------
 
 .. toctree::
    :hidden:
@@ -37,7 +38,7 @@ Mejoras
 :doc:`Improvements/docsmejoras/DEV-22667`
 
 Corrección de Errores 
---------------------------------------------------------------------------
+-------------------------
 
 .. toctree::
    :hidden:

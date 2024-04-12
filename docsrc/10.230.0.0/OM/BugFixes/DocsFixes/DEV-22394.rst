@@ -11,7 +11,7 @@ Módulo:
    Order Management
 
 Descripción: 
- Se ajustó campo data time para que herede los datos que correspondientes.
+ Se ajustó campo data time para que herede los datos que correspondan.
 
 .. versionchanged:: 10.230.0.0-LTS
 

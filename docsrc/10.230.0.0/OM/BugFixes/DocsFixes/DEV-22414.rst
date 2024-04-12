@@ -11,7 +11,7 @@ Módulo:
    Order Management
 
 Descripción: 
- Se corrigió errores encontrados como: relacion tabla pedido, actualización de cantidad disponible.
+ Se corrigió errores encontrados en la creación de tabla pedido, actualización de cantidad disponible.
 
 .. versionchanged:: 10.230.0.0-LTS
 

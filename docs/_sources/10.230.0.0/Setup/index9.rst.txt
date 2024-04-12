@@ -62,7 +62,7 @@ Nuevas Características
 :doc:`NewFeatures/DocsNewFeatures/DEV-22765`
 
 Mejoras
-------------------------------------------------
+---------------------------------
 
 .. toctree::
    :hidden:
@@ -75,9 +75,10 @@ Mejoras
 :doc:`Improvements/docsmejoras/DEV-22336`
 :doc:`Improvements/docsmejoras/DEV-22340`
 :doc:`Improvements/docsmejoras/DEV-22692`
+:doc:`Improvements/docsmejoras/DEV-22780`
 
 Corrección de Errores 
---------------------------------------------------------------------------
+---------------------------------------------
 
 .. toctree::
    :hidden:

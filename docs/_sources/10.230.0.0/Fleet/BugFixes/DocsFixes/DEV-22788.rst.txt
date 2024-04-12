@@ -1,0 +1,16 @@
+[DEV-22788] Error en Transicion de Estado de Tarifas
+-------------------------------------------------------
+
+|badge|
+
+.. |badge| raw:: html
+   
+   <span style="background-color: #7c04de; color: white; padding: 4px 8px; border-radius: 4px;">Corrección</span>
+
+Módulo: 
+   Fleet
+
+Descripción: 
+    Se corrigió error al intentar realizar el cambio de estado desde Fleet Java el sistema da un mensaje indicando que el estado requiere un motivo.
+
+.. versionadded:: 10.230.0.0-LTS

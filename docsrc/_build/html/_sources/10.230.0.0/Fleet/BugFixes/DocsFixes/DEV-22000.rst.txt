@@ -1,0 +1,26 @@
+[DEV-22000] Fleet Java vs Fleet X - Datos Maestros
+-----------------------------------------------------------
+
+|badge|
+
+.. |badge| raw:: html
+   
+   <span style="background-color: #7c04de; color: white; padding: 4px 8px; border-radius: 4px;">Corrección</span>
+
+Módulo: 
+   Fleet
+
+Descripción: 
+    FLEET X - Imprimir en Panel Documentación (Opción de “Imprimir” en la solapa de documentación).
+    
+    FLEET X – Datos Maestros – Proveedores – Exportar a Excel (Opción de “Exportar al XLS”).
+    
+    FLEET X – Datos Maestros – Transportes : Faltantes (Opción de “Modificar habilitación operativa”, opción de “Modificar habilitación administrativa”, opción de “Partido” en ver detalle solapa Información).
+    
+    FLEET X – Datos Maestros – Transportes : Faltantes (Opción de “Ver detalle” en la solapa de Contenedores, opción de “Domicilio, Cliente, Transporte, Conductor, Cantidad, Actualizar disponible” en la solapa de recursos).
+    
+    FLEET X – Datos Maestros – Empresa Custodia (Opción de “Empresa custodia” en Datos maestros).
+    
+    FLEET X – Datos Maestros – Depósitos: Falta opción Eliminar (Opción de “Eliminar” en la home de depósitos).
+
+.. versionchanged:: 10.230.0.0-LTS

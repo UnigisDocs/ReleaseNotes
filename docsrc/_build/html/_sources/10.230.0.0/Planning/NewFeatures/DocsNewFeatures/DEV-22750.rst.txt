@@ -11,6 +11,6 @@ Módulo:
    Planning
 
 Descripción: 
-  Se generó un nuevo comando tal que pueda consultarse la Salida de Optimización segúnn el IdJob de Hangfire. Opcionalmente como parámetro de búsqueda puede seleccionarse la Zona.
+  Se generó un nuevo comando tal que pueda consultarse la Salida de Optimización según el IdJob de Hangfire. Opcionalmente como parámetro de búsqueda puede seleccionarse la Zona.
 
 .. versionadded:: 10.230.0.0-LTS

@@ -1,0 +1,16 @@
+[DEV-22780] Mejoras en Componente Custom para Combos y Procesos en Transiciones
+----------------------------------------------------------------------------------
+
+|badge|
+
+.. |badge| raw:: html
+   
+   <span style="background-color: #4CAF50; color: white; padding: 4px 8px; border-radius: 4px;">Mejora</span>
+
+Módulo: 
+   SetUp
+
+Descripción: 
+    Se realizaron ajustes visuales para los componentes en secciones que conlleven combos y transiciones.
+
+.. versionchanged:: 10.230.0.0-LTS

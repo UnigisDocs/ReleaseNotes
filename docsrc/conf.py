@@ -23,6 +23,7 @@ exclude_patterns = ['_build', 'Thumbs.db', '.DS_Store']
 
 html_theme = 'furo'
 language = "es"
+html_search_language = 'es'
 html_static_path = ['_static',
                     ]
 html_css_files = ['custom.css',
@@ -42,6 +43,6 @@ html_theme_options = {
         "color-brand-content": "#00979b",
     },
 }
-html_title = 'UNIGIS | Realese Notes'
+html_title = 'UNIGIS | Release Notes'
 html_favicon = ''
 html_show_sphinx = False

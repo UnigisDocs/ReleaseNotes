@@ -45,6 +45,7 @@ Corrección de Errores
 
    BugFixes/bugfixes.rst
 
+:doc:`BugFixes/DocsFixes/DEV-22000`
 :doc:`BugFixes/DocsFixes/DEV-22097`
 :doc:`BugFixes/DocsFixes/DEV-22102`
 :doc:`BugFixes/DocsFixes/DEV-22104`
@@ -84,4 +85,6 @@ Corrección de Errores
 :doc:`BugFixes/DocsFixes/DEV-22707`
 :doc:`BugFixes/DocsFixes/DEV-22708`
 :doc:`BugFixes/DocsFixes/DEV-22725`
+:doc:`BugFixes/DocsFixes/DEV-22779`
+:doc:`BugFixes/DocsFixes/DEV-22788`
 
